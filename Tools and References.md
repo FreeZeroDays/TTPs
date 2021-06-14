@@ -46,7 +46,9 @@ Pacu - https://github.com/RhinoSecurityLabs/pacu
 * PCredz - https://github.com/lgandx/PCredz
 
 # Phishing 
-SocialFish - https://github.com/UndeadSec/SocialFish
+* SocialFish - https://github.com/UndeadSec/SocialFish
+* GoPhish - https://github.com/gophish/gophish
+* Evilginx2 - https://github.com/kgretzky/evilginx2
 
 # Post Exploitation
 * Nishang - https://github.com/samratashok/nishang
