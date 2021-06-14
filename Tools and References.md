@@ -4,8 +4,9 @@
 * Nuclei - https://github.com/projectdiscovery/nuclei
 
 # LinkedIn Recon
-LinkedInt - https://github.com/vysecurity/LinkedInt
-WeakestLink - https://github.com/shellfarmer/WeakestLink
+* LinkedInt - https://github.com/vysecurity/LinkedInt
+* WeakestLink - https://github.com/shellfarmer/WeakestLink
+* Linkedin2Username - https://github.com/initstring/linkedin2username
 
 # Footholds
 * Responder - https://github.com/lgandx/Responder-Windows
