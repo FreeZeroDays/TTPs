@@ -20,6 +20,10 @@
 * DomainPasswordSpray (PS1) - https://github.com/dafthack/DomainPasswordSpray
 * Spray (Greenwolf) - https://github.com/Greenwolf/Spray
 
+# Default Credentials
+* Replacement List for Nmap - https://github.com/nnposter/nndefaccts
+* Changeme - https://github.com/ztgrace/changeme
+
 # Databases 
 * DBeaver (Awesome DB tool) - https://dbeaver.io/
 
@@ -27,7 +31,7 @@
 * Covenant - https://github.com/cobbr/Covenant
 
 # AWS
-Pacu - https://github.com/RhinoSecurityLabs/pacu
+* Pacu - https://github.com/RhinoSecurityLabs/pacu
 
 # SSL/TLS Configuration
 * testssl (Comprehensive tests) - https://github.com/drwetter/testssl.sh
