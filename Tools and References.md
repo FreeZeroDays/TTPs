@@ -2,6 +2,7 @@
 * Yawast - https://github.com/adamcaudill/yawast
 * Skipfish - https://github.com/spinkham/skipfish
 * Nuclei - https://github.com/projectdiscovery/nuclei
+* AutoDirBuster (Parse nmap into dirb) - https://github.com/NetSPI/AutoDirbuster
 
 # LinkedIn Recon
 * LinkedInt - https://github.com/vysecurity/LinkedInt
