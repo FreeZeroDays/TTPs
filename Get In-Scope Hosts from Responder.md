@@ -6,7 +6,7 @@ If this is ever an ask, I found out a pretty easy way to grep out hosts from IPs
 1. Place the hosts in-scope hosts into a file. For this example, it will be titled `InScopeHosts.txt`
 
 2. Grep out the Responder-Session log to only IP Addresses:
-`grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}’ ResponderIPs.txt`
+`cat Responder-logs | grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}’ ResponderIPs.txt`
 
 3. Compare the two files with grep. This command will pipe duplicate IPs between the files into a new one.
 `egrep "`cat InScopeHosts.txt|xargs -I {} echo -n '|{}'|sed -e 's/^|//'`” ResponderIPs.txt > RepeatedIPs.txt`
