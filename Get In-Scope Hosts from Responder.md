@@ -13,5 +13,5 @@ If this is ever an ask, I found out a pretty easy way to grep out hosts from IPs
 
 4. Remove duplicates from the files using Excel (I find this easiest since I'll paste it into a report, but sort also works)
 
-If the client has provided /24s then break these into smaller lists via your choice of tool. 
+If the client has provided /24s then break these into smaller lists via your choice of tool.
 `nmap -sL -n 127.0.0.0/24 | awk '/Nmap scan report/{print $NF}’`
