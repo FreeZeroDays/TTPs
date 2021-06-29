@@ -8,6 +8,7 @@
 * LinkedInt - https://github.com/vysecurity/LinkedInt
 * WeakestLink - https://github.com/shellfarmer/WeakestLink
 * Linkedin2Username - https://github.com/initstring/linkedin2username
+* BridgeKeeper (Best when used in combination with Linkedin2Username) - https://github.com/0xZDH/BridgeKeeper/blob/master/core/hunter.py
 
 # Footholds
 * Responder - https://github.com/lgandx/Responder-Windows
