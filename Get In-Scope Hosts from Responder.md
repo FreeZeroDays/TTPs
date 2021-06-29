@@ -3,7 +3,7 @@ This is because they wanted an actionable list of hosts to remediate for complia
 With how Responder works, it's not unlikely for a host that is "out of scope" to be in the logs.
 If this is ever an ask, I found out a pretty easy way to grep out hosts from IPs within scope and provide this ask to a client which can then be placed into a table. 
 
-1. Place the hosts in-scope hosts into a file. For this example, it will be titled `InScopeHosts.txt`
+1. Place the in-scope hosts into a file. For this example, it will be titled `InScopeHosts.txt`
 
 2. Grep out the Responder-Session log to only IP Addresses:
 `cat Responder-logs | grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}’ ResponderIPs.txt`
