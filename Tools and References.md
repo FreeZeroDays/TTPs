@@ -34,6 +34,7 @@
 
 # AWS
 * Pacu - https://github.com/RhinoSecurityLabs/pacu
+* Scour (AWS Exploitation Toolkit) - https://github.com/grines/scour
 
 # SSL/TLS Configuration
 * testssl (Comprehensive tests) - https://github.com/drwetter/testssl.sh
@@ -76,6 +77,7 @@
 # Obfuscation
 * darkarmour - https://github.com/bats3c/darkarmour
 * PEzor - https://github.com/phra/PEzor
+* PowerShellArmoury (Download and store PS tools in one obfuscated file) - https://github.com/cfalta/PowerShellArmoury
 
 # Unix
 * Bashark (Post exploitation toolkit in a bash script) - https://github.com/redcode-labs/Bashark/blob/master/bashark.sh
