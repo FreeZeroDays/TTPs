@@ -16,3 +16,4 @@
 * Penetration Testing Framework - http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html
 * Vincent Yiu's Red Team Tips - Awesome list of Red Team notes and resources - https://www.vincentyiu.com/red-team-tips/
 * Windows Privilege Escalation Guide - https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
+* Attacking & Securing Active Directory - https://rmusser.net/docs/Active_Directory.html#adcred
