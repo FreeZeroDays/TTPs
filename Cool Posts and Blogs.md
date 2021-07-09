@@ -1,5 +1,6 @@
 # Blogs
 * Active Directory Security - If you're a red teamer you have to be reading this - https://adsecurity.org/
+* Bad Sector Labs Blog - This blog is amazing!! - https://blog.badsectorlabs.com/
 
 # Blog Posts
 * Lateral Movement - List of fun little tips and tricks for lateral movement - https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/
