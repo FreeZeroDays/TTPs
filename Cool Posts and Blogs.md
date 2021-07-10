@@ -10,6 +10,7 @@
 * Red + Blue = Purple - Good references and awesome written blog post covering footholds - https://www.blackhillsinfosec.com/red-blue-purple/
 * The SMI protocol, and why Nessus is wrong - Just a quick reminder that Nessus is not always right - https://laconicwolf.com/2018/04/04/smi-protocol-nessus-wrong/
 * Internal Pivot, Network Enumeration, & Lateral Movement - Nice little blog post on internal enumeration - https://www.blackhillsinfosec.com/internal-pivot-network-enumeration-lateral-movement/ 
+* EyeWitness and Why It Rocks - EyeWitness intro :) - https://www.blackhillsinfosec.com/eyewitness-and-why-it-rocks/
 
 # Quick Tips and Tricks
 * Dumping and Cracking mscash - Awesome to reference when dealing with dumping LSASS and obtaining mscash hashes - https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials
