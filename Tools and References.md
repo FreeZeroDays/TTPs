@@ -3,12 +3,18 @@
 * Skipfish - https://github.com/spinkham/skipfish
 * Nuclei - https://github.com/projectdiscovery/nuclei
 * AutoDirBuster (Parse nmap into dirb) - https://github.com/NetSPI/AutoDirbuster
+* Feroxbuster - https://github.com/epi052/feroxbuster
+
+# Microsoft Outlook
+* Ruler - https://github.com/sensepost/ruler
+* 0365 Spray - https://github.com/0xZDH/o365spray
 
 # LinkedIn Recon
 * LinkedInt - https://github.com/vysecurity/LinkedInt
 * WeakestLink - https://github.com/shellfarmer/WeakestLink
 * Linkedin2Username - https://github.com/initstring/linkedin2username
 * BridgeKeeper (Best when used in combination with Linkedin2Username) - https://github.com/0xZDH/BridgeKeeper/blob/master/core/hunter.py
+* EmailGen - https://github.com/navisecdelta/EmailGen
 
 # Footholds
 * Responder - https://github.com/lgandx/Responder-Windows
@@ -16,15 +22,17 @@
 * Impacket - https://github.com/SecureAuthCorp/impacket
 * Flamingo - https://github.com/atredispartners/flamingo
 
-# Spraying
+# Spraying / Brute Force
 * SprayingToolkit - https://github.com/byt3bl33d3r/SprayingToolkit
 * CrackMapExec - https://github.com/byt3bl33d3r/CrackMapExec
 * DomainPasswordSpray (PS1) - https://github.com/dafthack/DomainPasswordSpray
 * Spray (Greenwolf) - https://github.com/Greenwolf/Spray
+* Patator - https://github.com/lanjelot/patator
 
 # Default Credentials
 * Replacement List for Nmap - https://github.com/nnposter/nndefaccts
 * Changeme - https://github.com/ztgrace/changeme
+* DefaultCreds-Cheat-Sheet - https://github.com/ihebski/DefaultCreds-cheat-sheet
 
 # Databases 
 * DBeaver (Awesome DB tool) - https://dbeaver.io/
@@ -44,6 +52,9 @@
 # SSH Auditing
 * SSH-Audit - https://github.com/jtesta/ssh-audit
 
+# SMTP
+* Swaks - https://github.com/jetmore/swaks
+
 # Reconnaissance 
 * RustScan - https://github.com/RustScan/RustScan
 * ElasticSearch NSE Script - https://github.com/theMiddleBlue/nmap-elasticsearch-nse
@@ -54,7 +65,7 @@
 * Amass - https://github.com/OWASP/Amass
 
 # Passive 
-* BruteShark - https://github.com/odedshimon/BruteShark
+* Shark - https://github.com/odedshimon/BruteShark
 * NetworkMiner (Usually more l00t than BruteShark but costs $$$) - https://www.netresec.com/
 * PCredz - https://github.com/lgandx/PCredz
 
@@ -62,6 +73,7 @@
 * SocialFish - https://github.com/UndeadSec/SocialFish
 * GoPhish - https://github.com/gophish/gophish
 * Evilginx2 - https://github.com/kgretzky/evilginx2
+* CatPhish - https://github.com/ring0lab/catphish
 
 # Post Exploitation
 * Nishang - https://github.com/samratashok/nishang
@@ -70,15 +82,23 @@
 * ldapdomaindump - https://github.com/dirkjanm/ldapdomaindump
 * Conf-thief - https://github.com/antman1p/Conf-Thief
 * BloodHound - https://github.com/BloodHoundAD/BloodHound
+* Snaffler - https://github.com/SnaffCon/Snaffler
+* Pwncat - https://github.com/calebstewart/pwncat
+
+# Harden the Fortress
+Secure Kali - https://github.com/gh0x0st/Secure_Kali
 
 # Cracking 
 * Hashcat - https://github.com/hashcat/hashcat
 * PACK (Awesome password cracking goodies) - https://github.com/iphelix/pack 
 * Hate_Crack - https://github.com/trustedsec/hate_crack
 * HAT - https://github.com/sp00ks-git/hat
+* OneRuleToRuleThemAll - https://github.com/NotSoSecure/password_cracking_rules
+* Pipal - https://github.com/digininja/pipal
 
 # Wireless
 * WiFite 2 - https://github.com/derv82/wifite2
+* Routersploit - https://github.com/threat9/routersploit
 
 # Obfuscation
 * darkarmour - https://github.com/bats3c/darkarmour
@@ -86,6 +106,7 @@
 * PowerShellArmoury (Download and store PS tools in one obfuscated file) - https://github.com/cfalta/PowerShellArmoury
 * Invoke-Obfuscation - https://github.com/danielbohannon/Invoke-Obfuscation
 * Chameleon - https://github.com/klezVirus/chameleon
+* Powerglot - https://github.com/mindcrypt/powerglot
 
 # Unix
 * Bashark (Post exploitation toolkit in a bash script) - https://github.com/redcode-labs/Bashark/blob/master/bashark.sh
@@ -102,6 +123,7 @@
 
 # Macro / Malicious Documents
 * Boobsnail - https://github.com/STMSolutions/boobsnail 
+* Macro_pack - https://github.com/sevagas/macro_pack
 
 # Wordlists 
 * Probable-Wordlists - https://github.com/berzerk0/Probable-Wordlists
@@ -109,6 +131,21 @@
 # Credentials
 * DefaultCreds-Cheat-Sheet - https://github.com/ihebski/DefaultCreds-cheat-sheet
 * Changeme (Default credentials scanner) - https://github.com/ztgrace/changeme
+
+# Penetration Testing Reports
+* Public Pentesting Reports - https://github.com/juliocesarfort/public-pentesting-reports
+
+# Methodologies
+* https://github.com/botesjuan/PenTestMethodology2020
+* Pentesters Promiscuous Notebok - https://ppn.snovvcrash.rocks
+
+# Tool Lists (Just moar lists to look at/reference)
+* https://github.com/S3cur3Th1sSh1t/Pentest-Tools
+* https://github.com/LuemmelSec/Pentest-Tools-Collection
+
+# Honorable Mentions (Things that don't really fit into 'pentesting' but are fun and may be useful)
+* Depix - https://github.com/beurtschipper/Depix
+* Dorkbot - https://github.com/utiso/dorkbot
 
 # Things I Reference All The Time
 * HackTricks - https://book.hacktricks.xyz/
@@ -120,3 +157,7 @@
 * Dumping and Cracking mscash - https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials
 * Top 16 Active Directory Vulnerabilities - https://www.infosecmatter.com/top-16-active-directory-vulnerabilities/#12-weak-domain-password-policy
 * Pentest Wikipedia - https://github.com/nixawk/pentest-wiki
+* Active Directory Exploitation Cheat Sheet - https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet
+* Book of Secret Knowledge - https://github.com/trimstray/the-book-of-secret-knowledge
+* PayloadsAllTheThings - https://github.com/swisskyrepo/PayloadsAllTheThings
+* Pentest Wiki - https://github.com/nixawk/pentest-wiki
