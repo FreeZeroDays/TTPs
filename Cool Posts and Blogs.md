@@ -12,6 +12,7 @@
 * Internal Pivot, Network Enumeration, & Lateral Movement - Nice little blog post on internal enumeration - https://www.blackhillsinfosec.com/internal-pivot-network-enumeration-lateral-movement/ 
 * EyeWitness and Why It Rocks - EyeWitness intro :) - https://www.blackhillsinfosec.com/eyewitness-and-why-it-rocks/
 * Attack MS Exchange Web Interface - Good good good - https://swarm.ptsecurity.com/attacking-ms-exchange-web-interfaces/
+* GoPhish with Sendgrid - https://medium.com/@orhan_yildirim/gophish-open-source-phishing-framework-fe4662e60721
 
 # Quick Tips and Tricks
 * Dumping and Cracking mscash - Awesome to reference when dealing with dumping LSASS and obtaining mscash hashes - https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials
