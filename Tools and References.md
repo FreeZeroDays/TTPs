@@ -41,6 +41,9 @@
 * SSLScan - https://github.com/rbsec/sslscan
 * SSLyze - https://github.com/nabla-c0d3/sslyze
 
+# SSH Auditing
+* SSH-Audit - https://github.com/jtesta/ssh-audit
+
 # Reconnaissance 
 * RustScan - https://github.com/RustScan/RustScan
 * ElasticSearch NSE Script - https://github.com/theMiddleBlue/nmap-elasticsearch-nse
@@ -48,6 +51,7 @@
 * Autorecon - https://github.com/Tib3rius/AutoRecon
 * Aquatone - https://github.com/michenriksen/aquatone
 * EyeWitness - https://github.com/FortyNorthSecurity/EyeWitness
+* Amass - https://github.com/OWASP/Amass
 
 # Passive 
 * BruteShark - https://github.com/odedshimon/BruteShark
@@ -80,6 +84,8 @@
 * darkarmour - https://github.com/bats3c/darkarmour
 * PEzor - https://github.com/phra/PEzor
 * PowerShellArmoury (Download and store PS tools in one obfuscated file) - https://github.com/cfalta/PowerShellArmoury
+* Invoke-Obfuscation - https://github.com/danielbohannon/Invoke-Obfuscation
+* Chameleon - https://github.com/klezVirus/chameleon
 
 # Unix
 * Bashark (Post exploitation toolkit in a bash script) - https://github.com/redcode-labs/Bashark/blob/master/bashark.sh
