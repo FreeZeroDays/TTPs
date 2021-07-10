@@ -46,6 +46,8 @@
 * ElasticSearch NSE Script - https://github.com/theMiddleBlue/nmap-elasticsearch-nse
 * Enum4Linux - https://github.com/CiscoCXSecurity/enum4linux
 * Autorecon - https://github.com/Tib3rius/AutoRecon
+* Aquatone - https://github.com/michenriksen/aquatone
+* EyeWitness - https://github.com/FortyNorthSecurity/EyeWitness
 
 # Passive 
 * BruteShark - https://github.com/odedshimon/BruteShark
@@ -102,7 +104,7 @@
 * DefaultCreds-Cheat-Sheet - https://github.com/ihebski/DefaultCreds-cheat-sheet
 * Changeme (Default credentials scanner) - https://github.com/ztgrace/changeme
 
-# Sites I Reference All The Time
+# Things I Reference All The Time
 * HackTricks - https://book.hacktricks.xyz/
 * Practical Guide to NTLM Relaying - https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html
 * Post Exploitation Windows Commands - https://int0x33.medium.com/day-26-the-complete-list-of-windows-post-exploitation-commands-no-powershell-999b5433b61e
