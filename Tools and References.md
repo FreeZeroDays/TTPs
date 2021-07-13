@@ -5,9 +5,11 @@
 * AutoDirBuster (Parse nmap into dirb) - https://github.com/NetSPI/AutoDirbuster
 * Feroxbuster - https://github.com/epi052/feroxbuster
 
-# Microsoft Outlook
+# Microsoft Outlook / Other Microsoft Products
 * Ruler - https://github.com/sensepost/ruler
 * 0365 Spray - https://github.com/0xZDH/o365spray
+* msspray - https://github.com/SecurityRiskAdvisors/msspray
+* TeamsUserEnum - https://github.com/immunIT/TeamsUserEnum
 
 # LinkedIn Recon
 * LinkedInt - https://github.com/vysecurity/LinkedInt
@@ -111,6 +113,7 @@ Secure Kali - https://github.com/gh0x0st/Secure_Kali
 # Unix
 * Bashark (Post exploitation toolkit in a bash script) - https://github.com/redcode-labs/Bashark/blob/master/bashark.sh
 * Mimipenguin (mimikatz for unix) - https://github.com/huntergregal/mimipenguin
+* Emp3r0r - https://github.com/jm33-m0/emp3r0r
 
 # Misc
 * PwnCat - https://github.com/calebstewart/pwncat
