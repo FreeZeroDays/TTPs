@@ -5,6 +5,9 @@
 * AutoDirBuster (Parse nmap into dirb) - https://github.com/NetSPI/AutoDirbuster
 * Feroxbuster - https://github.com/epi052/feroxbuster
 
+# Nessus
+* Nessus Readiness Check (Good for pre-checks on authenticated scans) - https://github.com/tecnobabble/nessus_win_cred_test
+
 # Microsoft Outlook / Other Microsoft Products
 * Ruler - https://github.com/sensepost/ruler
 * 0365 Spray - https://github.com/0xZDH/o365spray
@@ -23,6 +26,7 @@
 * MITM6 - https://github.com/fox-it/mitm6
 * Impacket - https://github.com/SecureAuthCorp/impacket
 * Flamingo - https://github.com/atredispartners/flamingo
+* Spoolsploit - https://github.com/BeetleChunks/SpoolSploit
 
 # Spraying / Brute Force
 * SprayingToolkit - https://github.com/byt3bl33d3r/SprayingToolkit
