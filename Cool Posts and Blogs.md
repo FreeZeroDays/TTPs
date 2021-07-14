@@ -16,6 +16,7 @@
 
 # Quick Tips and Tricks
 * Dumping and Cracking mscash - Awesome to reference when dealing with dumping LSASS and obtaining mscash hashes - https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials
+* Force NTLM Privileged Authentication - https://book.hacktricks.xyz/windows/active-directory-methodology/printers-spooler-service-abuse
 
 # Frameworks / Things that are bigger than your typical blog post
 * Penetration Testing Framework - http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html
