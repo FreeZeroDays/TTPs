@@ -160,6 +160,7 @@ Secure Kali - https://github.com/gh0x0st/Secure_Kali
 * Post Exploitation Windows Commands - https://int0x33.medium.com/day-26-the-complete-list-of-windows-post-exploitation-commands-no-powershell-999b5433b61e
 * WADComs - https://wadcoms.github.io/
 * iRedTeam - https://www.ired.team/
+* Finding Buried Treasure in SMB - https://www.blackhillsinfosec.com/finding-buried-treasure-in-server-message-block-smb/
 * Tips for Pentesting a PCI Environment (Good sanity checks) - https://secureideas.com/blog/2018/08/tips-for-penetration-testing-a-pci-environment.html
 * Dumping and Cracking mscash - https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials
 * Top 16 Active Directory Vulnerabilities - https://www.infosecmatter.com/top-16-active-directory-vulnerabilities/#12-weak-domain-password-policy
