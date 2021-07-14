@@ -8,6 +8,9 @@
 # Nessus
 * Nessus Readiness Check (Good for pre-checks on authenticated scans) - https://github.com/tecnobabble/nessus_win_cred_test
 
+# Collaborative
+* ReconMap - https://github.com/reconmap/reconmap
+
 # Microsoft Outlook / Other Microsoft Products
 * Ruler - https://github.com/sensepost/ruler
 * 0365 Spray - https://github.com/0xZDH/o365spray
