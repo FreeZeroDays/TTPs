@@ -2,10 +2,10 @@
 * Hurricane Electric Internet Services - https://bgp.he.net
 
 # Find Emails
-Hunter.io - https://hunter.io/
-Phonebook.cz - https://phonebook.cz/
-Clearbit - https://chrome.google.com/webstore/detail/clearbit-connect-supercha/pmnhcgfcafcnkbengdcanjablaabjplo?hl=en
-Verify Emails - https://tools.verifyemailaddress.io/ https://email-checker.net/validate
+* Hunter.io - https://hunter.io/
+* Phonebook.cz - https://phonebook.cz/
+* Clearbit - https://chrome.google.com/webstore/detail/clearbit-connect-supercha/pmnhcgfcafcnkbengdcanjablaabjplo?hl=en
+* Verify Emails - https://tools.verifyemailaddress.io/ https://email-checker.net/validate
 
 # External / Basic Web App
 * Yawast - https://github.com/adamcaudill/yawast
