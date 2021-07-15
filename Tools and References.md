@@ -52,6 +52,9 @@
 # C2s
 * Covenant - https://github.com/cobbr/Covenant
 
+# Exploits
+* ZeroLogon - https://github.com/dirkjanm/CVE-2020-1472
+
 # AWS
 * Pacu - https://github.com/RhinoSecurityLabs/pacu
 * Scour (AWS Exploitation Toolkit) - https://github.com/grines/scour
@@ -96,6 +99,8 @@
 * BloodHound - https://github.com/BloodHoundAD/BloodHound
 * Snaffler - https://github.com/SnaffCon/Snaffler
 * Pwncat - https://github.com/calebstewart/pwncat
+* KeeFarce - https://github.com/denandz/KeeFarce
+* AndrewSpecial (Dump LSASS) - https://github.com/hoangprod/AndrewSpecial
 
 # Harden the Fortress
 Secure Kali - https://github.com/gh0x0st/Secure_Kali
