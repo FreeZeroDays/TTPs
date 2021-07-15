@@ -107,6 +107,7 @@
 * Pwncat - https://github.com/calebstewart/pwncat
 * KeeFarce - https://github.com/denandz/KeeFarce
 * AndrewSpecial (Dump LSASS) - https://github.com/hoangprod/AndrewSpecial
+* PingCastle - https://www.pingcastle.com/
 
 # Harden the Fortress
 Secure Kali - https://github.com/gh0x0st/Secure_Kali
