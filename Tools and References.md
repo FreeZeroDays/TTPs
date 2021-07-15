@@ -14,6 +14,12 @@
 # Collaborative
 * ReconMap - https://github.com/reconmap/reconmap
 
+# Password Hunting
+* pwndb - https://github.com/davidtavarez/pwndb
+* DeHashed - https://dehashed.com/
+* Snusbase - https://snusbase.com/
+* Breach-parse - https://github.com/hmaverickadams/breach-parse
+
 # Microsoft Outlook / Other Microsoft Products
 * Ruler - https://github.com/sensepost/ruler
 * 0365 Spray - https://github.com/0xZDH/o365spray
