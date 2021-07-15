@@ -131,8 +131,10 @@ Secure Kali - https://github.com/gh0x0st/Secure_Kali
 * SIET - https://github.com/Sab0tag3d/SIET
 * OffensivePipeline (Make tools quicker in Powershell) - https://github.com/Aetsu/OffensivePipeline
 
-# Awesome-macOS-Red-Teaming
-* https://github.com/tonghuaroot/Awesome-macOS-Red-Teaming
+# MacOS
+* Awesome macOS Red Teaming - https://github.com/tonghuaroot/Awesome-macOS-Red-Teaming
+* Mystikal - https://github.com/D00MFist/Mystikal
+* Mythic C2 - https://github.com/its-a-feature/Mythic
 
 # Macro / Malicious Documents
 * Boobsnail - https://github.com/STMSolutions/boobsnail 
