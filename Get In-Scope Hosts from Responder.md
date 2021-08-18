@@ -10,6 +10,7 @@ If this is ever an ask, I found out a pretty easy way to grep out hosts from IPs
 
 3. Compare the two files with grep. This command will pipe duplicate IPs between the files into a new one.
 `egrep "cat InScopeHosts.txt|xargs -I {} echo -n '|{}'|sed -e 's/^|//'” ResponderIPs.txt > RepeatedIPs.txt`
+For some reason the above command did not work on my last retest so I am storing this here until further testing:  egrep "`cat PreviouslyVulnerableIPs.txt`|xargs -I {} echo -n '|{}'|sed -e 's/^|//'" ResponderLogIPs.txt
 
 4. Remove duplicates from the files using Excel (I find this easiest since I'll paste it into a report, but sort also works)
 
