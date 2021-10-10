@@ -14,4 +14,4 @@ Target a specific BSSID and channel with airodum-ng and write the output to a fi
 * ```airodump-ng --bssid [BSSID] -c [CHANNEL] -w [FILENAME] wlan1```
 
 ## References
-* [Airodump0ng](https://www.aircrack-ng.org/doku.php?id=airodump-ng) - Manual for Airodump-ng
+* [Airodump-ng](https://www.aircrack-ng.org/doku.php?id=airodump-ng) - Manual for Airodump-ng
