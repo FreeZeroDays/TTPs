@@ -9,6 +9,6 @@ Threats, Tactics, and Procedures
 * **Tools** - Tooling tips and commands / learn how to be l33t and also see some of my tips and tricks
 * **Resources** - Resources to various topics / this section may include links to useful blog posts, tooling, and more!
 
-This repository was originally titled "Pentesting Resources" but I changed it to TTPs and followed a similar format to SneakerHax (linked below) after seeing how their repo was formatted and presented. I highly recommend checking out their repo if you crave moar TTPs!
+This repository was originally titled "Pentesting Resources" but I have cleaned it up and retitled it 'TTPs' and followed a similar format to SneakerHax (linked below) after seeing how their repo was formatted and presented (much nicer than mine). I highly recommend checking out their repo if you crave moar TTPs!
 
 [![Twitter](https://img.shields.io/badge/twitter-sneakerhax-38A1F3?logo=twitter)](https://twitter.com/sneakerhax)
