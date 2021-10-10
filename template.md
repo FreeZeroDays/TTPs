@@ -12,4 +12,3 @@ Command explanation and any other additional relevant information (E.g., Perform
 
 ## References
 * [Title](LINK) - Information about the link provided
-* <reference_URL>
