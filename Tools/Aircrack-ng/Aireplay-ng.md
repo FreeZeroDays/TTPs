@@ -12,10 +12,7 @@ Perform a card to card injection test
 
 ```aireplay-ng -9 -i wlan0 wlan1mon```
 
-Perform a deauthentication attack
-
-This attack sends disassocate packets to one or more clients which are currently associated with a particular access point.
-Deauthenticating clients can be used for several attacks. Capturing WPA/WPA2 handshakes by forcing clients to reauthenticate is the most common.
+Perform a deauthentication attack - This attack sends disassocate packets to one or more clients which are currently associated with a particular access point.
 
 ```aireplay-ng -0 1 -a [ACCESS POINT MAC] -c [CLIENT MAC] wlan1mon```
 
