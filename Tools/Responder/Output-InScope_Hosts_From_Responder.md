@@ -1,6 +1,11 @@
+# Output In-Scope Hosts from Responder
+
 Recently on an engagement I had a request from a client who wanted to be provided with only "In-Scope" hosts that were in the Responder-logs. 
+
 This is because they wanted an actionable list of hosts to remediate for compliance rather than "the entire domain is impacted", (pls fix all of them because you can be owned with just one). 
+
 With how Responder works, it's not unlikely for a host that is "out of scope" to be in the logs.
+
 If this is ever an ask, I found out a pretty easy way to grep out hosts from IPs within scope and provide this ask to a client which can then be placed into a table. 
 
 1. Place the in-scope hosts into a file. For this example, it will be titled `InScopeHosts.txt`
