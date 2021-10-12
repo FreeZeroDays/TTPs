@@ -6,6 +6,11 @@
 * [Phonebook.cz](Phonebook.cz) - Lookup emails related to the organization
 * [EmailHippo](https://tools.emailhippo.com) - Validate emails identified are in use by the organization
 
+# Phishing
+* [GoPhish](https://github.com/gophish/gophish) - An incredible open-source phishing framework
+* [Evilginx2](https://github.com/kgretzky/evilginx2) - Man-in-the-middle attack framework for phishing login credentials and bypassing 2fa
+* [Catphish](https://github.com/ring0lab/catphish) - Generate similar looking domains for use in phishing attacks
+
 # External Penetration Testing
 * [YAWAST](https://github.com/adamcaudill/yawast) - Amazing for performing initial reconnaissance on a website. Also has a PoC for Sweet32 built into it
 * [Skipfish](https://github.com/spinkham/skipfish) - Googles active web application security reconnaissance tool
@@ -89,3 +94,16 @@
 
 # SMTP
 * [Swaks](https://github.com/jetmore/swaks) - Swiss army knife for SMTP testing
+
+# Post Exploitation
+* [Nisahng](https://github.com/samratashok/nishang) - Collection of offensive PowerShell scripts for use in penetration testing and red teaming
+* [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) - Collection of offensive PowerShell scripts, useful in all phases of testing
+* [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz) - Runs Mimikatz but better
+* [LdapDomainDump](https://github.com/dirkjanm/ldapdomaindump) - Dump information about the domain. Incredibly useful for escalating privileges or gathering additional information for spraying attacks
+* [Conf-Thief](https://github.com/antman1p/Conf-Thief) - Exfiltrate sensitive data from Confluence
+* [BloodHound](https://github.com/BloodHoundAD/BloodHound) - Need I say more? Find attack paths and own the domain
+* [Snaffler](https://github.com/SnaffCon/Snaffler) - Find delicious candy on a domain 
+* [Pwncat](https://github.com/calebstewart/pwncat) - Netcat on steroids. Post exploitation tool that has some neat tools built into it
+* [KeeFarce](https://github.com/denandz/KeeFarce) - Extract passwords from a KeePass 2.x database from memory
+* [PingCastle](https://www.pingcastle.com) - Grab information about Active Directory (this tool does way more, check it out)
+* [ADRecon](https://github.com/adrecon/ADRecon) - Gathers information about Active Directory
