@@ -20,7 +20,7 @@
 * [AutoDirBuster](https://github.com/NetSPI/AutoDirbuster) - Parse Nmap scans and run DirBuster against targets. Useful when covering a large scope$
 * [FeroxBuster](https://github.com/epi052/feroxbuster) - My replacement for Dirb and other fuzzing tooling
 * [Amass](https://github.com/OWASP/Amass) - In-depth attack surface mapping. Great for asset discovery and performing external reconnaissance
-* [Dorkbot] - Scan Google search results for vulnerabilities with dorks
+* [Dorkbot](https://github.com/utiso/dorkbot) - Scan Google search results for vulnerabilities with dorks
 
 # Password Hunting
 * [PwnDB](https://github.com/davidtavarez/pwndb) - Searches for leaked credentials
