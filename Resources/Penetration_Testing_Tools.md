@@ -12,6 +12,7 @@
 * [Nuclei](https://github.com/projectdiscovery/nuclei) - Vulnerability scanner that is actively maintained and updated frequently
 * [AutoDirBuster](https://github.com/NetSPI/AutoDirbuster) - Parse Nmap scans and run DirBuster against targets. Useful when covering a large scope$
 * [FeroxBuster](https://github.com/epi052/feroxbuster) - My replacement for Dirb and other fuzzing tooling
+* [Amass](https://github.com/OWASP/Amass) - In-depth attack surface mapping. Great for asset discovery and performing external reconnaissance
 
 # Password Hunting
 * [PwnDB](https://github.com/davidtavarez/pwndb) - Searches for leaked credentials
@@ -20,11 +21,13 @@
 * [Breach-Parse](https://github.com/hmaverickadams/breach-parse) - TCM's script to parse databases and identify leaked credentials
 * [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot) - OSINT tool to identify if an account has appeared in a database leak
 
-# Attacking Outlook / Similar Products 
-* [Ruler](https://github.com/sensepost/ruler) - A tool to abuse Exchange services
-* [O365Spray](https://github.com/0xZDH/o365spray) - My goto when spraying Office 365
-* [Msspray](https://github.com/SecurityRiskAdvisors/msspray) - Conduct password attacks against Azure AD and Office 365 endpoints
-* [TeamsUserEnum](https://github.com/immunIT/TeamsUserEnum) - User enumeration with the Microsoft Teams API
+# Scanning/Enumeration Tools
+* [RustScan](https://github.com/RustScan/RustScan) - Alternative to Nmap. Port scanning goes brrr
+* [Nmap-Elasticsearch-NSE](https://github.com/theMiddleBlue/nmap-elasticsearch-nse) - NSE script for scanning Elasticsearch. Useful when identified in a penetration test.
+* [Enum4Linux](https://github.com/CiscoCXSecurity/enum4linux) - Useful for gathering information from a host with anoymous access or authenticating to a DC to obtain a list of usernames
+* [Autorecon](https://github.com/Tib3rius/AutoRecon) - Automated enumeration of services
+* [Aquatone](https://github.com/michenriksen/aquatone) - Visually inspect websites. Has the ability to parse Nmap scans
+* [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) - Visually inspect websites. My preferred tool of choice. Has the ability to parse Nessus scans
 
 # LinkedIn Reconnaissance 
 * [LeakedInt](https://github.com/vysecurity/LinkedInt) - LinkedIn reconnaissance tool that provides output with picture, name, email, title, and location
@@ -32,6 +35,11 @@
 * [LinkedIn2Username](https://github.com/initstring/linkedin2username) - My favorite LinkedIn reconnaissance tool. It should be noted that this tool will not reliably identify all of the emails for a company. 
 * [BridgeKeeper](https://github.com/0xZDH/BridgeKeeper/blob/master/core/hunter.py) - LinkedIn reconnaissance tool that works great in combination with LinkedIn2Username
 * [EmailGen](https://github.com/navisecdelta/EmailGen) - Email Generation from Bing using LinkedIn Dorks
+
+# Passive Reconnaissance 
+* [BruteShark](https://github.com/odedshimon/BruteShark) - Analyze PCAPs. Can extract useful data and create a network diagram
+* [NetworkMiner](https://www.netresec.com/) - Analyze PCAPs. The free version is great but the professional is better (costs $$$)
+* [PCredz](https://github.com/lgandx/PCredz) - My favorite way to analyze PCAPs or live captures. Free, fast, and great for PCI tests
 
 # Footholds
 * [Responder](https://github.com/lgandx/Responder-Windows) - Abuse LLMNR and NBT-NS protocols (and more) to get a reliable foothold
@@ -47,3 +55,37 @@
 * [Spray](https://github.com/Greenwolf/Spray) - Spraying against Active Directory. 
 * [Patator](https://github.com/lanjelot/patator) - Multi-purpose brute-forcer. Takes a little reading of the manual but works incredibly.
 * [BruteSpray](https://github.com/x90skysn3k/brutespray) - Brute-Forcing from an Nmap output. One of my favorites for automating the assessment of a network.
+
+# Default Credentials
+* [nndefaccts](https://github.com/nnposter/nndefaccts) - Updated Nmap default credential list
+* [ChangeMe](https://github.com/ztgrace/changeme) - Default credential scanner. I've had mixed results with this. When it works it's great!
+* [DefaultCredsCheatsheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) - List of common default credentials
+
+# Database
+* [DBeaver](https://dbeaver.io/) - One of the best tools I've used to interact with databases.
+
+# Command and Control
+* [Covenant](https://github.com/cobbr/Covenant) - I used Covenant throughout the CRTO certification and fell in love. Free and easy to use
+* [Sliver](https://github.com/BishopFox/sliver) - Bishop Fox's C2 framework
+* [Shad0w](https://github.com/bats3c/shad0w) - Bats3c's C2. Used it a few times and it's a ton of fun!
+
+# Amazon Web Services (AWS)
+* [Pacu](https://github.com/RhinoSecurityLabs/pacu) - AWS exploitation fraemwork from RhinoSecurityLabs
+* [Scour](https://github.com/grines/scour) - AWS red teaming framework
+
+# Attacking Outlook / Similar Products 
+* [Ruler](https://github.com/sensepost/ruler) - A tool to abuse Exchange services
+* [O365Spray](https://github.com/0xZDH/o365spray) - My goto when spraying Office 365
+* [Msspray](https://github.com/SecurityRiskAdvisors/msspray) - Conduct password attacks against Azure AD and Office 365 endpoints
+* [TeamsUserEnum](https://github.com/immunIT/TeamsUserEnum) - User enumeration with the Microsoft Teams API
+
+# SSL/TLS Auditing
+* [TestSSL](https://github.com/drwetter/testssl.sh) - One of the more comprehensive SSL/TLS testing tools I've used
+* [SSLScan](https://github.com/rbsec/sslscan) - Useful when SSLyze doesn't work as intended
+* [SSLyze](https://github.com/nabla-c0d3/sslyze) - Useful when SSLScan doesn't work as intended
+
+# SSH Auditing
+* [SSH-Audit](https://github.com/jtesta/ssh-audit) - Comprehensive audit of SSH. Provides comprehensive information about the SSH server in use
+
+# SMTP
+* [Swaks](https://github.com/jetmore/swaks) - Swiss army knife for SMTP testing
