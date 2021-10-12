@@ -28,7 +28,7 @@
 
 # LinkedIn Reconnaissance 
 * [LeakedInt](https://github.com/vysecurity/LinkedInt) - LinkedIn reconnaissance tool that provides output with picture, name, email, title, and location
-* [WeakestLinkl](https://github.com/shellfarmer/WeakestLink) - Reguarly updated LinkedIn recon tool (10/11/2021)
+* [WeakestLink](https://github.com/shellfarmer/WeakestLink) - Reguarly updated LinkedIn recon tool (10/11/2021)
 * [LinkedIn2Username](https://github.com/initstring/linkedin2username) - My favorite LinkedIn reconnaissance tool. It should be noted that this tool will not reliably identify all of the emails for a company. 
 * [BridgeKeeper](https://github.com/0xZDH/BridgeKeeper/blob/master/core/hunter.py) - LinkedIn reconnaissance tool that works great in combination with LinkedIn2Username
 * [EmailGen](https://github.com/navisecdelta/EmailGen) - Email Generation from Bing using LinkedIn Dorks
