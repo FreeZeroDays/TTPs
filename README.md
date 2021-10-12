@@ -2,7 +2,8 @@
 
 Threats, Tactics, and Procedures
 
-[![License](https://img.shields.io/badge/license-GPL3-lightgrey.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) ![Twitter URL](https://img.shields.io/twitter/url?label=FreeZeroDays&style=plastic&url=https%3A%2F%2Ftwitter.com%2Ffreezerodays)
+[![License](https://img.shields.io/badge/license-GPL3-lightgrey.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) 
+[![Twitter URL](https://img.shields.io/twitter/url?color=g&label=FreeZeroDays&style=plastic&url=https%3A%2F%2Ftwitter.com%2FFreeZeroDays)](https://twitter.com/FreeZeroDays)
 
 ## Entries
 
