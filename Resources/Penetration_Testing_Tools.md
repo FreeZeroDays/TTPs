@@ -10,6 +10,8 @@
 * [GoPhish](https://github.com/gophish/gophish) - An incredible open-source phishing framework
 * [Evilginx2](https://github.com/kgretzky/evilginx2) - Man-in-the-middle attack framework for phishing login credentials and bypassing 2fa
 * [Catphish](https://github.com/ring0lab/catphish) - Generate similar looking domains for use in phishing attacks
+* [Boobsnail](https://github.com/STMSolutions/boobsnail) - Generate malicious XLM documents for phishing
+* [MacroPack](https://github.com/sevagas/macro_pack) - Automize obfuscation of Office documents
 
 # External Penetration Testing
 * [YAWAST](https://github.com/adamcaudill/yawast) - Amazing for performing initial reconnaissance on a website. Also has a PoC for Sweet32 built into it
@@ -18,6 +20,7 @@
 * [AutoDirBuster](https://github.com/NetSPI/AutoDirbuster) - Parse Nmap scans and run DirBuster against targets. Useful when covering a large scope$
 * [FeroxBuster](https://github.com/epi052/feroxbuster) - My replacement for Dirb and other fuzzing tooling
 * [Amass](https://github.com/OWASP/Amass) - In-depth attack surface mapping. Great for asset discovery and performing external reconnaissance
+* [Dorkbot] - Scan Google search results for vulnerabilities with dorks
 
 # Password Hunting
 * [PwnDB](https://github.com/davidtavarez/pwndb) - Searches for leaked credentials
@@ -52,19 +55,32 @@
 * [Impacket](https://github.com/SecureAuthCorp/impacket) - The options are endless with Impacket. Kerberoast until you drop!
 * [Flamingo](https://github.com/atredispartners/flamingo) - Capture credentials sprayed across the network
 * [SpoolSploit](https://github.com/BeetleChunks/SpoolSploit) - Collection of Windows print spooler exploits. Great for obtaining a foothold or escalating privileges!
+* [RouterSploit](https://github.com/threat9/routersploit) - Router exploitation framework
+* [SIET](https://github.com/Sab0tag3d/SIET) - Smart Install Exploitation Tool
 
 # Credential Spraying and Bruteforce 
 * [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit) - Spraying attacks against Lync/S4B, OWA, and O365
 * [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - Spraying attacks against.. Everything
-* [DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray) - Spraying attacks against a domain. Gathers account lockout windows which is nifty.
-* [Spray](https://github.com/Greenwolf/Spray) - Spraying against Active Directory. 
-* [Patator](https://github.com/lanjelot/patator) - Multi-purpose brute-forcer. Takes a little reading of the manual but works incredibly.
-* [BruteSpray](https://github.com/x90skysn3k/brutespray) - Brute-Forcing from an Nmap output. One of my favorites for automating the assessment of a network.
+* [DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray) - Spraying attacks against a domain. Gathers account lockout windows which is nifty
+* [Spray](https://github.com/Greenwolf/Spray) - Spraying against Active Directory
+* [Patator](https://github.com/lanjelot/patator) - Multi-purpose brute-forcer. Takes a little reading of the manual but works incredibly
+* [BruteSpray](https://github.com/x90skysn3k/brutespray) - Brute-Forcing from an Nmap output. One of my favorites for automating the assessment of a network
 
 # Default Credentials
 * [nndefaccts](https://github.com/nnposter/nndefaccts) - Updated Nmap default credential list
 * [ChangeMe](https://github.com/ztgrace/changeme) - Default credential scanner. I've had mixed results with this. When it works it's great!
 * [DefaultCredsCheatsheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) - List of common default credentials
+* [HAT](https://github.com/sp00ks-git/hat) - Hashcat Automation Tool
+
+# Wordlists
+* [OneRuleToRuleThemAll](https://github.com/NotSoSecure/password_cracking_rules) - My favorite rule list
+* [ProbableWordlists](https://github.com/berzerk0/Probable-Wordlists) - Probable wordlists to use in password attacks
+
+# Password Cracking
+* [Hashcat](https://github.com/hashcat/hashcat) - This should go without saying.. But Hashcat is amazing
+* [PACK](https://github.com/iphelix/pack ) - Password Analysis and Cracking Toolkit. There's a lot of password goodies and resources here
+* [Hate_Crack](https://github.com/trustedsec/hate_crack) - TrustedSec's password cracking utility. Automates a lot
+* [Pipal](https://github.com/digininja/pipal) - Perform password analysis 
 
 # Database
 * [DBeaver](https://dbeaver.io/) - One of the best tools I've used to interact with databases.
@@ -73,6 +89,7 @@
 * [Covenant](https://github.com/cobbr/Covenant) - I used Covenant throughout the CRTO certification and fell in love. Free and easy to use
 * [Sliver](https://github.com/BishopFox/sliver) - Bishop Fox's C2 framework
 * [Shad0w](https://github.com/bats3c/shad0w) - Bats3c's C2. Used it a few times and it's a ton of fun!
+* [Mythic](https://github.com/its-a-feature/Mythic) - Cross-platform C2. Previously used while on an OSX engagement
 
 # Amazon Web Services (AWS)
 * [Pacu](https://github.com/RhinoSecurityLabs/pacu) - AWS exploitation fraemwork from RhinoSecurityLabs
@@ -83,6 +100,26 @@
 * [O365Spray](https://github.com/0xZDH/o365spray) - My goto when spraying Office 365
 * [Msspray](https://github.com/SecurityRiskAdvisors/msspray) - Conduct password attacks against Azure AD and Office 365 endpoints
 * [TeamsUserEnum](https://github.com/immunIT/TeamsUserEnum) - User enumeration with the Microsoft Teams API
+
+# Obfuscation
+* [Darkarmour](https://github.com/bats3c/darkarmour) - Bats3c's obfuscation tool. 
+* [PEzor](https://github.com/phra/PEzor) - Shellcode and PE packer
+* [PowerShellArmoury](https://github.com/cfalta/PowerShellArmoury) - Store obfuscated pentesting tools in one place
+* [Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation) - PowerShell script obfuscator
+* [Chameleon](https://github.com/klezVirus/chameleon) - PowerShell obfuscator. I've had a lot of success using this tool
+* [Powerglot](https://github.com/mindcrypt/powerglot) - Powershell obfuscator using polyglots
+
+# Unix
+* [Bashark](https://github.com/redcode-labs/Bashark/blob/master/bashark.sh) - Post exploitation toolkit in a bash script
+* [Mimipenguin](https://github.com/huntergregal/mimipenguin) - Mimikatz for Unix
+* [Emp3r0r](https://github.com/jm33-m0/emp3r0r) - A customizable post exploitation Linux framework
+
+# MacOS
+* [Mystikal](https://github.com/D00MFist/Mystikal) - Payload generator for MacOS
+* [MacOSRedTeaming](https://github.com/tonghuaroot/Awesome-macOS-Red-Teaming) - Mac red teaming resources
+
+# Wireless Attacks
+* [WiFite2](https://github.com/derv82/wifite2) - Automate attack against WiFi
 
 # SSL/TLS Auditing
 * [TestSSL](https://github.com/drwetter/testssl.sh) - One of the more comprehensive SSL/TLS testing tools I've used
@@ -107,3 +144,13 @@
 * [KeeFarce](https://github.com/denandz/KeeFarce) - Extract passwords from a KeePass 2.x database from memory
 * [PingCastle](https://www.pingcastle.com) - Grab information about Active Directory (this tool does way more, check it out)
 * [ADRecon](https://github.com/adrecon/ADRecon) - Gathers information about Active Directory
+
+# Penetration Testing Reports
+* [PublicPentestingResources](https://github.com/juliocesarfort/public-pentesting-reports) - Repository of public pentesting resources
+
+# Hardening
+* [SecureKali](https://github.com/gh0x0st/Secure_Kali) - Tips to secure Kali Linux installation
+
+# Miscellanious
+* [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline) - Build tools within PowerShell
+* [Depix](https://github.com/beurtschipper/Depix) - Recover information from pixelized screenshots
