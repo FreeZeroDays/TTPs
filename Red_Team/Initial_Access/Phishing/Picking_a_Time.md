@@ -9,8 +9,7 @@ The following is based off a few different papers and statistics gathered from v
 There is quite a bit of research in this area. I have had a lot of success sending phishing emails in the middle of the week.
 Linked below are a few articles that discuss best times for social engineering attacks that may be interesting when thinking of a time to send:
 
-*	https://www.zdnet.com/article/phishing-these-are-the-days-of-the-week-when-youre-most-at-risk/
-*	https://blog.knowbe4.com/bid/252400/what-is-the-top-phishing-day-of-the-week-and-why
-*	https://www.csoonline.com/article/3199997/don-t-like-mondays-neither-do-attackers.html
-*	https://www.csoonline.com/article/3199997/don-t-like-mondays-neither-do-attackers.html
-*	https://cofense.com/wp-content/uploads/2017/10/PhishMe_EnterprisePhishingSusceptibilityReport_2015_Final.pdf
+*	[These_are_the_days_of_the_week_when_youre_most_at_risk](https://www.zdnet.com/article/phishing-these-are-the-days-of-the-week-when-youre-most-at-risk)
+*	[What_is_the_top_phishing_day_of_the_week_and_why](https://blog.knowbe4.com/bid/252400/what-is-the-top-phishing-day-of-the-week-and-why)
+*	[I_dont_like_mondays_and_neither_do_attackers](https://www.csoonline.com/article/3199997/don-t-like-mondays-neither-do-attackers.html)
+*	[PhishMe_Enterprise_Phishing_Susceptibility_Report](https://cofense.com/wp-content/uploads/2017/10/PhishMe_EnterprisePhishingSusceptibilityReport_2015_Final.pdf)
