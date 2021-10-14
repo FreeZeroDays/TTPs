@@ -13,6 +13,3 @@ Check tunnel with netstat:
 Check tunnel with ps: 
 
 ```ps aux | grep ssh```
-
-## References
-* [Title](LINK) - Information about the link provided
