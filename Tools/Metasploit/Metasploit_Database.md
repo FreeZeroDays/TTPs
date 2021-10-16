@@ -12,12 +12,12 @@
 
   1. Load the Nessus plugin 
 
-  ```load nessus```
+    ```load nessus```
 
   2. List the completed scans available for import
 
-  ```nessus_scan_list -c```
+   ```nessus_scan_list -c```
 
-  Import the specified scan
+  3. Import the specified scan
 
-  ```nessus_db_import [ID]```
+   ```nessus_db_import [ID]```
