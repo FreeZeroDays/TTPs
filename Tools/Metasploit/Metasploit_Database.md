@@ -26,7 +26,7 @@
    
 * List all service banners 
 
-```Services -O 6```
+```services -O 6```
    
 * List specific port(s)
 
