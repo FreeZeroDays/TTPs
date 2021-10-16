@@ -8,7 +8,7 @@
 
 ```db_import NmapScan-1000.xml```
 
-* Import scan from Nessus into msfdb
+* Import Nessus scans into msfdb
 
   1. Load the Nessus plugin 
 
@@ -21,3 +21,21 @@
   3. Import the specified scan
 
    ```nessus_db_import [ID]```
+   
+## Searching the Database
+   
+* List all service banners 
+
+```Services -O 6```
+   
+* List specific port(s)
+
+```services -p 80,443```
+
+* Search for a specific string
+
+```services -S CloudFront```
+
+* Output services that are 'up' to a CSV file 
+
+```services -u -o AliveServices```
