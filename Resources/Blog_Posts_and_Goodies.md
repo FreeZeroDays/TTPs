@@ -27,13 +27,29 @@
 * [Phish_for_User_Passwords_with_PowerShell](https://www.blackhillsinfosec.com/how-to-phish-for-user-passwords-with-powershell/)
 * [Pushing_Your_Way_In](https://www.blackhillsinfosec.com/pushing-your-way-in/)
 * [Password_Spraying_Outlook_Web_Access](https://www.blackhillsinfosec.com/password-spraying-outlook-web-access-how-to-gain-access-to-domain-credentials-without-being-on-a-targets-network-part-2/)
+* [Practical_Guide_to_NTLM_Relaying](https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html)
+* [Finding_Buried_Treasure_in_SMB](https://www.blackhillsinfosec.com/finding-buried-treasure-in-server-message-block-smb/)
+* [Tips_for_Pentesting_a_PCI_Environment](https://secureideas.com/blog/2018/08/tips-for-penetration-testing-a-pci-environment.html)
+* [Top_16_Active_Directory_Vulnerabilities](https://www.infosecmatter.com/top-16-active-directory-vulnerabilities/#12-weak-domain-password-policy)
+* [Post_Exploitation_Windows_commands](https://int0x33.medium.com/day-26-the-complete-list-of-windows-post-exploitation-commands-no-powershell-999b5433b61e)
 
 # Quick References
 * [Dumping_and_Cracking_mscash](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials)
 * [Force_NTLM_Privileged_Authentication](https://book.hacktricks.xyz/windows/active-directory-methodology/printers-spooler-service-abuse)
 
-# Frameworks
-* [Penetration_Testing_Framework](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html)
+# Wikipedias
 * [Vincent_Yiu_Red_Team_Tips](https://www.vincentyiu.com/red-team-tips/)
+* [HackTricks](https://book.hacktricks.xyz/)
+* [WadComs](https://wadcoms.github.io/)
+* [iRedTeam](https://www.ired.team/)
+* [Pentest_Wikipedia](https://github.com/nixawk/pentest-wiki)
+* [Active_Directory_Exploitation_Cheatsheet](https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet)
+* [Book_of_Secret_Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+* [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+* [Penetration_Testing_Framework](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html)
 * [Windows_Priv_Esc_Guide](https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/)
 * [Attacking_and_Securing_Active_Directory](https://rmusser.net/docs/Active_Directory.html#adcred)
+
+# Methodologies
+* [PenTest_Methodology_2020](https://github.com/botesjuan/PenTestMethodology2020)
+* [PenTesters_Promiscuous_Notebook](https://ppn.snovvcrash.rocks)
