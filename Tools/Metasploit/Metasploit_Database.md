@@ -4,20 +4,20 @@
 
 ## Importing 
 
-Import Nmap scans into msfdb 
+* Import Nmap scans into msfdb 
 
 ```db_import NmapScan-1000.xml```
 
-Import scan from Nessus into msfdb
+* Import scan from Nessus into msfdb
 
-1. Load the Nessus plugin 
+  1. Load the Nessus plugin 
 
-```load nessus```
+  ```load nessus```
 
-2. List the completed scans available for import
+  2. List the completed scans available for import
 
-```nessus_scan_list -c```
+  ```nessus_scan_list -c```
 
-Import the specified scan
+  Import the specified scan
 
-```nessus_db_import [ID]```
+  ```nessus_db_import [ID]```
