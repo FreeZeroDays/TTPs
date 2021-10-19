@@ -155,3 +155,4 @@
 # Miscellanious
 * [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline) - Build tools within PowerShell
 * [Depix](https://github.com/beurtschipper/Depix) - Recover information from pixelized screenshots
+* [LDAPMonitor](https://github.com/p0dalirius/LDAPmonitor) - Monitor changes throughout the environment during a penetration test
