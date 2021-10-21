@@ -10,6 +10,6 @@
 
 2. Run either of the following commands to grep out usernames:
 
-Grep out usernames, sort alphabetically, and delete duplicates:
+Grep out usernames, sort alphabetically, and delete duplicates
 
 * ```cat usernameenum.txt | grep "user" | awk {'print $1'} | cut -d '[' -f 2 | cut -d ']' -f 1 | sort -u -f > UsernameList.txt```
