@@ -40,6 +40,8 @@
 # Wikipedias
 * [Vincent_Yiu_Red_Team_Tips](https://www.vincentyiu.com/red-team-tips/)
 * [HackTricks](https://book.hacktricks.xyz/)
+* [LOLBAS](https://lolbas-project.github.io/)
+* [GTFOBins](https://gtfobins.github.io/)
 * [WadComs](https://wadcoms.github.io/)
 * [iRedTeam](https://www.ired.team/)
 * [Pentest_Wikipedia](https://github.com/nixawk/pentest-wiki)
