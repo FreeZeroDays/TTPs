@@ -8,7 +8,7 @@
 
 ```enum4linux -U [TARGET]```
 
-2. Run either of the following commands to grep out usernames:
+2. Run the following command to grep out usernames:
 
 Grep out usernames, sort alphabetically, and delete duplicates
 
