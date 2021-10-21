@@ -5,6 +5,8 @@
 * [Hunter.io](https://hunter.io/) - Identify the email schema used by an organization
 * [Phonebook.cz](Phonebook.cz) - Lookup emails related to the organization
 * [EmailHippo](https://tools.emailhippo.com) - Validate emails identified are in use by the organization
+* [EmailHarvester](https://github.com/maldevel/EmailHarvester) - Find emails via search engines
+* [theHarvester](https://github.com/laramies/theHarvester) - Well known OSINT tool that can be used to gather names, email addresses, and more
 
 # Phishing
 * [GoPhish](https://github.com/gophish/gophish) - An incredible open-source phishing framework
