@@ -4,10 +4,12 @@ Nmap ("Network Mapper") is a free and open source tility for network discovery a
 
 ## Installation 
 
-Install Nmap with apt: \
+Install Nmap with apt: 
+
 ```sudo apt-get install -y nmap```
 
-Install Nmap with brew: \
+Install Nmap with brew: 
+
 ```brew install nmap```
 
 ## References
