@@ -6,7 +6,7 @@ Aircrack-ng is a complete suite of tools to assess WiFi network security.
 
 Install aircrack-ng with apt: 
 
-* ```sudo apt-get install -y aircrack-ng```
+```sudo apt-get install -y aircrack-ng```
 
 ## Tools Included
 
