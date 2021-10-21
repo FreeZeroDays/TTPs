@@ -7,7 +7,7 @@ This details my basic methodology using Nmap for enumeration during a penetratio
 1. Host Discovery with Nmap
 
 Perform a ping sweep with Nmap \
-* ```nmap -sn [TARGET]/24 -oA PingSweepHosts```
+```nmap -sn [TARGET]/24 -oA PingSweepHosts```
 
 Custom host discovery with Nmap \
 ```nmap -PS21-25,80,110,139,443,445,3306,3389,8000,8080,etc [TARGET]/24 -oA DiscoveredHosts```
