@@ -4,7 +4,7 @@ This details my basic methodology using Nmap for enumeration during a penetratio
 
 ## Usage
 
-1. Host Discovery with Nmap
+# Host Discovery with Nmap
 
 Perform a ping sweep with Nmap 
 
@@ -14,15 +14,15 @@ Custom host discovery with Nmap
 
 ```nmap -PS21-25,80,110,139,443,445,3306,3389,8000,8080,etc [TARGET]/24 -oA DiscoveredHosts```
 
-2. Create a Live Hosts List 
+# Create a Live Hosts List 
 
 ```cat DiscoveredHosts.gnmap | awk '/Up$/{print $2}' > LiveIPs.txt```
 
-3. Perform a Full Scan on Live Hosts \
+# Perform a Full Scan on Live Hosts \
 
 ```nmap -p- -Pn -sV -sC -iL LiveIPs.txt -oA FullScanOutput```
 
-4. Additional scans 
+# Additional scans 
 
 Run a vulners scan \
 ```nmap -p- --script=vulners -iL LiveIPs.txt -oA VulnersScan```
