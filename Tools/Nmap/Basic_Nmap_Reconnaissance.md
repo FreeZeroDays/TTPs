@@ -2,8 +2,6 @@
 
 This details my basic methodology using Nmap for enumeration during a penetration test.
 
-## Usage
-
 # Host Discovery with Nmap
 
 Perform a ping sweep with Nmap 
@@ -18,7 +16,7 @@ Custom host discovery with Nmap
 
 ```cat DiscoveredHosts.gnmap | awk '/Up$/{print $2}' > LiveIPs.txt```
 
-# Perform a Full Scan on Live Hosts \
+# Perform a Full Scan on Live Hosts 
 
 ```nmap -p- -Pn -sV -sC -iL LiveIPs.txt -oA FullScanOutput```
 
