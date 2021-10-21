@@ -7,8 +7,9 @@ Threats, Tactics, and Procedures
 
 ## Entries
 
-* **Tools** - Tooling tips and commands / learn how to be l33t and also see some of my tips and tricks
+* **Red_Team** - Red Teaming TTPs
 * **Resources** - Resources to various topics / this section may include links to useful blog posts, tooling, and more!
+* **Tools** - Tooling tips and commands / learn how to be l33t and also see some of my tips and tricks
 
 This repository was originally titled "Pentesting Resources" but I have cleaned it up and retitled it 'TTPs' while following a similar format to SneakerHax (linked below) after seeing how their repo was formatted and presented (much nicer than mine). I highly recommend checking out their repo if you crave moar TTPs!
 
