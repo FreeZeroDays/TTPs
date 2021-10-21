@@ -10,7 +10,7 @@ Perform a ping sweep with Nmap
 
 Custom host discovery with Nmap 
 
-```nmap -PS21-25,80,110,139,443,445,3306,3389,8000,8080,etc [TARGET]/24 -oA DiscoveredHosts```
+```nmap -PS21-25,80,110,139,443,445,623,3306,3389,8000,8080,8081,etc [TARGET]/24 -oA DiscoveredHosts```
 
 # Create a Live Hosts List 
 
