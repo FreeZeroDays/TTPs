@@ -86,6 +86,7 @@
 
 # Database
 * [DBeaver](https://dbeaver.io/) - One of the best tools I've used to interact with databases.
+* [NOSQLBooster](https://nosqlbooster.com/) - Interact with NoSQL (DBeaver removed this in the community version)
 
 # Command and Control
 * [Covenant](https://github.com/cobbr/Covenant) - I used Covenant throughout the CRTO certification and fell in love. Free and easy to use
