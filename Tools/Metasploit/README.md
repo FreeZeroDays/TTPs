@@ -7,10 +7,27 @@ The Metasploit Framework is a Ruby-based, modular penetration testing platform t
 Install the Metasploit Framework on Linux \
 ```curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall```
 
-## Usage
+## Basic Usage
 
-Access the MSFconsole on Linux
+Access the MSFconsole on Linux \
 ```./msfconsole```
+
+## Database Usage 
+
+Enable and start the database \
+```msfdb init```
+
+Show the status of the database \
+```msfdb status```
+
+Delete and reinitialize the database \
+```msfdb reinit```
+
+Stop the database \
+```msfdb stop```
+
+Delete the database \
+```msfdb delete```
 
 ## References
 * [Metasploit Documentation](https://docs.rapid7.com/metasploit/msf-overview/)
