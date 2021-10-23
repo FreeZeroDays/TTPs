@@ -1,6 +1,6 @@
 # Check if your tunnel is active
 
-**Description:** Commands to run to veiryf if your SSH tunnel is active and running successfully:
+**Description:** Commands to run to veirfy if your SSH tunnel is active and running successfully after establishing a session:
 
 Check tunnel with netcat:
 
