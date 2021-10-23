@@ -153,6 +153,8 @@
 * [KeeFarce](https://github.com/denandz/KeeFarce) - Extract passwords from a KeePass 2.x database from memory
 * [PingCastle](https://www.pingcastle.com) - Grab information about Active Directory (this tool does way more, check it out)
 * [ADRecon](https://github.com/adrecon/ADRecon) - Gathers information about Active Directory
+* [WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn) - Collection of well known offensive scripts in one place
+* [PowerShellArmoury](https://github.com/cfalta/PowerShellArmoury) - Similar collection to WinPwn but can be encrypted
 
 # Penetration Testing Reports
 * [PublicPentestingResources](https://github.com/juliocesarfort/public-pentesting-reports) - Repository of public pentesting resources
