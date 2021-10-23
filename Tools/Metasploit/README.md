@@ -12,8 +12,6 @@ Install the Metasploit Framework on Linux \
 Access the MSFconsole on Linux \
 ```./msfconsole```
 
-## Database Usage 
-
 Enable and start the database \
 ```msfdb init```
 
