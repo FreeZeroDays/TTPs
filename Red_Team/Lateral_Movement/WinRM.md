@@ -44,7 +44,7 @@ Interacting with a background session \
 Exiting out of a session \
 ```Exit-PsSession```
 
-Remove all background sessions
+Remove all background sessions \
 ```Get-PSSession | Disconnect-PSSession```
 
 ## References
