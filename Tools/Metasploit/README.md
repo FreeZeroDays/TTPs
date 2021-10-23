@@ -4,9 +4,8 @@ The Metasploit Framework is a Ruby-based, modular penetration testing platform t
 
 ## Installation 
 
-Install the Metasploit Framework on Linux \
-```curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
-```
+Install the Metasploit Framework on Linux 
+```curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall```
 
 ## Usage
 
