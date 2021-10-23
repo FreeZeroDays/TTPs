@@ -1,5 +1,6 @@
 # Validating Scope
 * [Hurricane Electric Internet Services](https://bgp.he.net) - Find out who owns an IP Address
+* [NetBlockTool](https://github.com/NetSPI/NetblockTool) - Find IP addresses owned by a company
 
 # Find Email Addresses
 * [Hunter.io](https://hunter.io/) - Identify the email schema used by an organization
