@@ -37,6 +37,9 @@
 * [Dumping_and_Cracking_mscash](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials)
 * [Force_NTLM_Privileged_Authentication](https://book.hacktricks.xyz/windows/active-directory-methodology/printers-spooler-service-abuse)
 
+# Tool Lists 
+* [Al1ex Pentest Tools](https://github.com/Al1ex/Pentest-tools)
+
 # Wikipedias
 * [Vincent_Yiu_Red_Team_Tips](https://www.vincentyiu.com/red-team-tips/)
 * [HackTricks](https://book.hacktricks.xyz/)
