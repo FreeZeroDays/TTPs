@@ -133,6 +133,10 @@
 # SSH Auditing
 * [SSH-Audit](https://github.com/jtesta/ssh-audit) - Comprehensive audit of SSH. Provides comprehensive information about the SSH server in use
 
+# Setup 
+* [WeaponizeKali.sh](https://github.com/penetrarnya-tm/WeaponizeKali.sh) - Automate the installation of additional tools
+* [My Dotfiles](https://github.com/DeviantSec/dotfiles) - Any dotfiles work, make sure you're comfortable in your environment and log log log
+
 # SMTP
 * [Swaks](https://github.com/jetmore/swaks) - Swiss army knife for SMTP testing
 
