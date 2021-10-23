@@ -11,27 +11,21 @@ Install Enum4Linux with git:
 ## Usage
 
 Enumerate users on the target host \
-
 ```enum4linux -U [TARGET]```
 
 Enumerate SMB shares on the target host \
-
 ```enum4linux -S [TARGET]```
 
 Enumerate the password policy \
-
 ```enum4linux -P [TARGET]```
 
 Enumerate operating system information \
-
 ```enum4linux -o [TARGET]```
 
 If the target is a domain controller you can enumerate some information from LDAP \
-
 ```enum4linux -l [TARGET]```
 
 Identify if any printers are connected to our target
-
 ```enum4linux -i [TARGET]```
 
 ## References
