@@ -25,7 +25,7 @@ Enumerate operating system information \
 If the target is a domain controller you can enumerate some information from LDAP \
 ```enum4linux -l [TARGET]```
 
-Identify if any printers are connected to our target
+Identify if any printers are connected to our target \
 ```enum4linux -i [TARGET]```
 
 ## References
