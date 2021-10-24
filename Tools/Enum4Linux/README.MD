@@ -1,6 +1,6 @@
 # Enum4Linux
 
-Nmap ("Network Mapper") is a free and open source tility for network discovery and security auditing.
+Enum4linux is a tool for enumerating information from Windows and Samba systems.
 
 ## Installation 
 
