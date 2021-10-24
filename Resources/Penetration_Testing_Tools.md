@@ -15,6 +15,7 @@
 * [Catphish](https://github.com/ring0lab/catphish) - Generate similar looking domains for use in phishing attacks
 * [Boobsnail](https://github.com/STMSolutions/boobsnail) - Generate malicious XLM documents for phishing
 * [MacroPack](https://github.com/sevagas/macro_pack) - Automize obfuscation of Office documents
+* [Pretext-Project](https://github.com/pretext-project/pretext-project.github.io/tree/master/_pretexts) - Collection of pretexts to use when crafting campaigns
 
 # External Penetration Testing
 * [YAWAST](https://github.com/adamcaudill/yawast) - Amazing for performing initial reconnaissance on a website. Also has a PoC for Sweet32 built into it
@@ -104,6 +105,7 @@
 * [O365Spray](https://github.com/0xZDH/o365spray) - My goto when spraying Office 365
 * [Msspray](https://github.com/SecurityRiskAdvisors/msspray) - Conduct password attacks against Azure AD and Office 365 endpoints
 * [TeamsUserEnum](https://github.com/immunIT/TeamsUserEnum) - User enumeration with the Microsoft Teams API
+* [Carnivore](https://github.com/ReverendThing/Carnivore) - Exchange Attack Tool
 
 # Obfuscation
 * [Darkarmour](https://github.com/bats3c/darkarmour) - Bats3c's obfuscation tool. 
@@ -112,6 +114,7 @@
 * [Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation) - PowerShell script obfuscator
 * [Chameleon](https://github.com/klezVirus/chameleon) - PowerShell obfuscator. I've had a lot of success using this tool
 * [Powerglot](https://github.com/mindcrypt/powerglot) - Powershell obfuscator using polyglots
+* [Phantom-Evasion](https://github.com/oddcod3/Phantom-Evasion) - Python obfuscation tool
 
 # Unix
 * [Bashark](https://github.com/redcode-labs/Bashark/blob/master/bashark.sh) - Post exploitation toolkit in a bash script
@@ -155,6 +158,8 @@
 * [ADRecon](https://github.com/adrecon/ADRecon) - Gathers information about Active Directory
 * [WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn) - Collection of well known offensive scripts in one place
 * [PowerShellArmoury](https://github.com/cfalta/PowerShellArmoury) - Similar collection to WinPwn but can be encrypted
+* [RedRabbit](https://github.com/securethelogs/RedRabbit) - Same as the above, collection of red team PowerShell tools
+* [ACLight](https://github.com/cyberark/ACLight) - Script for advanced discovery of Privileged Accounts 
 
 # Penetration Testing Reports
 * [PublicPentestingResources](https://github.com/juliocesarfort/public-pentesting-reports) - Repository of public pentesting resources
