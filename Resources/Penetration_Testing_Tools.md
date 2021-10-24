@@ -41,6 +41,9 @@
 * [Aquatone](https://github.com/michenriksen/aquatone) - Visually inspect websites. Has the ability to parse Nmap scans
 * [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) - Visually inspect websites. My preferred tool of choice. Has the ability to parse Nessus scans
 
+# APIs
+* [Swagger-EZ](https://github.com/RhinoSecurityLabs/Swagger-EZ) - A tool geared towards pentesting APIs using OpenAPI definitions
+
 # LinkedIn Reconnaissance 
 * [LeakedInt](https://github.com/vysecurity/LinkedInt) - LinkedIn reconnaissance tool that provides output with picture, name, email, title, and location
 * [WeakestLink](https://github.com/shellfarmer/WeakestLink) - Reguarly updated LinkedIn recon tool (10/11/2021)
@@ -69,6 +72,7 @@
 * [Spray](https://github.com/Greenwolf/Spray) - Spraying against Active Directory
 * [Patator](https://github.com/lanjelot/patator) - Multi-purpose brute-forcer. Takes a little reading of the manual but works incredibly
 * [BruteSpray](https://github.com/x90skysn3k/brutespray) - Brute-Forcing from an Nmap output. One of my favorites for automating the assessment of a network
+* [Crowbar](https://github.com/galkan/crowbar) - Brute-forcing tool that supports protocols not currently supported by Hydra
 
 # Default Credentials
 * [nndefaccts](https://github.com/nnposter/nndefaccts) - Updated Nmap default credential list
@@ -160,6 +164,7 @@
 * [PowerShellArmoury](https://github.com/cfalta/PowerShellArmoury) - Similar collection to WinPwn but can be encrypted
 * [RedRabbit](https://github.com/securethelogs/RedRabbit) - Same as the above, collection of red team PowerShell tools
 * [ACLight](https://github.com/cyberark/ACLight) - Script for advanced discovery of Privileged Accounts 
+* [Invoke-DNSDiscovery](https://github.com/tmcmil/Invoke-DNSDiscovery) - Searches through DNS after compromising a machine to identify interesting assets
 
 # Penetration Testing Reports
 * [PublicPentestingResources](https://github.com/juliocesarfort/public-pentesting-reports) - Repository of public pentesting resources
