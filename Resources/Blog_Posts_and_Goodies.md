@@ -33,6 +33,13 @@
 * [Top_16_Active_Directory_Vulnerabilities](https://www.infosecmatter.com/top-16-active-directory-vulnerabilities/#12-weak-domain-password-policy)
 * [Post_Exploitation_Windows_commands](https://int0x33.medium.com/day-26-the-complete-list-of-windows-post-exploitation-commands-no-powershell-999b5433b61e)
 
+# Checklists
+[Checklists to be used in Penetration Testing and Red Teaming](https://github.com/netbiosX/Checklists)
+[WebPentestChecklist](https://github.com/D3n0Duz/WebPentestChecklist)
+
+# Mindmaps
+[Internal_Network_Pentest_Mindmap](https://github.com/sdcampbell/Internal-Network-Pentest-MindMap)
+
 # Quick References
 * [Dumping_and_Cracking_mscash](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials)
 * [Force_NTLM_Privileged_Authentication](https://book.hacktricks.xyz/windows/active-directory-methodology/printers-spooler-service-abuse)
@@ -58,3 +65,6 @@
 # Methodologies
 * [PenTest_Methodology_2020](https://github.com/botesjuan/PenTestMethodology2020)
 * [PenTesters_Promiscuous_Notebook](https://ppn.snovvcrash.rocks)
+* [Internal_Pentest_Playbook](https://github.com/sdcampbell/Internal-Pentest-Playbook)
+* [Pentest_Compilation](https://github.com/adon90/pentest_compilation)
+* [Pentest-Guide](https://github.com/Voorivex/pentest-guide)
