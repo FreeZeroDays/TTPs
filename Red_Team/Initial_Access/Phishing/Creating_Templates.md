@@ -12,7 +12,8 @@ Begin by gathering the information relevant to your campaign
 
 ## Building the Template
 
-This may be the hardest part of your day. Creating a convincing pretext that will convince the target to click a link or download a document. This is it. \
+This may be the hardest part of your day. Creating a convincing pretext that will convince the target to click a link or download a document. 
+
 Thankfully there are several repositories available online with templates and pretext ideas that are ready to go:
 
 * [Pre-text_Project](https://github.com/pretext-project/pretext-project.github.io/tree/master/_pretexts)
