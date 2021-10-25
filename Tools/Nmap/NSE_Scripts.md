@@ -22,7 +22,7 @@ Specify a specific NSE script \
 Specify a specific [category](https://nmap.org/book/nse-usage.html) \
 ```nmap --script discovery,vuln [TARGET]```
 
-Using a wildcard to use multiple relevant scripts (e.g., ssh)
+Using a wildcard to use multiple relevant scripts (e.g., ssh) \
 ```nmap --script "ssh-*" -p22 [TARGET]```
 
 ## Useful NSE Scripts 
