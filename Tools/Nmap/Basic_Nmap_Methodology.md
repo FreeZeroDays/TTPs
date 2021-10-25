@@ -1,4 +1,4 @@
-# Basic Nmap Reconnaissance 
+# Basic Nmap Methodology 
 
 This details my basic methodology using Nmap for enumeration during a penetration test.
 
