@@ -176,3 +176,9 @@
 * [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline) - Build tools within PowerShell
 * [Depix](https://github.com/beurtschipper/Depix) - Recover information from pixelized screenshots
 * [LDAPMonitor](https://github.com/p0dalirius/LDAPmonitor) - Monitor changes throughout the environment during a penetration test
+
+# Penetration Testing Distros
+* [Slingshot](https://www.sans.org/tools/slingshot/?utm_medium=Social&utm_source=LinkedIn&utm_content=CM%20OO&utm_campaign=Instructor%20Tools%20) - Slingshot is an Ubuntu-based Linux distribution with the MATE Desktop Environment built for use in the SANS penetration testing curriculum and beyond. 
+* [Kali_Linux](https://www.kali.org) - Hopefully no explanation needed here
+* [Commando_VM](https://github.com/mandiant/commando-vm) - A fully customizable Windows-based pentesting virtual machine distribution
+* [Parrot_OS](https://www.parrotsec.org) - GNU/Linux distribution based on Debian and designed with Security and Privacy in mind
