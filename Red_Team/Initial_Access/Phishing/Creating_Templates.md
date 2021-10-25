@@ -6,9 +6,9 @@
 
 Begin by gathering the information relevant to your campaign
 
-* Name - Think of a name for your template. This will come in useful when identifying it in the future. Especially if this is a generic phishing campaign that will be reused (E.g.,Important Updates on Employee Dress Code)
-* Subject - Give the template a subject title. This should be something engaging that the end-user will want to click on. 
-* Sender - Provide a name for the user or organization that the email is simulating. This could be something as simple as [COMPANY] to a specific user working at the company you're impersonathing e.g., [John Doe]
+* **Name** - Think of a name for your template. This will come in useful when identifying it in the future. Especially if this is a generic phishing campaign that will be reused (E.g.,Important Updates on Employee Dress Code)
+* **Subject** - Give the template a subject title. This should be something engaging that the end-user will want to click on. 
+* **Sender** - Provide a name for the user or organization that the email is simulating. This could be something as simple as [COMPANY] to a specific user working at the company you're impersonathing e.g., [John Doe]
 
 ## Building the Template
 
