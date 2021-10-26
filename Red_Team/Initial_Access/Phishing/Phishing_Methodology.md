@@ -7,7 +7,7 @@
    3. Enumerate the targets domain. Search for blogs, company calendars, company specific portals, enumerate subdomains. All of this information    is going to assist you when creating your campaign.
 2. **Prepare the Campaign**
    1. Identify and purchase an available domain to be used for your campaign.
-      1. Lookalike domains can either be manually created or found with tools such as CatPhish. Additionally, domains with a good reputation can be identified from sites similar to expireddomains. 
+      1. Lookalike domains can either be manually created or found with tools such as [CatPhish](https://github.com/ring0lab/catphish). Additionally, domains with a good reputation can be identified from sites similar to expireddomains. 
    2. Create a convincing template. This involves creating the subject, sender, and content of the email. Additionally, this is where you would decide if you need to create a landing page or will be attaching a malicious document to the email.
       1. There are several repositories on my GitHub and scattered throughout the Internet with ideas for pretexts and campaigns. 
       2. The best type of campaign reference are the ones you receive! Check your spam emails and see if anything can be modified, improved, and sent out!
