@@ -3,8 +3,10 @@
 1. Reconnaissance 
   1. Identify the target domain. This is often specified in the scope of the engagement. 
   2. Use OSINT to identify emails and victims to receive your phish. 
+
     1. Publicly available tools such as LinkedIn2Username, BridgeKeeper, previously pwned databases, Phonebook.cz, etc. are great for this.
-  3. Enumerate the targets domain. Search for blogs, company calendars, company specific portals, enumerate subdomains. All of this information is going to assist you when creating your campaign.
+ 
+ 3. Enumerate the targets domain. Search for blogs, company calendars, company specific portals, enumerate subdomains. All of this information is going to assist you when creating your campaign.
 2. Prepare the Campaign
   1. Identify and purchase an available domain to be used for your campaign.
   1. Lookalike domains can either be manually created or found with tools such as CatPhish. Additionally, domains with a good reputation can be identified from sites similar to expireddomains. 
