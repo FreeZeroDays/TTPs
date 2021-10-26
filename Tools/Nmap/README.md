@@ -14,3 +14,4 @@ Install Nmap with brew:
 
 ## References
 * [Nmap](https://nmap.org/)
+* [Awesome-Nmap-Grep](https://github.com/leonjza/awesome-nmap-grep#hosts-and-open-ports)
