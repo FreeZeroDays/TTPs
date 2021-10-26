@@ -3,7 +3,7 @@
 1. **Reconnaissance** 
    1. Identify the target domain. This is often specified in the scope of the engagement. 
    2. Use OSINT to identify emails and victims to receive your phish. 
-      1. Publicly available tools such as LinkedIn2Username, BridgeKeeper, previously pwned databases, Phonebook.cz, etc. are great for this.
+      1. Publicly available tools such as [LinkedIn2Username](https://github.com/initstring/linkedin2username), [BridgeKeeper](https://github.com/0xZDH/BridgeKeeper), previously pwned databases, [Phonebook.cz](https://phonebook.cz), etc. are great for this.
    3. Enumerate the targets domain. Search for blogs, company calendars, company specific portals, enumerate subdomains. All of this information    is going to assist you when creating your campaign.
 2. **Prepare the Campaign**
    1. Identify and purchase an available domain to be used for your campaign.
@@ -15,7 +15,7 @@
       4. Create a landing page. This can be based off of the company specific logan portals during the reconnaissance phase or a commonly used login portal such as Exchange.
 3. **Prepare the Infrastructure**
    1. Setup the purchased domain to be used in the campaign, this is extremely easy to configure in GoPhish.
-   2. Configure the sending profile to use an SMTP server such as SES or SendGrid to bypass protections in palce.
+   2. Configure the sending profile to use an SMTP server such as SES or [SendGrid](https://www.mail-tester.com) to bypass protections in palce.
    3. Harden the GoPhish infrastructure by changing the email headers.
    4. Configure the email service to have the appropriate SPF, DMARC, and DKIM records
       1. This is mostly important if you are trying to bypass protections in place. This should not impact authorized phishing exercises where the client whitelists you.
