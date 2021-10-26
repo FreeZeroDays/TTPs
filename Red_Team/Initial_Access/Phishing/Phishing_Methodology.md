@@ -1,9 +1,9 @@
 # Phishing Methodology
 
 1. Reconnaissance 
+
   1. Identify the target domain. This is often specified in the scope of the engagement. 
   2. Use OSINT to identify emails and victims to receive your phish. 
-
     1. Publicly available tools such as LinkedIn2Username, BridgeKeeper, previously pwned databases, Phonebook.cz, etc. are great for this.
  
  3. Enumerate the targets domain. Search for blogs, company calendars, company specific portals, enumerate subdomains. All of this information is going to assist you when creating your campaign.
