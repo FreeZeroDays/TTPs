@@ -32,6 +32,8 @@
 * [Tips_for_Pentesting_a_PCI_Environment](https://secureideas.com/blog/2018/08/tips-for-penetration-testing-a-pci-environment.html)
 * [Top_16_Active_Directory_Vulnerabilities](https://www.infosecmatter.com/top-16-active-directory-vulnerabilities/#12-weak-domain-password-policy)
 * [Post_Exploitation_Windows_commands](https://int0x33.medium.com/day-26-the-complete-list-of-windows-post-exploitation-commands-no-powershell-999b5433b61e)
+* [Shadow_Credentials_Workstation_Takeover_Edition](https://www.fortalicesolutions.com/posts/shadow-credentials-workstation-takeover-edition)
+* [Hiding_Behind_the_Front_door](https://www.fortalicesolutions.com/posts/hiding-behind-the-front-door-with-azure-domain-fronting)
 
 # Checklists
 [Checklists to be used in Penetration Testing and Red Teaming](https://github.com/netbiosX/Checklists)
