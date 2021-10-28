@@ -2,7 +2,7 @@
 
 ## Enumerate AD CS
 
-Dump and display certification authority information with Certutil.exe. This utility can be used to quickly identify if there is a certificate authority on the domain for AD CS attacks:
+Dump and display certification authority information with Certutil.exe. This utility can be used to quickly identify if there is a certificate authority on the domain for AD CS attacks: \
 
 ```certutil.exe```
 
