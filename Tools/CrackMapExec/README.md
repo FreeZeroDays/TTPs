@@ -1,6 +1,6 @@
 # CrackMapExec
 
-A swiss army knife for pentesting networks.
+CrackMapExec is a swiss army knife for penetration testing networks. At this point it can basically do anything.
 
 ## Installation 
 
