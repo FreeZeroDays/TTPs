@@ -8,7 +8,7 @@
 
 ## Disable Windows Firewall
 
-```netsh firewall set opmode mode=disable```
+```netsh advfirewall set allprofiles state off```
 
 ## Manually Disable Antivirus
 
