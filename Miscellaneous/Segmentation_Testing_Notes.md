@@ -23,3 +23,4 @@ It should be noted that these should be modified in order to be more thorough.
 
 * When performing a segmentation test against FortiGate devices, port 113/TCP may appear against every host as: `closed`. This is not a firewall misconfiguration. [This documentation](https://kb.fortinet.com/kb/documentLink.do?externalID=FD48365) details more on this issue.
 * When a port appears as `open|filtered` after performing a UDP scan, try running `nmap -sUC -p [PORT] [IP_Address]` to verify if it is open.
+* Segmentation tests should note **all** open ports regardless of the business use case. If a business needs a port open, jusitifcation should be provided in the report. 
