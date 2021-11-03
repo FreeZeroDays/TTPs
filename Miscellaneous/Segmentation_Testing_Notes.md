@@ -4,7 +4,8 @@
 
 ## Basic Checks 
 
-Below are some basic commands to use when performing a segmentation test. These should be modified in order to be more thorough. 
+Below are some basic commands to use when performing a segmentation test. \
+It should be noted that these should be modified in order to be more thorough. 
 
 ### ICMP 
 ```nmap -sn 10.0.0.0/24 -oA ICMP_Check```
