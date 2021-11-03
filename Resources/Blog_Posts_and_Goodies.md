@@ -36,12 +36,12 @@
 * [Hiding_Behind_the_Front_door](https://www.fortalicesolutions.com/posts/hiding-behind-the-front-door-with-azure-domain-fronting)
 
 # Checklists
-[Checklists to be used in Penetration Testing and Red Teaming](https://github.com/netbiosX/Checklists)
-[WebPentestChecklist](https://github.com/D3n0Duz/WebPentestChecklist)
-[Cloud Penetration Testing Cheatsheets](https://github.com/dafthack/CloudPentestCheatsheets)
+* [Checklists to be used in Penetration Testing and Red Teaming](https://github.com/netbiosX/Checklists)
+* [WebPentestChecklist](https://github.com/D3n0Duz/WebPentestChecklist)
+* [Cloud Penetration Testing Cheatsheets](https://github.com/dafthack/CloudPentestCheatsheets)
 
 # Mindmaps
-[Internal_Network_Pentest_Mindmap](https://github.com/sdcampbell/Internal-Network-Pentest-MindMap)
+* [Internal_Network_Pentest_Mindmap](https://github.com/sdcampbell/Internal-Network-Pentest-MindMap)
 
 # Quick References
 * [Dumping_and_Cracking_mscash](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials)
