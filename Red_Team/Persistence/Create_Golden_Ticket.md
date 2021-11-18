@@ -1,6 +1,7 @@
 # Create Golden Ticket
 
-**Description:** A Golden Ticket attack is a type of attack in which an adversary gains control over an Active Directory Key Distribution Service Account (KRBTGT), and uses that account to forge valid Kerberos Ticket Granting Tickets (TGTs). \ 
+**Description:** A Golden Ticket attack is a type of attack in which an adversary gains control over an Active Directory Key Distribution Service Account (KRBTGT), and uses that account to forge valid Kerberos Ticket Granting Tickets (TGTs). 
+
 This attack will allow you to persist in an environment almost indefinitely.
 
 **Requirements:**
