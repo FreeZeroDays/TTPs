@@ -17,7 +17,7 @@ This attack runs through all payload sets simultaneously, and places one payload
 
 ## Cluster bomb
 
-The attack iterates through each payload set in turn, so that all permutations of payload combinations are tested. This attack is great when targeting several accounts for a brute-force attack or when performing password spraying against an org. 
+This attack iterates through each payload set in turn, so that all permutations of payload combinations are tested. This attack is great when targeting several accounts for a brute-force attack or when performing password spraying against an org. 
 
 ## References
 * [Burp Suite Payload Positions](https://portswigger.net/burp/documentation/desktop/tools/intruder/positions)
