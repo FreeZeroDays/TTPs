@@ -15,3 +15,5 @@
 * [OneRuleToRuleThemAll](https://github.com/NotSoSecure/password_cracking_rules)
 * [NSA-Rules](https://github.com/NSAKEY/nsa-rules)
 * [Pantagrule](https://github.com/rarecoil/pantagrule)
+* [InsidePro-PasswordsPro](https://github.com/hashcat/hashcat/blob/master/rules/InsidePro-PasswordsPro.rule)
+* [Hob0Rules](https://github.com/praetorian-inc/Hob0Rules)
