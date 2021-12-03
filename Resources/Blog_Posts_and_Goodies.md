@@ -64,6 +64,7 @@
 * [Penetration_Testing_Framework](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html)
 * [Windows_Priv_Esc_Guide](https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/)
 * [Attacking_and_Securing_Active_Directory](https://rmusser.net/docs/Active_Directory.html#adcred)
+* [The Hacker Recipes](https://www.thehacker.recipes/)
 
 # Methodologies
 * [PenTest_Methodology_2020](https://github.com/botesjuan/PenTestMethodology2020)
