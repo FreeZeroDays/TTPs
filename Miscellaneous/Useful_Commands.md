@@ -10,3 +10,6 @@ Quick awk magic to add “@client.com” after every username: \
 
 Quick sed magic to remove "@client.com" after every email: \
 ```sed 's/@.*//' emails.txt > usernames.txt```
+
+Hide yourself using SSHuttle: \
+```sshuttle -r [USER]@[SERVER] 0.0.0.0/0 -e "ssh -i [SSH_KEY]" --exclude <server> -v --method tproxy```
