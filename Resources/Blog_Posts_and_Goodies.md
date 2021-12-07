@@ -34,6 +34,7 @@
 * [Post_Exploitation_Windows_commands](https://int0x33.medium.com/day-26-the-complete-list-of-windows-post-exploitation-commands-no-powershell-999b5433b61e)
 * [Shadow_Credentials_Workstation_Takeover_Edition](https://www.fortalicesolutions.com/posts/shadow-credentials-workstation-takeover-edition)
 * [Hiding_Behind_the_Front_door](https://www.fortalicesolutions.com/posts/hiding-behind-the-front-door-with-azure-domain-fronting)
+* [Attacking_Active_Directory:_0_to_0.9](https://zer1t0.gitlab.io/posts/attacking_ad/)
 
 # Checklists
 * [Checklists to be used in Penetration Testing and Red Teaming](https://github.com/netbiosX/Checklists)
