@@ -6,6 +6,7 @@
 * [BishopFox](https://labs.bishopfox.com/home) - Bishop Fox's blog has tons of different resources! Topics such as red teaming, breaking into the industry, etc.
 * [TrustedSec](https://www.trustedsec.com/blog/) - TrustedSec's blog. One of my favorites, tons of good information here
 * [BlackHillsInfoSec](https://www.blackhillsinfosec.com/blog/) - Blackhills' blog. Lots of different attacks and techniques detailed here
+* [mr.d0x](https://mrd0x.com) - Causal Red Team & Security Research Notes from mr.d0x
 
 # Blog Posts
 * [Lateral_Movement_Tips_and_Tricks](https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/)
