@@ -11,10 +11,10 @@ Install Responder using git:
 ## Usage
 
 Basic Usage \
-```./Responder.py -I [INTERFACE] -rdwP```
+```./Responder.py -I [INTERFACE] -dwP```
 
 Relay hashes obtained \
-```./Responder.py -I [INTERFACE] -rdw``` \
+```./Responder.py -I [INTERFACE] -dwP``` \
 ```python ntlmrelayx.py -tf targets.txt```
 
 We can also save the hashes being relayed so they aren't yeeted into the void \
