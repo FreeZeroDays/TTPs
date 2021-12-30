@@ -1,6 +1,8 @@
-# Password Cracking Resources
+---
+description: Resources for cracking passwords that I've utilized on engagements.
+---
 
-**Description:** Resources for cracking passwords that I've utilized on engagements.
+# Password Cracking Resources
 
 ## Wordlists
 
@@ -12,7 +14,7 @@
 
 ## Hashcat Rulesets
 
-* [OneRuleToRuleThemAll](https://github.com/NotSoSecure/password_cracking_rules)
+* [OneRuleToRuleThemAll](https://github.com/NotSoSecure/password\_cracking\_rules)
 * [NSA-Rules](https://github.com/NSAKEY/nsa-rules)
 * [Pantagrule](https://github.com/rarecoil/pantagrule)
 * [InsidePro-PasswordsPro](https://github.com/hashcat/hashcat/blob/master/rules/InsidePro-PasswordsPro.rule)

@@ -1,25 +1,29 @@
-# Creating Templates
+---
+description: >-
+  This section briefly describes how to create templates for use in phishing
+  campaigns. This advice is not specific to one phishing framework.
+---
 
-**Description:** This section briefly describes how to create templates for use in phishing campaigns. This advice is not specific to one phishing framework but is general advice I provide for use in any phishing campaign.
+# Creating Templates
 
 ## Gathering the Details
 
 Begin by gathering the information relevant to your campaign
 
 * **Name** - Think of a name for your template. This will come in useful when identifying it in the future. Especially if this is a generic phishing campaign that will be reused (E.g.,Important Updates on Employee Dress Code)
-* **Subject** - Give the template a subject title. This should be something engaging that the end-user will want to click on. 
-* **Sender** - Provide a name for the user or organization that the email is simulating. This could be something as simple as [COMPANY] to a specific user working at the company you're impersonathing e.g., [John Doe]
+* **Subject** - Give the template a subject title. This should be something engaging that the end-user will want to click on.
+* **Sender** - Provide a name for the user or organization that the email is simulating. This could be something as simple as \[COMPANY] to a specific user working at the company you're impersonathing e.g., \[John Doe]
 
 ## Building the Template
 
-This may be the hardest part of your day. Creating a convincing pretext that will convince the target to click a link or download a document. 
+This may be the hardest part of your day. Creating a convincing pretext that will convince the target to click a link or download a document.
 
 Thankfully there are several repositories available online with templates and pretext ideas that are ready to go:
 
-* [Pre-text_Project](https://github.com/pretext-project/pretext-project.github.io/tree/master/_pretexts)
+* [Pre-text\_Project](https://github.com/pretext-project/pretext-project.github.io/tree/master/\_pretexts)
 * [GoPhish-Templates](https://github.com/DeviantSec/GoPhish-Templates)
 
-The following details a template that I've used previously. The landing page was a link to the employee login where after credentials were entered where once I successfully landed a phish I could access the employee portal and attempt credential stuffing throughout the environment. 
+The following details a template that I've used previously. The landing page was a link to the employee login where after credentials were entered where once I successfully landed a phish I could access the employee portal and attempt credential stuffing throughout the environment.
 
 ```
 <html>

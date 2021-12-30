@@ -1,6 +1,8 @@
-# Intruder Attack Types
+---
+description: Brief descriptions of each attack type in Burp Suite Intruder.
+---
 
-**Description:** Brief descriptions of each attack type in Burp Suite Intruder.
+# Intruder Attack Types
 
 ## Sniper
 
@@ -8,7 +10,7 @@ Only one payload set needs to be defined. This attack type is useful for fuzzing
 
 ## Battering Ram
 
-This uses a single set of payloads. It will place the payload into all of the defined payload positions at the same time. \
+This uses a single set of payloads. It will place the payload into all of the defined payload positions at the same time.\
 I have not found this to be useful during network penetration tests.
 
 ## Pitckfork
@@ -17,7 +19,8 @@ This attack runs through all payload sets simultaneously, and places one payload
 
 ## Cluster bomb
 
-This attack iterates through each payload set in turn, so that all permutations of payload combinations are tested. This attack is great when targeting several accounts for a brute-force attack or when performing password spraying against an org. 
+This attack iterates through each payload set in turn, so that all permutations of payload combinations are tested. This attack is great when targeting several accounts for a brute-force attack or when performing password spraying against an org.
 
 ## References
+
 * [Burp Suite Payload Positions](https://portswigger.net/burp/documentation/desktop/tools/intruder/positions)

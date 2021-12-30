@@ -1,6 +1,8 @@
-# Hashcat Tips
+---
+description: Just a few quick Hashcat tips that may come in useful.
+---
 
-**Description:** Just a few quick Hashcat tips that may come in useful. 
+# Hashcat Tips
 
 ## Password Cracking Tips
 

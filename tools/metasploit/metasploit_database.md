@@ -1,41 +1,43 @@
+---
+description: Some tips and tricks around using the Metasploit Framework Dataabse (msfdb)
+---
+
 # Metasploit Datatabase
 
-**Description:** Some tips and tricks around using the Metasploit Framework Dataabse (msfdb) 
+## Importing
 
-## Importing 
+* Import Nmap scans into msfdb
 
-* Import Nmap scans into msfdb 
+`db_import NmapScan-1000.xml`
 
-```db_import NmapScan-1000.xml```
+*   Import Nessus scans into msfdb
 
-* Import Nessus scans into msfdb
+    1. Load the Nessus plugin
 
-  1. Load the Nessus plugin 
+    `load nessus`
 
-    ```load nessus```
+    1. List the completed scans available for import
 
-  2. List the completed scans available for import
+    `nessus_scan_list -c`
 
-   ```nessus_scan_list -c```
+    1. Import the specified scan
 
-  3. Import the specified scan
+    `nessus_db_import [ID]`
 
-   ```nessus_db_import [ID]```
-   
 ## Searching the Database
-   
-* List all service banners 
 
-```services -O 6```
-   
+* List all service banners
+
+`services -O 6`
+
 * List specific port(s)
 
-```services -p 80,443```
+`services -p 80,443`
 
 * Search for a specific string
 
-```services -S CloudFront```
+`services -S CloudFront`
 
-* Output services that are 'up' to a CSV file 
+* Output services that are 'up' to a CSV file
 
-```services -u -o AliveServices```
+`services -u -o AliveServices`
