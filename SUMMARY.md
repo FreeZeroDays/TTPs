@@ -34,6 +34,8 @@
       * [Password Cracking Resources](red-team/credential\_access/brute\_force/password\_cracking/password\_cracking\_resources.md)
   * [Password Spraying](red-team/credential\_access/password\_spraying/README.md)
     * [Spray Microsoft](red-team/credential\_access/password\_spraying/spray\_microsoft.md)
+  * [OS Credential Dumping](red-team/credential\_access/os-credential-dumping/README.md)
+    * [LSA Secrets](red-team/credential\_access/os-credential-dumping/lsa-secrets.md)
 * [Discovery](red-team/discovery/README.md)
   * [Domain Enumeration](red-team/discovery/domain\_enumeration.md)
   * [Recon while Pivoting](red-team/discovery/recon\_while\_pivoting.md)
