@@ -76,3 +76,7 @@
 * [Segmentation Testing Notes](miscellaneous/segmentation\_testing\_notes.md)
 * [Useful Commands](miscellaneous/useful\_commands.md)
 * [Common Troubleshooting](Miscellaneous/Common\_Troubleshooting.md)
+
+## Web Application
+
+* [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
