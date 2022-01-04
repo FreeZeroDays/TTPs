@@ -68,7 +68,7 @@
 ## Resources
 
 * [Penetration Testing Tools](resources/penetration\_testing\_tools.md)
-* [Red\_Notes](resources/red\_notes.md)
+* [Offensive Security Notes](resources/red\_notes.md)
 * [Blog Posts and Goodies](Resources/Blog\_Posts\_and\_Goodies.md)
 
 ## Miscellaneous
