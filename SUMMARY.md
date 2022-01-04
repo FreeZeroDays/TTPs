@@ -79,5 +79,5 @@
 
 ## Web Application
 
-* [Remote File Inclusion](web-application/remote-file-inclusion.md)
+* [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
 * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
