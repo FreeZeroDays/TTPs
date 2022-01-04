@@ -1,8 +1,16 @@
 ---
-description: Information that may be useful when testing for Local File Inclusion
+description: >-
+  A remote file inclusion vulnerability allows an attacker to remotely execute a
+  script on the target machine even if it's not available locally.
 ---
 
 # Local File Inclusion (LFI)
+
+### Example
+
+The following details a basic example of how to exploit
+
+
 
 The sections following lists common but interesting files to look at when testing for Local File Inclusion:
 
