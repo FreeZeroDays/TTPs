@@ -12,7 +12,7 @@ description: >-
 
 Quick test for RFI with a PHP file, name this test.php and host using a Python server:
 
-```
+```php
 <?php
 echo "Hello";
 ?>
