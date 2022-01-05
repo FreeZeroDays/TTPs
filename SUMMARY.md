@@ -64,6 +64,8 @@
   * [Metasploit Datatabase](tools/metasploit/metasploit\_database.md)
 * [Responder](tools/responder/README.md)
   * [Output In-Scope Hosts from Responder](tools/responder/output-inscope\_hosts\_from\_responder.md)
+* [Impacket](tools/impacket/README.md)
+  * [mssqlclient.py](tools/impacket/mssqlclient.py.md)
 
 ## Resources
 
@@ -76,6 +78,7 @@
 * [Segmentation Testing Notes](miscellaneous/segmentation\_testing\_notes.md)
 * [Useful Commands](miscellaneous/useful\_commands.md)
 * [Common Troubleshooting](Miscellaneous/Common\_Troubleshooting.md)
+* [OSCP Notes](miscellaneous/oscp-notes.md)
 
 ## Web Application
 
