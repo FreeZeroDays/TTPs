@@ -8,9 +8,9 @@ description: >-
 
 ### Example
 
-The following details a basic example of how to exploit
+If we want to get a file then it is best to base64 encode it. This will ensure that we can exfiltrate files rather than have Apache read the file. This can be accomplished with the following command:
 
-
+`php://filter/convert.base64-encode/resource=[FILE]`
 
 The sections following lists common but interesting files to look at when testing for Local File Inclusion:
 

