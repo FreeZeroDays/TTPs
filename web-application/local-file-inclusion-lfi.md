@@ -55,6 +55,7 @@ The sections following lists common but interesting files to look at when testin
 ### Additional Notes
 
 * Sometimes during Local File Inclusion, the web server appends something like ‘.php’ or '.config' to the included file. For example, including ‘/etc/passwd’ gets rendered as ‘/etc/passwd.php’. This occurs when the include function uses a parameter like _?page_ and concatenates the .php extension to the file. In versions of PHP below 5.3, ending the URL with a null byte (%00) would cause the interpreter to stop reading, which would allow the attacker to include their intended page. Additionally, this can be observed if you're host a SimpleHTTPServer with Python.
+* If you have LFI on a Linux host, you may be able to access the `.ssh/id_rsa` file of any identified users.
 
 ### References
 
