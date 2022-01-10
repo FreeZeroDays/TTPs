@@ -7,6 +7,7 @@ description: Just some rough notes in preparation for the OSCP.
 ### Quick Notes
 
 * Transferring a file such as a .doc to a FTP share? Reminder to use `binary` before doing so or else it will upload as ASCII.&#x20;
+* If LinPEAS doesn't return anything useful then it is possible you already have the information needed to privilege escalate. Try default passwords, [priv esc with fail2ban](https://grumpygeekwrites.wordpress.com/2021/01/29/privilege-escalation-via-fail2ban/), and other common tricks.
 * When enumerating FTP, ensure you run `dir -a` to enumerate any hidden files or directories on the system. You may find l00t!
 * Ensure you run FeroxBuster or GoBuster with file extensions identified throughout inital enumeration of the device.
 * Always try to login with default passwords and with using the username as a password. For example, if a username has been identiifed as `parzival` try and login with the password `parzival`
