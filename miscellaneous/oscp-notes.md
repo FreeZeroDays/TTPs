@@ -52,6 +52,8 @@ description: Just some rough notes in preparation for the OSCP.
   * Run the following command to identify possible priivlege escalation efforts:
     * `which awk perl python ruby gcc cc vi vim nmap find netcat nc wget tftp ftp 2>/dev/null`
   * If you've identified a CronJob that may be exploitable then it may be worth plugging it into [CronGuru](https://crontab.guru/#\*/3\_\*\_\*\_\*\_\*).
+  * If spawning a shell, check all files for MySQL credentials. It is likely you will be able to privilege escalate once located.
+    * To login, ensure you have a stable shell and type `mysql -u root -p`
   * If you are a member of the 'Docker' group then there are multiple opportunities for privilege escalation.  Below is a list of a few examples:
     1. `docker images`
     2. `docker run -v /:/mnt --rm -it [IMAGE] chroot /mnt sh`
@@ -62,8 +64,6 @@ description: Just some rough notes in preparation for the OSCP.
         export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
         ```
-
-###
 
 ### Privilege Escalation - Windows
 
@@ -95,6 +95,16 @@ description: Just some rough notes in preparation for the OSCP.
 #### SPN Ticket Request
 
 * `Get-DomainUser * -SPN | Get-DomainSPNTicket -OutputFormat Hashcat | Export-Csv .\ticket.csv -NoTypeInformation`
+
+### `Shell Upgrades`
+
+[This is a great guide on upgrading to a TTY](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
+
+`python -c 'import pty; pty.spawn("/bin/bash")'`
+
+Best TTY upgrade:
+
+1. Background your shell with `CTRL + Z` or `CMD + Z`
 
 ### General Tips and Tricks
 
