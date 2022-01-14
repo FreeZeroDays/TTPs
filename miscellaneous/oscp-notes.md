@@ -52,6 +52,9 @@ description: Just some rough notes in preparation for the OSCP.
   * Run the following command to identify possible priivlege escalation efforts:
     * `which awk perl python ruby gcc cc vi vim nmap find netcat nc wget tftp ftp 2>/dev/null`
   * If you've identified a CronJob that may be exploitable then it may be worth plugging it into [CronGuru](https://crontab.guru/#\*/3\_\*\_\*\_\*\_\*).
+  * If you are a member of the 'Docker' group then there are multiple opportunities for privilege escalation.  Below is a list of a few examples:
+    1. `docker images`
+    2. `docker run -v /:/mnt --rm -it [IMAGE] chroot /mnt sh`
   * If breaking out of a restricted shell, ensure you check the local bin and then GTFOBins for any easy breakouts.
     *   Sometimes you will have to export your path after breaking out of a restricted shell. Use the following command to correct your path:
 
@@ -59,6 +62,8 @@ description: Just some rough notes in preparation for the OSCP.
         export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
         ```
+
+###
 
 ### Privilege Escalation - Windows
 
