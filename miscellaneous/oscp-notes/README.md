@@ -151,8 +151,9 @@ Best TTY upgrade:
 
 * [OSCP Enumeration Cheatsheet](https://strongcourage.github.io/2020/05/03/enum.html)
 * [iRedTeam Cheatsheet](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
+* [Impacket Cheatsheet](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
 
-References While Building my Notes
+### References While Building my Notes
 
 * [FareedFauzi's Notes](https://fareedfauzi.gitbook.io/oscp-notes/others/active-directory-attack)
 * [https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/pass-the-hash-with-machine-accounts](https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/pass-the-hash-with-machine-accounts)
