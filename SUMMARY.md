@@ -80,6 +80,7 @@
 * [Common Troubleshooting](Miscellaneous/Common\_Troubleshooting.md)
 * [OSCP Notes](miscellaneous/oscp-notes/README.md)
   * [Enumeration Checklist](miscellaneous/oscp-notes/enumeration-checklist.md)
+  * [Pre-OSCP Tooling Checklist](miscellaneous/oscp-notes/pre-oscp-tooling-checklist.md)
 
 ## Web Application
 
