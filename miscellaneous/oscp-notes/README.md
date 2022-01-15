@@ -99,7 +99,14 @@ description: Just some rough notes in preparation for the OSCP.
 
 * `Get-DomainUser * -SPN | Get-DomainSPNTicket -OutputFormat Hashcat | Export-Csv .\ticket.csv -NoTypeInformation`
 
-### `Shell Upgrades`
+### Shells
+
+These are the most consistent webshells that I have discovered throughout testing:&#x20;
+
+* [Aspnet](https://github.com/xl7dev/WebShell/blob/master/Aspx/ASPX%20Shell.aspx)&#x20;
+* [PHP](https://github.com/WhiteWinterWolf/wwwolf-php-webshell)
+
+### Shell Upgrades
 
 [This is a great guide on upgrading to a TTY](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
 
