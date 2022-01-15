@@ -41,10 +41,13 @@ description: Just some rough notes in preparation for the OSCP.
 * If you can access the Apache logs through LFI and observe the 'User Agent' is viewable, we can potentially specify our user agent to PHP code and execute that on the target machine. [This video from John Hammond](https://www.youtube.com/watch?v=u\_uuk7FWWF4) is a great example.
   * Using this we can potentially turn an LFI into RCE. An example user agent would be the following: `User-Agent: <?php system(\$_GET['c']); ?>`
 * Log into the SMTP server to identify the version if it is not returned in the Nmap scan. Identifying Postfix means that multiple exploits from Searchsploit may work: `searchsploit postfix`
+* Narrowing down a version number of an application can greatly increase your chances of finding an exploit.&#x20;
 
 ### Privilege Escalation - Linux
 
 * If LinPEAS doesn't return anything useful then it is possible you already have the information needed to privilege escalate. Try default passwords, [priv esc with fail2ban](https://grumpygeekwrites.wordpress.com/2021/01/29/privilege-escalation-via-fail2ban/), and other common tricks.
+* Don't forget to check for any Kernel exploits.&#x20;
+  * `uname -a`
 * For privilege escalation with fail2ban, use a netcat shell or modify the permissions of `/etc/shadow`
   * [Amazing Guide on Privilege Escalation with Fail2ban](https://grumpygeekwrites.wordpress.com/2021/01/29/privilege-escalation-via-fail2ban/)
 * If there are no writable directories then just pipe LinPEAS (or other tool of choice) directly into bash:
