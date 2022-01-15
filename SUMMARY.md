@@ -78,7 +78,8 @@
 * [Segmentation Testing Notes](miscellaneous/segmentation\_testing\_notes.md)
 * [Useful Commands](miscellaneous/useful\_commands.md)
 * [Common Troubleshooting](Miscellaneous/Common\_Troubleshooting.md)
-* [OSCP Notes](miscellaneous/oscp-notes.md)
+* [OSCP Notes](miscellaneous/oscp-notes/README.md)
+  * [Enumeration Checklist](miscellaneous/oscp-notes/enumeration-checklist.md)
 
 ## Web Application
 
