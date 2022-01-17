@@ -6,6 +6,16 @@ description: >-
 
 # Enumeration Checklist
 
+### General Checklist
+
+* [ ] Perform an nslookup.
+  * `nslookup [IP]`
+* [ ] Perform a zone transfer.
+  * `dig axfr @[IP]`
+* [ ] Run enum4linux against the host.&#x20;
+  * Ensure you upgrade to the latest version of enum4linux as the one shipped on Kali appears to be broken as of writing this.
+  * Alternatively, use [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
+
 ### Web Server Checklist
 
 * [ ] Read entire pages to enumerate any potential usernames and/or emails.
@@ -50,8 +60,6 @@ description: >-
 * [ ] If WebDAV is identified throughout enumeration we can upload a shell using `Cadver`
   * If authenticated to WebDAV then we can use `davtest` to test file extensions and upload a reverse shell.&#x20;
     * `davtest -auth [USER]:[PASSWORD] -sendbd auto -url http://[IP'`
-
-``
 
 ### Windows Privilege Escalation Resources
 
