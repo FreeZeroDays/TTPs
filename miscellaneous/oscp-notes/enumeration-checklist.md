@@ -67,3 +67,4 @@ description: >-
 * [Absoloom's Guide](https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/)
 * [Fuzzy Security Guide](https://www.fuzzysecurity.com/tutorials/16.html)
 * [HackTricks Checklist](https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation)
+* [Privilege Escalation Guide (one of the best)](https://infosecwriteups.com/privilege-escalation-in-windows-380bee3a2842)

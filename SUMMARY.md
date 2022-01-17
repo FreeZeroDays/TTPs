@@ -81,6 +81,7 @@
 * [OSCP Notes](miscellaneous/oscp-notes/README.md)
   * [Enumeration Checklist](miscellaneous/oscp-notes/enumeration-checklist.md)
   * [Pre-OSCP Tooling Checklist](miscellaneous/oscp-notes/pre-oscp-tooling-checklist.md)
+  * [OSCP Must-read Resources](miscellaneous/oscp-notes/oscp-must-read-resources.md)
 
 ## Web Application
 
