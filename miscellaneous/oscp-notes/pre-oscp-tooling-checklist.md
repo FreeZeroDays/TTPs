@@ -11,6 +11,7 @@ description: >-
 * [ ] Update Kali completely.
 * [ ] Ensure you have the latest version of Impacket installed.
 * [ ] Ensure you have the latest version of CrackMapExec installed.
+* [ ] Update Empire and ensure it is functional.
 * [ ] Update Searchsploit.&#x20;
 
 ### Tool Installations

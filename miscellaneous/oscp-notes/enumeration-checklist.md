@@ -50,3 +50,12 @@ description: >-
 * [ ] If WebDAV is identified throughout enumeration we can upload a shell using `Cadver`
   * If authenticated to WebDAV then we can use `davtest` to test file extensions and upload a reverse shell.&#x20;
     * `davtest -auth [USER]:[PASSWORD] -sendbd auto -url http://[IP'`
+
+``
+
+### Windows Privilege Escalation Resources
+
+* [Sushant's Privilege Escalation Guide](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege\_escalation\_windows.html)
+* [Absoloom's Guide](https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/)
+* [Fuzzy Security Guide](https://www.fuzzysecurity.com/tutorials/16.html)
+* [HackTricks Checklist](https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation)

