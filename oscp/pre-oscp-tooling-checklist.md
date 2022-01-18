@@ -25,4 +25,4 @@ description: >-
 * [ ] BloodHound (Setup and connected to the DB)
 * [ ] Outdated version of Mimikatz
 * [ ] Fix [enum4linux](https://github.com/CiscoCXSecurity/enum4linux/blob/master/enum4linux.pl) or install [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
-* [ ] [Webshells](./#shells)&#x20;
+* [ ] [Webshells](oscp-notes.md#shells)&#x20;

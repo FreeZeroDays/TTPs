@@ -78,12 +78,15 @@
 * [Segmentation Testing Notes](miscellaneous/segmentation\_testing\_notes.md)
 * [Useful Commands](miscellaneous/useful\_commands.md)
 * [Common Troubleshooting](Miscellaneous/Common\_Troubleshooting.md)
-* [OSCP Notes](miscellaneous/oscp-notes/README.md)
-  * [Enumeration Checklist](miscellaneous/oscp-notes/enumeration-checklist.md)
-  * [Pre-OSCP Tooling Checklist](miscellaneous/oscp-notes/pre-oscp-tooling-checklist.md)
-  * [OSCP Must-read Resources](miscellaneous/oscp-notes/oscp-must-read-resources.md)
 
 ## Web Application
 
 * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
 * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
+
+## OSCP
+
+* [OSCP Must-read Resources](oscp/oscp-must-read-resources.md)
+* [Pre-OSCP Tooling Checklist](oscp/pre-oscp-tooling-checklist.md)
+* [OSCP Notes](oscp/oscp-notes.md)
+* [Enumeration Checklist](oscp/enumeration-checklist.md)

