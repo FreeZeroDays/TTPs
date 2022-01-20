@@ -28,6 +28,7 @@ description: Just some rough notes in preparation for the OSCP.
   * [HackTricks has a great guide](https://book.hacktricks.xyz/pentesting/pentesting-web/put-method-webdav) on uploading a shell with Curl or other methods of exploitation.
 * If /cgi-bin/ is identified then ensure you look for common file extensions like `.sh`
   * This directory exists when Apache gives a file over to bash or another scripting language.
+  * There is an NSE script which exists to verify if Shellshock is detected.
 * When testing[ Remote File Inclusion](../web-application/remote-file-inclusion-rfi.md) keep in mind that the port being tested matters.&#x20;
   * Use a common port such as 80 or 443 on your Python3 server when testing.
 
