@@ -57,6 +57,7 @@ description: >-
     * Resolute is a great video on enumeration with rpcclient if additional information is needed.
 * [ ] Enumerate LDAP without credentials. Passwords may be stored in cleartext.&#x20;
   * `ldapsearch -x -h <IP> -D '<DOMAIN>\<username>' -w '<password>' -b "DC=<1_SUBDOMAIN>,DC=<TDL>"`
+  * `ldapsearch -x -h -D '' -w '' -b "DC=<1_SUBDOMAIN>,DC="`
 * [ ] If WebDAV is identified throughout enumeration we can upload a shell using `Cadver`
   * If authenticated to WebDAV then we can use `davtest` to test file extensions and upload a reverse shell.&#x20;
     * `davtest -auth [USER]:[PASSWORD] -sendbd auto -url http://[IP'`
