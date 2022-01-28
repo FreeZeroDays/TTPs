@@ -112,6 +112,11 @@ description: Just some rough notes in preparation for the OSCP.
   * After conducting this attack we can use any tooling that relies on Kerberos authentication rather than NTLM.&#x20;
     * PsExec is a great example of a tool that would benefit from this.
 * Other attacks such as Silver Tickets and and Pass the Ticket have plenty of documentation online. Consult online guides when encountering this.
+*   Invoke-Kerberoast
+
+    ```
+    Invoke-Kerberoast -OutputFormat HashCat|Select-Object -ExpandProperty hash
+    ```
 
 #### Get Domain Computers
 
