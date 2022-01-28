@@ -18,3 +18,7 @@ description: >-
 ### Fix Kirbi2John Run Issues
 
 `sudo apt-get install gcc python-dev libkrb5-dev`
+
+Alternatively, just use kirbi2john that is available straight from the 'Kerberoast' repo:
+
+* [https://github.com/nidem/kerberoast](https://github.com/nidem/kerberoast)
