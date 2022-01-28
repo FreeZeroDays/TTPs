@@ -87,6 +87,7 @@
 ## OSCP
 
 * [OSCP Must-read Resources](oscp/oscp-must-read-resources.md)
+* [Active Directory Methodology](oscp/active-directory-methodology.md)
 * [Pre-OSCP Tooling Checklist](oscp/pre-oscp-tooling-checklist.md)
 * [OSCP Notes](oscp/oscp-notes.md)
 * [Enumeration Checklist](oscp/enumeration-checklist.md)
