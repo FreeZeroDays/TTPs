@@ -170,6 +170,7 @@ Best TTY upgrade:
 * Transferring a file such as a .doc to a FTP share? Reminder to use `binary` before doing so or else it will upload as ASCII.&#x20;
 * When enumerating FTP, ensure you run `dir -a` to enumerate any hidden files or directories on the system. You may find l00t!
 * Metasploit and Meterpreter are only allowed against one machine in the exam so ensure that you are sure before executing. There may be other ways to accomplish what you want (e.g., CrackMapExec, Lsassy, etc).&#x20;
+* If `ifconfig` and `ip addr` are not working to get the IP address of a machine for a screenshot you can utilize `/sbin/ifconfig`
 
 ### Python Priv Esc
 
