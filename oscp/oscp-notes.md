@@ -49,6 +49,7 @@ description: Just some rough notes in preparation for the OSCP.
 ### Privilege Escalation - Linux
 
 * If LinPEAS doesn't return anything useful then it is possible you already have the information needed to privilege escalate. Try default passwords, [priv esc with fail2ban](https://grumpygeekwrites.wordpress.com/2021/01/29/privilege-escalation-via-fail2ban/), and other common tricks.
+* [Docker Privesc](http://revshells.com)
 * Don't forget to check for any Kernel exploits.&#x20;
   * `uname -a`
 * For privilege escalation with fail2ban, use a netcat shell or modify the permissions of `/etc/shadow`
@@ -115,7 +116,8 @@ description: Just some rough notes in preparation for the OSCP.
   * After conducting this attack we can use any tooling that relies on Kerberos authentication rather than NTLM.&#x20;
     * PsExec is a great example of a tool that would benefit from this.
 * Other attacks such as Silver Tickets and and Pass the Ticket have plenty of documentation online. Consult online guides when encountering this.
-*   Invoke-Kerberoast
+* [Another great Kerberoasting resource](https://stealthbits.com/blog/extracting-service-account-passwords-with-kerberoasting/)
+*   [Invoke-Kerberoast](https://www.pentestpartners.com/security-blog/how-to-kerberoast-like-a-boss/)
 
     ```
     Invoke-Kerberoast -OutputFormat HashCat|Select-Object -ExpandProperty hash
