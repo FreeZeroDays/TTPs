@@ -202,6 +202,7 @@ def start(text,value):
 * [iRedTeam Cheatsheet](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
 * [Impacket Cheatsheet](https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a)
 * [Amazing GitBook Reference](https://gitbook.brainyou.stream/basic-windows/tcm-win-privesc)
+* [Privilege Escalation (Great resource)](https://oscp.securable.nl/privilege-escalation)
 
 ### References While Building my Notes
 
