@@ -50,7 +50,7 @@ description: >-
   * Make sure you revisit SMB shares if credentials are identified.
 * [ ] Enumerate LDAP
   * Get the naming context with `ldapsearch -h [IP] -x -s base namingcontexts`
-  * \`ldapsearch -h \[IP] -x -b "DC=htb,DC=local"
+  * `ldapsearch -h [IP] -x -b "DC=htb,DC=local"`
 * [ ] Enumerate RPC with rpcclient.
   * `rpcclient -U '' [IP]`
     * Enumerate all users with: `enumdomusers`
