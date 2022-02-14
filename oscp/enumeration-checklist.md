@@ -48,6 +48,9 @@ description: >-
 * [ ] Run SMBMap against any identified SMB services.&#x20;
   * These can then be manually accessed with SMBClient: `smbclient \\[IP]\[share]`
   * Make sure you revisit SMB shares if credentials are identified.
+* [ ] Enumerate LDAP
+  * Get the naming context with `ldapsearch -h [IP] -x -s base namingcontexts`
+  * \`ldapsearch -h \[IP] -x -b "DC=htb,DC=local"
 * [ ] Enumerate RPC with rpcclient.
   * `rpcclient -U '' [IP]`
     * Enumerate all users with: `enumdomusers`
