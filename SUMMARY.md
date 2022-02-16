@@ -33,6 +33,7 @@
     * [Password Cracking](red-team/credential\_access/brute\_force/password\_cracking/README.md)
       * [Hashcat Tips](red-team/credential\_access/brute\_force/password\_cracking/hashcat\_tips.md)
       * [Password Cracking Resources](red-team/credential\_access/brute\_force/password\_cracking/password\_cracking\_resources.md)
+    * [Create a Custom Wordlist with Hashcat](red-team/credential\_access/brute\_force/create-a-custom-wordlist-with-hashcat.md)
   * [Password Spraying](red-team/credential\_access/password\_spraying/README.md)
     * [Spray Microsoft](red-team/credential\_access/password\_spraying/spray\_microsoft.md)
   * [OS Credential Dumping](red-team/credential\_access/os-credential-dumping/README.md)
