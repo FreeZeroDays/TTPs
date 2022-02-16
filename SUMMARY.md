@@ -45,6 +45,9 @@
 * [Lateral Movement](red-team/lateral\_movement/README.md)
   * [WinRM](red-team/lateral\_movement/winrm.md)
   * [Check if your tunnel is active](red-team/lateral\_movement/check\_if\_tunnel\_is\_alive.md)
+* [Command and Control](red-team/command-and-control/README.md)
+  * [Protocol Tunneling](red-team/command-and-control/protocol-tunneling/README.md)
+    * [Using Chisel to Pivot](red-team/command-and-control/protocol-tunneling/using-chisel-to-pivot.md)
 
 ## Tools
 
