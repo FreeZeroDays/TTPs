@@ -42,12 +42,14 @@
 * [Attacking\_Active\_Directory:\_0\_to\_0.9](https://zer1t0.gitlab.io/posts/attacking\_ad/)
 * [Windows\_Lateral\_Movement\_with\_SMB\_Psexec\_and\_Alternatives](https://nv2lt.github.io/windows/smb-psexec-smbexec-winexe-how-to/)
 * [Web\_Shells\_101\_Using\_PHP](https://www.acunetix.com/blog/articles/web-shells-101-using-php-introduction-web-shells-part-2/)
+*
 
 ## Checklists
 
 * [Checklists to be used in Penetration Testing and Red Teaming](https://github.com/netbiosX/Checklists)
 * [WebPentestChecklist](https://github.com/D3n0Duz/WebPentestChecklist)
 * [Cloud Penetration Testing Cheatsheets](https://github.com/dafthack/CloudPentestCheatsheets)
+* [A\_Primer\_on\_DCSync\_Attack\_and\_Detection](https://www.alteredsecurity.com/post/a-primer-on-dcsync-attack-and-detection)
 
 ## Mindmaps
 
