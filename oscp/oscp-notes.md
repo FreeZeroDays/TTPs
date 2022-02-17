@@ -75,6 +75,9 @@ description: Just some rough notes in preparation for the OSCP.
 ### Privilege Escalation - Windows
 
 * PowerShell Empire has some great PS1 scripts readily available such as `Invoke-Watson` and `Invoke-MS16032` as examples. Their `Mimikatz.ps1` is also great. These can be accessed at `/usr/share/powershell-empire/empire/server/data/module_source/`
+* Use the following command to search for cleartext passwords in registry:
+  * `reg query HKCU /f password /t REG_SZ /s`
+  * In some cases this may be modified to `reg query HKCU /f pass /t REG_SZ /s`
 * Lots of people seem to forget that Windows binaries are readily available on Kali.&#x20;
   * `/usr/share/windows-binaries`
 * Fix your Windows path with the following command: `set PATH=%SystemRoot%\system32;%SystemRoot%;`
