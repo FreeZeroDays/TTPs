@@ -31,3 +31,5 @@ These should be considered 'simple' notes. I tend to overcomplicate things in ex
    * Also try to Pass the Ticket
 8. Run Mimikatz on all systems
    * Enumerate both password hashes and tickets.
+     * `sekurlsa::logonpasswords`
+     * `sekurlsa::tickets`
