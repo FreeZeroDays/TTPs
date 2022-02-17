@@ -106,4 +106,5 @@
     * [Privilege Escalation](certifications/oscp/oscp-notes/privilege-escalation.md)
     * [Active Directory](certifications/oscp/oscp-notes/active-directory/README.md)
       * [Active Directory Methodology](certifications/oscp/oscp-notes/active-directory/active-directory-methodology.md)
+    * [Transferring Files](certifications/oscp/oscp-notes/transferring-files.md)
   * [Must-read Resources](certifications/oscp/oscp-must-read-resources.md)
