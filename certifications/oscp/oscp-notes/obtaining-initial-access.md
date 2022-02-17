@@ -13,3 +13,4 @@ description: Rough notes on obtaining initial access
   * Using this we can potentially turn an LFI into RCE. An example user agent would be the following: `User-Agent: <?php system(\$_GET['c']); ?>`
 * Log into the SMTP server to identify the version if it is not returned in the Nmap scan. Identifying Postfix means that multiple exploits from Searchsploit may work: `searchsploit postfix`
 * Narrowing down a version number of an application can greatly increase your chances of finding an exploit.&#x20;
+* If you ever have LFI and SSH is open, try reading the `id_rsa` file for any users that have been enumerated.

