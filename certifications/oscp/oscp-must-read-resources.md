@@ -16,7 +16,9 @@ description: >-
 
 * [Tips from the PWK Labs and PG Practice](https://ivanitlearning.wordpress.com/2021/06/02/tips-from-the-pwk-labs-and-pg-practice/)
 * [OSCP Exam Guide: Preparing and Passing](https://hacksouth.africa/community/oscp-guide/)
+* [IppSec Rocks](https://ippsec.rocks/?#)
 
 ### Preparation
 
 * [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159)
+* [Fish Walkthrough With S1REN](https://www.youtube.com/watch?v=E7kWhJNqPVE)
