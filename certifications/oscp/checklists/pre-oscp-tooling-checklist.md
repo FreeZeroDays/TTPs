@@ -1,7 +1,5 @@
 ---
-description: >-
-  List of tool checks I recommend performing prior to taking the OSCP. These
-  assume you are using Kali Linux.
+description: List of tool checks I recommend performing prior to taking the OSCP.
 ---
 
 # Pre-OSCP Tooling Checklist
@@ -26,4 +24,4 @@ description: >-
 * [ ] BloodHound (Setup and connected to the DB)
 * [ ] Outdated version of Mimikatz
 * [ ] Fix [enum4linux](https://github.com/CiscoCXSecurity/enum4linux/blob/master/enum4linux.pl) and/or install [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
-* [ ] [Webshells](oscp-notes.md#shells)&#x20;
+* [ ] [Webshells](broken-reference)&#x20;

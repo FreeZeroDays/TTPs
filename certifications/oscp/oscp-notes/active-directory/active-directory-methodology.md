@@ -1,5 +1,5 @@
 ---
-description: Notes on OSCP related Active Directory Methodology
+description: Active Directory methodology.
 ---
 
 # Active Directory Methodology

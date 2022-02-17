@@ -1,8 +1,10 @@
 ---
-description: Must-read resources for the OSCP targeted at new updated 2022 exam format.
+description: >-
+  Must-read resources for the OSCP targeted at the newly updated 2022 exam
+  format.
 ---
 
-# OSCP Must-read Resources
+# Must-read Resources
 
 ### From Offensive Security
 

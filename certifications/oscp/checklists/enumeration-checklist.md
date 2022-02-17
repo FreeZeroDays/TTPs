@@ -1,6 +1,6 @@
 ---
 description: >-
-  Compilation of checklists I've crafted that were edited when learning new
+  Compilation of checklists I crafted that was updated/edited when learning new
   techniques throughout various CTFs.
 ---
 
