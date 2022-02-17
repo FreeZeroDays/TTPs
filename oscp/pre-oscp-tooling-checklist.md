@@ -20,9 +20,10 @@ description: >-
 * [ ] LinPEAS and WinPEAS Binaries.&#x20;
   * [ ] Along with LinuxExploitSuggester, etc.
 * [ ] Pspy
+* [ ] GoBuster
 * [ ] NmapAutomator (If you plan on using it)
 * [ ] Windapsearch
 * [ ] BloodHound (Setup and connected to the DB)
 * [ ] Outdated version of Mimikatz
-* [ ] Fix [enum4linux](https://github.com/CiscoCXSecurity/enum4linux/blob/master/enum4linux.pl) or install [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
+* [ ] Fix [enum4linux](https://github.com/CiscoCXSecurity/enum4linux/blob/master/enum4linux.pl) and/or install [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
 * [ ] [Webshells](oscp-notes.md#shells)&#x20;

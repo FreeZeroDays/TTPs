@@ -21,10 +21,13 @@ These should be considered 'simple' notes. I tend to overcomplicate things in ex
 #### Basic Methodology
 
 1. Gain access to a user on the active directory environment.
-2. Enumerate all computers on the domain.&#x20;
-3. Enumerate all users logged onto computers that we have local administrator access to.
-4. Kerberoast with any user account acquired (GetUserSPNs, Invoke-Kerberoast, etc)
-5. Attempt password spraying against all user accounts
-6. Pass the Hash to pivot
-7. Run Mimikatz on all systems
+2. Enumerate the domain with the commands listed above.
+3. Enumerate all computers on the domain.&#x20;
+   * Don't just enumerate one computer.. Enumerate them all.
+4. Enumerate all users logged onto computers that we have local administrator access to.
+5. Kerberoast with any user account acquired (GetUserSPNs, Invoke-Kerberoast, etc)
+6. Attempt password spraying against all user accounts
+7. Pass the Hash to pivot
+   * Also try to Pass the Ticket
+8. Run Mimikatz on all systems
    * Enumerate both password hashes and tickets.

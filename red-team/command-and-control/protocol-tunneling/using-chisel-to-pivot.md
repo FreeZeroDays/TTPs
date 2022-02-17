@@ -26,3 +26,7 @@ The easiest way to verify if your `Chisel` connection was successful is to run t
 ### Interaction
 
 Ensure to remember that you will be interacting with `localhost` after forwarding a port. For example, by running `nmap -sC -sV -p3306 -n localhost`
+
+### References
+
+* [Pivoting with Chisel](https://ap3x.github.io/posts/pivoting-with-chisel/)
