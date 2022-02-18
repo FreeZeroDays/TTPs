@@ -107,4 +107,5 @@
     * [Active Directory](certifications/oscp/oscp-notes/active-directory/README.md)
       * [Active Directory Methodology](certifications/oscp/oscp-notes/active-directory/active-directory-methodology.md)
     * [Transferring Files](certifications/oscp/oscp-notes/transferring-files.md)
+    * [Buffer Overflow](certifications/oscp/oscp-notes/buffer-overflow.md)
   * [Must-read Resources](certifications/oscp/oscp-must-read-resources.md)

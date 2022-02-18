@@ -50,6 +50,7 @@ description: Rough notes on privilege escalation
   * [0x1 Gitlab](https://0x1.gitlab.io/exploit/Windows-Privilege-Escalation/#juicy-potato-abusing-the-golden-privileges)
   * [Juicy Potato Walkthrough](https://medium.com/r3d-buck3t/impersonating-privileges-with-juicy-potato-e5896b20d505)
   * [https://github.com/SecWiki/windows-kernel-exploits](https://github.com/SecWiki/windows-kernel-exploits)&#x20;
+  * [Windows Exploit Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester)
 
 ### Python Priv Esc
 
