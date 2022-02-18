@@ -13,4 +13,6 @@ description: >-
    1. &#x20;TTL > 64 it is most likely a Linux box
    2. TTL > 128 it is most likely a Windows
    3. TTL < 128 then most likely some type of networking device.
-3.
+3. Some quick notes on organizing tooling:
+   * Download and place the tool into /opt/ (e.g., Aquatone).&#x20;
+   * Execute the following command on the Aquatone binary: `ln -s /opt/aquatone/aquatone /usr/local/bin/aquatone`

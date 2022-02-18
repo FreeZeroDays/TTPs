@@ -92,6 +92,7 @@
 
 * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
 * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
+* [Cross-Site Scripting](web-application/cross-site-scripting.md)
 
 ## Certifications
 
