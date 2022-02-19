@@ -16,3 +16,6 @@ description: >-
 3. Some quick notes on organizing tooling:
    * Download and place the tool into /opt/ (e.g., Aquatone).&#x20;
    * Execute the following command on the Aquatone binary: `ln -s /opt/aquatone/aquatone /usr/local/bin/aquatone`
+4. Reverse shell preferences:
+   * External: Bind shell
+   * Internal: Reverse shell

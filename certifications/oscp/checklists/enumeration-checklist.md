@@ -15,6 +15,8 @@ description: >-
 * [ ] Run enum4linux against the host.&#x20;
   * Ensure you upgrade to the latest version of enum4linux as the one shipped on Kali appears to be broken as of writing this.
   * Alternatively, use [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
+* [ ] Run Autorecon:
+  * `autorecon —nmap-append=‘—min-rate 1000’ —exclude-tags=’top-100-udp-ports'`
 
 ### Web Server Checklist
 
