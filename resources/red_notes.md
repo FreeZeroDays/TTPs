@@ -19,3 +19,5 @@ description: >-
 4. Reverse shell preferences:
    * External: Bind shell
    * Internal: Reverse shell
+5. [Microsoft has a great reference](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/versions-and-dependencies) for .NET Framework & Windows OS Versions. We can then [use a precompiled binary from SharpCollection](https://github.com/Flangvik/SharpCollection) to exploit the system.
+   * Compile the binaries yourself.. Unless it's a CTF.
