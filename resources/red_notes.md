@@ -21,3 +21,4 @@ description: >-
    * Internal: Reverse shell
 5. [Microsoft has a great reference](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/versions-and-dependencies) for .NET Framework & Windows OS Versions. We can then [use a precompiled binary from SharpCollection](https://github.com/Flangvik/SharpCollection) to exploit the system.
    * Compile the binaries yourself.. Unless it's a CTF.
+6. Performing password spraying with [SprayCharles](https://github.com/Tw1sm/spraycharles) from my experience is more successful than using the [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit). Ran into a situation on an engagement where multiple valid logins were reported as invalid by SprayingToolkit.&#x20;
