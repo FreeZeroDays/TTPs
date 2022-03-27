@@ -17,9 +17,11 @@
   * [Exploitation with PowerShell](red-team/exploitation/exploitation\_with\_powershell.md)
   * [Easy Hacks](red-team/exploitation/easy\_hacks.md)
 * [Persistence](red-team/persistence/README.md)
-  * [Create Golden Ticket](red-team/persistence/create\_golden\_ticket.md)
-  * [Skeleton Key](red-team/persistence/skeleton\_key.md)
-  * [Watershell](red-team/persistence/watershell.md)
+  * [Linux](red-team/persistence/linux/README.md)
+    * [Systemd Service Persistence](red-team/persistence/linux/systemd-service-persistence.md)
+  * [Windows](red-team/persistence/windows/README.md)
+    * [Skeleton Key](red-team/persistence/windows/skeleton\_key.md)
+    * [Create Golden Ticket](red-team/persistence/windows/create\_golden\_ticket.md)
 * [Privilege Escalation](red-team/privilege\_escalation/README.md)
   * [Linux](red-team/privilege\_escalation/linux.md)
   * [Windows](red-team/privilege\_escalation/windows/README.md)
@@ -81,14 +83,14 @@
 ## Resources
 
 * [Penetration Testing Tools](resources/penetration\_testing\_tools.md)
-* [Offensive Security Notes](resources/red\_notes.md)
 * [Blog Posts and Goodies](Resources/Blog\_Posts\_and\_Goodies.md)
 
 ## Miscellaneous
 
+* [Offensive Security Notes](miscellaneous/red\_notes.md)
 * [Segmentation Testing Notes](miscellaneous/segmentation\_testing\_notes.md)
-* [Useful Commands](miscellaneous/useful\_commands.md)
 * [Common Troubleshooting](Miscellaneous/Common\_Troubleshooting.md)
+* [Useful Commands](miscellaneous/useful\_commands.md)
 
 ## Web Application
 
