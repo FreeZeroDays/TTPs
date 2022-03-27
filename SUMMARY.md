@@ -19,6 +19,7 @@
 * [Persistence](red-team/persistence/README.md)
   * [Create Golden Ticket](red-team/persistence/create\_golden\_ticket.md)
   * [Skeleton Key](red-team/persistence/skeleton\_key.md)
+  * [Watershell](red-team/persistence/watershell.md)
 * [Privilege Escalation](red-team/privilege\_escalation/README.md)
   * [Linux](red-team/privilege\_escalation/linux.md)
   * [Windows](red-team/privilege\_escalation/windows/README.md)
