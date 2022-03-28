@@ -28,6 +28,7 @@
     * [Privilege Escalation with SeLoadDriverPrivilege](red-team/privilege\_escalation/windows/seloaddriverprivilege.md)
     * [Juicy Potato](red-team/privilege\_escalation/windows/juicy-potato.md)
     * [Service Exploitation](red-team/privilege\_escalation/windows/service-exploitation.md)
+    * [Create Account: Domain Account](red-team/privilege\_escalation/windows/create-account-domain-account.md)
 * [Defense Evasion](red-team/defense\_evasion/README.md)
   * [Disable Antivirus](red-team/defense\_evasion/disable\_antivirus.md)
 * [Discovery](red-team/discovery/README.md)
