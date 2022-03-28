@@ -6,8 +6,10 @@
 ## Red Team
 
 * [Reconnaissance](red-team/reconnaissance/README.md)
-  * [Gather Employee Emails](red-team/reconnaissance/gather\_employee\_emails\_and\_usernames.md)
-  * [Find IP Addresses Owned by a Company](red-team/reconnaissance/identify\_ip\_addresses\_owned\_by\_a\_company.md)
+  * [Gather Victim Identity Information](red-team/reconnaissance/gather-victim-identity-information/README.md)
+    * [Gather Employee Email Addresses](red-team/reconnaissance/gather-victim-identity-information/gather\_employee\_emails\_and\_usernames.md)
+  * [Gather Victim network Information](red-team/reconnaissance/gather-victim-network-information/README.md)
+    * [Gather IP Addresses](red-team/reconnaissance/gather-victim-network-information/identify\_ip\_addresses\_owned\_by\_a\_company.md)
 * [Initial Access](red-team/initial\_access/README.md)
   * [Phishing](red-team/initial\_access/phishing/README.md)
     * [Creating Templates](red-team/initial\_access/phishing/creating\_templates.md)
