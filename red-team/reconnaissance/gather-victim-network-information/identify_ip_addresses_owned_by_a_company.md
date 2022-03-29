@@ -2,7 +2,7 @@
 description: This section lists multiple ways to identify IP addresses owned by a company
 ---
 
-# Find IP Addresses Owned by a Company
+# Gather IP Addresses
 
 ## Hurricane Electric Internet Services
 
@@ -16,11 +16,11 @@ description: This section lists multiple ways to identify IP addresses owned by 
 
 [NetblockTool](https://github.com/NetSPI/NetblockTool) can be used to gather IP ranges, points of contact, and even netblocks belonging to your target’s subsidiaries
 
-Basic usage \\
+Basic usage&#x20;
 
 `python3 NetblockTool.py -v [COMPANY]`
 
-Extract ranges owned by the target company’s subsidiaries \\
+Extract ranges owned by the target company’s subsidiaries
 
 `python3 NetblockTool.py -v Company -s`
 
