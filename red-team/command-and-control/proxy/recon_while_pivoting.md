@@ -4,7 +4,7 @@ description: >-
   beacon.
 ---
 
-# Recon while Pivoting
+# Recon Through Proxychains
 
 ### Nmap Scanning with Proxychains
 

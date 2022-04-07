@@ -108,20 +108,3 @@
 * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
 * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
 * [Cross-Site Scripting](web-application/cross-site-scripting.md)
-
-## Certifications
-
-* [OSCP](certifications/oscp/README.md)
-  * [Checklists](certifications/oscp/checklists/README.md)
-    * [Enumeration Checklist](certifications/oscp/checklists/enumeration-checklist.md)
-    * [Pre-OSCP Tooling Checklist](certifications/oscp/checklists/pre-oscp-tooling-checklist.md)
-  * [OSCP Notes](certifications/oscp/oscp-notes/README.md)
-    * [Enumeration](certifications/oscp/oscp-notes/enumeration.md)
-    * [Web Application](certifications/oscp/oscp-notes/web-application.md)
-    * [Obtaining Initial Access](certifications/oscp/oscp-notes/obtaining-initial-access.md)
-    * [Privilege Escalation](certifications/oscp/oscp-notes/privilege-escalation.md)
-    * [Active Directory](certifications/oscp/oscp-notes/active-directory/README.md)
-      * [Active Directory Methodology](certifications/oscp/oscp-notes/active-directory/active-directory-methodology.md)
-    * [Transferring Files](certifications/oscp/oscp-notes/transferring-files.md)
-    * [Buffer Overflow](certifications/oscp/oscp-notes/buffer-overflow.md)
-  * [Must-read Resources](certifications/oscp/oscp-must-read-resources.md)
