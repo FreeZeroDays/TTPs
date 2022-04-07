@@ -35,9 +35,11 @@
   * [Impair Defenses](red-team/defense\_evasion/impair-defenses/README.md)
     * [Disable Antivirus](red-team/defense\_evasion/impair-defenses/disable\_antivirus.md)
 * [Discovery](red-team/discovery/README.md)
-  * [Domain Enumeration](red-team/discovery/domain\_enumeration.md)
-  * [Recon while Pivoting](red-team/discovery/recon\_while\_pivoting.md)
-  * [BloodHound Queries](red-team/discovery/bloodhound\_queries.md)
+  * [Network Sniffing](red-team/discovery/network-sniffing/README.md)
+    * [PCredz](red-team/discovery/network-sniffing/pcredz.md)
+  * [Domain Discovery](red-team/discovery/domain-discovery/README.md)
+    * [Domain Enumeration](red-team/discovery/domain-discovery/domain\_enumeration.md)
+    * [BloodHound Queries](red-team/discovery/domain-discovery/bloodhound\_queries.md)
 * [Credential Access](red-team/credential\_access/README.md)
   * [Unsecured Credentials](red-team/credential\_access/unsecured\_credentials-1/README.md)
     * [Finding Credentials with MANSPIDER](red-team/credential\_access/unsecured\_credentials-1/finding\_credentials\_with\_manspider.md)
@@ -59,6 +61,8 @@
   * [Protocol Tunneling](red-team/command-and-control/protocol-tunneling/README.md)
     * [Using Chisel to Pivot](red-team/command-and-control/protocol-tunneling/using-chisel-to-pivot.md)
     * [Check if SSH Tunnel is Active](red-team/command-and-control/protocol-tunneling/check\_if\_tunnel\_is\_alive.md)
+  * [Proxy](red-team/command-and-control/proxy/README.md)
+    * [Recon Through Proxychains](red-team/command-and-control/proxy/recon\_while\_pivoting.md)
 
 ## Tools
 
