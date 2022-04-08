@@ -43,6 +43,7 @@
 * [Credential Access](red-team/credential\_access/README.md)
   * [Unsecured Credentials](red-team/credential\_access/unsecured\_credentials-1/README.md)
     * [Finding Credentials with MANSPIDER](red-team/credential\_access/unsecured\_credentials-1/finding\_credentials\_with\_manspider.md)
+    * [Group Policy Preferences](red-team/credential\_access/unsecured\_credentials-1/group-policy-preferences.md)
   * [Brute Force](red-team/credential\_access/brute\_force/README.md)
     * [Password Cracking](red-team/credential\_access/brute\_force/password\_cracking/README.md)
       * [Hashcat Tips](red-team/credential\_access/brute\_force/password\_cracking/hashcat\_tips.md)
