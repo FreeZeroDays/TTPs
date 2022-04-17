@@ -6,17 +6,23 @@ description: Aireplay-ng is used to inject frames.
 
 ## Usage
 
-Perform an injection test
+Perform an injection test:
 
-`aireplay-ng -9 wlan1mon`
+```bash
+aireplay-ng -9 wlan1mon
+```
 
-Perform a card to card injection test
+Perform a card to card injection test:
 
-`aireplay-ng -9 -i wlan0 wlan1mon`
+```bash
+aireplay-ng -9 -i wlan0 wlan1mon
+```
 
 Perform a deauthentication attack - This attack sends disassocate packets to one or more clients which are currently associated with a particular access point.
 
-`aireplay-ng -0 1 -a [ACCESS POINT MAC] -c [CLIENT MAC] wlan1mon`
+```bash
+aireplay-ng -0 1 -a [ACCESS POINT MAC] -c [CLIENT MAC] wlan1mon
+```
 
 ## References
 

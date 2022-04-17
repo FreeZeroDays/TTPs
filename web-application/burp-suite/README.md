@@ -1,8 +1,8 @@
 ---
-description: Burp Suite is the web security tester's toolkit of choice.
+description: Notes around using and performing testing with Burp Suite
 ---
 
-# Burp\_Suite
+# Burp Suite
 
 ### Installation
 

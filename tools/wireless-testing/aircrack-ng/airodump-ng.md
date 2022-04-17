@@ -11,11 +11,15 @@ description: >-
 
 Run airodump-ng - it should be noted that airmon-ng needs to be running first
 
-`airodump-ng wlan1`
+```bash
+airodump-ng wlan1
+```
 
-Target a specific BSSID and channel with airodum-ng and write the output to a file.
+Target a specific BSSID and channel with airodum-ng and write the output to a file:
 
-`airodump-ng --bssid [BSSID] -c [CHANNEL] -w [FILENAME] wlan1`
+```bash
+airodump-ng --bssid [BSSID] -c [CHANNEL] -w [FILENAME] wlan1
+```
 
 ## References
 

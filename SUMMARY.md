@@ -70,6 +70,8 @@
 * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
 * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
 * [Cross-Site Scripting](web-application/cross-site-scripting.md)
+* [Burp Suite](web-application/burp-suite/README.md)
+  * [Intruder Attack Types](web-application/burp-suite/intruder\_attack\_types.md)
 
 ## Tools
 
@@ -89,9 +91,6 @@
     * [mssqlclient.py](tools/exploitation/impacket/mssqlclient.py.md)
   * [CrackMapExec](tools/exploitation/crackmapexec/README.md)
     * [CrackMapExec Examples](tools/exploitation/crackmapexec/crackmapexec\_examples.md)
-* [Web Application](tools/web-application/README.md)
-  * [Burp Suite](tools/web-application/burp\_suite/README.md)
-    * [Intruder Attack Types](tools/web-application/burp\_suite/intruder\_attack\_types.md)
 * [Wireless Testing](tools/wireless-testing/README.md)
   * [Aircrack-ng](tools/wireless-testing/aircrack-ng/README.md)
     * [Aireplay-ng](tools/wireless-testing/aircrack-ng/aireplay-ng.md)
