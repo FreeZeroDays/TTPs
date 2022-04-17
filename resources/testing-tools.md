@@ -1,10 +1,10 @@
 ---
 description: >-
-  List of tools commonly used for penetration testing and broke down into
+  List of tools commonly used for testing and broken down into
   specific categories.
 ---
 
-# Penetration Testing Tools
+# Testing Tools
 
 ## Validating Scope
 
