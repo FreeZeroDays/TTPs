@@ -100,12 +100,12 @@
 
 ## Resources
 
-* [Penetration Testing Tools](resources/penetration\_testing\_tools.md)
-* [Blog Posts and Goodies](Resources/Blog\_Posts\_and\_Goodies.md)
+* [Penetration Testing Tools](resources/penetration-testing-tools.md)
+* [Blog Posts and Goodies](resources/blog-posts-and-goodies.md)
 
 ## Miscellaneous
 
 * [Offensive Security Notes](miscellaneous/red\_notes.md)
 * [Segmentation Testing Notes](miscellaneous/segmentation\_testing\_notes.md)
-* [Common Troubleshooting](Miscellaneous/Common\_Troubleshooting.md)
 * [Useful Commands](miscellaneous/useful\_commands.md)
+* [Common Troubleshooting](miscellaneous/common-troubleshooting.md)
