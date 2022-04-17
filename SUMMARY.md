@@ -17,7 +17,7 @@
     * [Picking a Time to Send Phishing Emails](red-team/initial\_access/phishing/picking\_a\_time.md)
 * [Execution](red-team/exploitation/README.md)
   * [Command and Scripting Interpreter](red-team/exploitation/command-and-scripting-interpreter/README.md)
-    * [Offensive PowerShell](red-team/exploitation/command-and-scripting-interpreter/exploitation\_with\_powershell.md)
+    * [PowerShell](red-team/exploitation/command-and-scripting-interpreter/exploitation\_with\_powershell.md)
 * [Persistence](red-team/persistence/README.md)
   * [Linux](red-team/persistence/linux/README.md)
     * [Systemd Service Persistence](red-team/persistence/linux/systemd-service-persistence.md)

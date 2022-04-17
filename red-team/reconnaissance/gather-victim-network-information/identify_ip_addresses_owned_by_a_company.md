@@ -4,6 +4,8 @@ description: This section lists multiple ways to identify IP addresses owned by 
 
 # Gather IP Addresses
 
+[Reconnaissance, Sub-technique T1590.005](https://attack.mitre.org/techniques/T1590/005/)
+
 ## Hurricane Electric Internet Services
 
 [Hurricane Electric Internet Services](https://bgp.he.net) is a fast way to identify what company owns what IP
@@ -18,11 +20,16 @@ description: This section lists multiple ways to identify IP addresses owned by 
 
 Basic usage&#x20;
 
-`python3 NetblockTool.py -v [COMPANY]`
+```bash
+python3 NetblockTool.py -v [COMPANY]
+```
 
 Extract ranges owned by the target company’s subsidiaries
 
-`python3 NetblockTool.py -v Company -s`
+```bash
+python3 NetblockTool.py -v Company -s
+
+```
 
 ## References
 
