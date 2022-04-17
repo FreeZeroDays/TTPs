@@ -8,6 +8,8 @@ description: Threats, Tactics, and Procedures (TTPs)
 
 If you're looking for a collection of offensive security notes & miscellaneous resources then you've come to the right place.
 
+This collection inspired by both [snovvcrash](https://github.com/snovvcrash) and [sneakerhax](https://github.com/sneakerhax)'s offensive note collections. I highly recommend checking them both out if you enjoy mine! 
+
 ## Entries
 
 * **Red Team** - Red Teaming TTPs
@@ -15,3 +17,7 @@ If you're looking for a collection of offensive security notes & miscellaneous r
 * **Tools** - Tooling-specific tips and tricks.&#x20;
 * **Resources** - Resources for various topics / this section includes link dumps to useful blog posts, tooling, and more!
 * **Miscellaneous** - Collection of random notes that don't have a place elsewhere in this repo - probably needs to be sorted and may change often as things find a new home!
+
+{% hint style="warning" %} DISCLAIMER. All information contained in this blog is provided for educational and research purposes only. The author is not responsible for any illegal use of any information published on the pages of this blog. {% endhint %}
+
+{% embed url="https://github.com/FreeZeroDays" caption="GitHub" %}
