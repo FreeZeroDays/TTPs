@@ -36,7 +36,9 @@ Cached credential set to 0 on servers
 Cached credential set to 1 on workstations
 ```
 
-Additionally, when cleartext credentials are retrieved from LSA Secrets it is due to the credentials being stored for a service (E.g., creating a service with a custom user account). To mitigate this issue, avoid using a custom user account to create the service.&#x20;
+When cleartext credentials are retrieved from LSA Secrets it is due to the credentials being stored for a service (E.g., creating a service with a custom user account).
+
+To mitigate this issue, avoid using a domain account for the service. Best practice is to avoid using a domain user account for services. Rather, create a local account to run the service. If specific domain user rights are needed then create an account with the _specific_ rights required. It should also be stated to **never** use a domain administrator account for a service.
 
 ### References
 
