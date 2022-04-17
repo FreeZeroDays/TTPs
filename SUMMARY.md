@@ -65,6 +65,12 @@
   * [Proxy](red-team/command-and-control/proxy/README.md)
     * [Recon Through Proxychains](red-team/command-and-control/proxy/recon\_while\_pivoting.md)
 
+## Web Application
+
+* [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
+* [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
+* [Cross-Site Scripting](web-application/cross-site-scripting.md)
+
 ## Tools
 
 * [Enumeration](tools/enumeration/README.md)
@@ -103,9 +109,3 @@
 * [Segmentation Testing Notes](miscellaneous/segmentation\_testing\_notes.md)
 * [Common Troubleshooting](Miscellaneous/Common\_Troubleshooting.md)
 * [Useful Commands](miscellaneous/useful\_commands.md)
-
-## Web Application
-
-* [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
-* [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
-* [Cross-Site Scripting](web-application/cross-site-scripting.md)

@@ -1,3 +1,9 @@
+---
+description: >-
+  A collection of blog posts & goodies that I have found useful and continue to
+  reference.
+---
+
 # Blog Posts and Goodies
 
 ## Blogs

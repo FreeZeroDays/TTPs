@@ -6,9 +6,12 @@ description: Threats, Tactics, and Procedures (TTPs)
 
 [![License](https://img.shields.io/badge/license-GPL3-lightgrey.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Twitter URL](https://img.shields.io/twitter/follow/FreeZeroDays?label=FreeZeroDays%20%20%F0%9F%90%A6\&style=flat-square)](https://twitter.com/FreeZeroDays)
 
+If you're looking for a collection of offensive security notes & miscellaneous resources then you've come to the right place.
+
 ## Entries
 
-* **Red\_Team** - Red Teaming TTPs
-* **Tools** - Tooling tips and commands / learn how to be l33t and also see some of my tips and tricks
-* **Resources** - Resources to various topics / this section may include links to useful blog posts, tooling, and more!
-* **Miscellaneous** - Collection of random notes that don't have a place elsewhere in this repo
+* **Red Team** - Red Teaming TTPs
+* **Web Application** - List of basic web application vulnerabilities with my notes for each.&#x20;
+* **Tools** - Tooling-specific tips and tricks.&#x20;
+* **Resources** - Resources for various topics / this section includes link dumps to useful blog posts, tooling, and more!
+* **Miscellaneous** - Collection of random notes that don't have a place elsewhere in this repo - probably needs to be sorted and may change often as things find a new home!
