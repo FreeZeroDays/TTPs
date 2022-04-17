@@ -2,52 +2,91 @@
 description: PowerShell remoting for lateral movement
 ---
 
-# WinRM
+# Windows Remote Management
 
 ## Enabling PowerShell Remoting
 
-In a PowerShell console running as administrator enable PowerShell Remoting\
-`Enable-PSRemoting –force`
+In a PowerShell console running as administrator enable PowerShell Remoting:
 
-Set WinRM start mode to automatic\
-`Set-Service WinRM -StartMode Automatic`
+```powershell
+Enable-PSRemoting –force
+```
 
-Verify start mode and state\
-`Get-WmiObject -Class win32_service | Where-Object {$_.name -like "WinRM"}`
+Set WinRM start mode to automatic:
+
+```powershell
+Set-Service WinRM -StartMode Automatic
+```
+
+Verify start mode and state:
+
+```powershell
+Get-WmiObject -Class win32_service | Where-Object {$_.name -like "WinRM"}
+```
 
 ## Set Remote Hosts to Trusted
 
-Configure all hosts to be trusted\
-`Set-Item WSMan:localhost\client\trustedhosts -value *`
+Configure all hosts to be trusted:
 
-Validate trusted hosts configuration\
-`Get-Item WSMan:\localhost\Client\TrustedHosts`
+```powershell
+Set-Item WSMan:localhost\client\trustedhosts -value *
+```
+
+Validate trusted hosts configuration:
+
+```powershell
+Get-Item WSMan:\localhost\Client\TrustedHosts
+```
 
 ## Establishing a Session
 
-Interactive session using the current user\
-`Enter-PsSession –ComputerName [HOST]`
+Interactive session using the current user:
 
-Interactive session with explicit credentials\
-`Enter-PsSession –ComputerName [HOST] –Credentials [DOMAIN\USER]`
+```powershell
+Enter-PsSession –ComputerName [HOST]
+```
 
-Create a background session using the current user\
-`New-PSSession -ComputerName [HOST]`
+Interactive session with explicit credentials:
 
-Create a background session with explicit credentials\
-`New-PSSession –ComputerName server1.domain.com –Credentials [DOMAIN\USER]`
+```powershell
+Enter-PsSession –ComputerName [HOST] –Credentials [DOMAIN\USER]
+```
 
-List background sessions\
-`Get-PSSession`
+Create a background session using the current user::
 
-Interacting with a background session\
-`Enter-PsSession –id [ID]`
+```powershell
+New-PSSession -ComputerName [HOST]
+```
 
-Exiting out of a session\
-`Exit-PsSession`
+Create a background session with explicit credentials:
 
-Remove all background sessions\
-`Get-PSSession | Disconnect-PSSession`
+```powershell
+New-PSSession –ComputerName server1.domain.com –Credentials [DOMAIN\USER]
+```
+
+List background sessions:
+
+```powershell
+Get-PSSession
+```
+
+Interacting with a background session:
+
+```powershell
+Enter-PsSession –id [ID]
+```
+
+Exiting out of a session:
+
+```powershell
+Exit-PsSession
+```
+
+Remove all background sessions:
+
+```powershell
+Get-PSSession | Disconnect-PSSession
+```
 
 ## References
 

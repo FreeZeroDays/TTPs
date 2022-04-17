@@ -19,4 +19,6 @@ Welcome
 
 #### Use Hashcat to Create a Custom Wordlist
 
-`hashcat --force custom -r /usr/share/hashcat/rules/best64.rule --stdout > wordlist`
+```bash
+hashcat --force custom -r /usr/share/hashcat/rules/best64.rule --stdout > wordlist
+```

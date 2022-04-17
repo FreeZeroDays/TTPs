@@ -12,19 +12,24 @@ description: Network sniffing with Pcredz for passive wins during offensive enga
 
 ```bash
 sudo apt install python3-pip && sudo apt-get install libpcap-dev && pip3 install Cython && pip3 install python-libpcap && git clone https://github.com/lgandx/PCredz
-
 ```
 
 ### Usage
 
 #### Live Capture with PCredz
 
-`sudo python3 Pcredz -i eth0 -v`
+```bash
+sudo python3 Pcredz -i eth0 -v
+```
 
 #### Parse a PCAP file with PCredz
 
-`python3 Pcredz -f NetworkCapture.pcap`
+```bash
+python3 Pcredz -f NetworkCapture.pcap
+```
 
 #### Parse a directory of PCAPs with PCredz
 
-`python3 Pcredz -d /tmp/PCAPs/`
+```bash
+python3 Pcredz -d /tmp/PCAPs/
+```

@@ -9,24 +9,32 @@ description: >-
 
 ## Basic Checks
 
-Below are some basic commands to use when performing a segmentation test.\
-It should be noted that these should be modified in order to be more thorough.
+Below are some basic commands to use while performing segmentation testing.\
+It should be noted that these should be modified in order to be more thorough.&#x20;
 
-### ICMP
+### &#x20;ICMP
 
-`nmap -sn 10.0.0.0/24 -oA ICMP_Check`
+```bash
+nmap -sn 10.0.0/24 -oA ICMP_Check
+```
 
 ### TCP
 
-`nmap -sS -Pn -p- -oA TCP_Check`
+```bash
+nmap -sS -Pn -p- 10.0.0/24 -oA TCP_Scan 
+```
 
 ### UDP
 
-`nmap -sU -Pn --top-ports 1000 -oA UDP_Check`
+```bash
+nmap -sU -Pn --top-ports 1000 10.0.0/24 -oA UDP_Scan
+```
 
 ### IPv6
 
-`nmap -6 [IPv6_Address] -oA IPv6_Scan`
+```bash
+nmap -6 [IPv6_Address] -oA IPv6_Scan
+```
 
 ## Notes
 

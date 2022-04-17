@@ -10,8 +10,9 @@ After obtaining Domain Administrator access in an engagement I like to create a 
 
 Steps from a domain controller to create a domain administrator account:
 
-1. `net user parzival password /add /domain`
-2. `net group "Domain Admins" parzival /add /domain`
-3. `net user parzival /comment:"Account created for authorized pentest. Created on XX/XX/XXXX"`
-4. `net user parzival /expires:XX/XX/XXXX`
-
+```powershell
+net user parzival password /add /domain
+net group "Domain Admins" parzival /add /domain
+net user parzival /comment:"Account created for authorized pentest. Created on XX/XX/XXXX"
+net user parzival /expires:XX/XX/XXXX
+```

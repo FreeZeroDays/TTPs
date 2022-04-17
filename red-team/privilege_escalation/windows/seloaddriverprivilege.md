@@ -10,7 +10,9 @@ description: >-
 
 Run the following command to see if the privilege is enabled:
 
-`whoami /priv`
+```bash
+whoami /priv
+```
 
 Regardless of if SeLoadDriverPrivilege is enabled or not, we can run the following tool automagically enable the SeLoadDrivierPrivilege, create a registry key under HKEY\_CURRENT\_USER and execute NTLoadDriver.
 
