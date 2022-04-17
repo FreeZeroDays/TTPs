@@ -100,7 +100,6 @@
 
 ## Resources
 
-* [Penetration Testing Tools](resources/penetration-testing-tools.md)
 * [Blog Posts and Goodies](resources/blog-posts-and-goodies.md)
 
 ## Miscellaneous
