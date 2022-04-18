@@ -40,6 +40,10 @@
   * [Domain Discovery](red-team/discovery/domain-discovery/README.md)
     * [Domain Enumeration](red-team/discovery/domain-discovery/domain\_enumeration.md)
     * [BloodHound Queries](red-team/discovery/domain-discovery/bloodhound\_queries.md)
+  * [Network Service Scanning](red-team/discovery/network-service-scanning/README.md)
+    * [Nmap](red-team/discovery/network-service-scanning/nmap/README.md)
+      * [Basic Nmap Methodology](red-team/discovery/network-service-scanning/nmap/basic\_nmap\_methodology.md)
+      * [NSE Scripts](red-team/discovery/network-service-scanning/nmap/nse\_scripts.md)
 * [Credential Access](red-team/credential\_access/README.md)
   * [Unsecured Credentials](red-team/credential\_access/unsecured\_credentials-1/README.md)
     * [Finding Credentials with MANSPIDER](red-team/credential\_access/unsecured\_credentials-1/finding\_credentials\_with\_manspider.md)
@@ -67,18 +71,24 @@
 
 ## Web Application
 
+* [Burp Suite](web-application/burp-suite/README.md)
+  * [Intruder Attack Types](web-application/burp-suite/intruder\_attack\_types.md)
 * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
 * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
 * [Cross-Site Scripting](web-application/cross-site-scripting.md)
-* [Burp Suite](web-application/burp-suite/README.md)
-  * [Intruder Attack Types](web-application/burp-suite/intruder\_attack\_types.md)
+
+## Wireless Testing
+
+* [Aircrack-ng](wireless-testing/aircrack-ng/README.md)
+  * [Aireplay-ng](wireless-testing/aircrack-ng/aireplay-ng.md)
+  * [Airmon-ng](wireless-testing/aircrack-ng/airmon-ng.md)
+  * [Airodump-ng](wireless-testing/aircrack-ng/airodump-ng.md)
+* [Cracking the Handshake](wireless-testing/cracking-the-handshake.md)
 
 ## Tools
 
 * [Enumeration](tools/enumeration/README.md)
-  * [Nmap](tools/enumeration/nmap/README.md)
-    * [Basic Nmap Methodology](tools/enumeration/nmap/basic\_nmap\_methodology.md)
-    * [NSE Scripts](tools/enumeration/nmap/nse\_scripts.md)
+  * [Nmap](tools/enumeration/nmap.md)
   * [Enum4Linux](tools/enumeration/enum4linux/README.md)
     * [Grep Usernames](tools/enumeration/enum4linux/grep\_usernames.md)
 * [Exploitation](tools/exploitation/README.md)
@@ -91,11 +101,6 @@
     * [mssqlclient.py](tools/exploitation/impacket/mssqlclient.py.md)
   * [CrackMapExec](tools/exploitation/crackmapexec/README.md)
     * [CrackMapExec Examples](tools/exploitation/crackmapexec/crackmapexec\_examples.md)
-* [Wireless Testing](tools/wireless-testing/README.md)
-  * [Aircrack-ng](tools/wireless-testing/aircrack-ng/README.md)
-    * [Aireplay-ng](tools/wireless-testing/aircrack-ng/aireplay-ng.md)
-    * [Airmon-ng](tools/wireless-testing/aircrack-ng/airmon-ng.md)
-    * [Airodump-ng](tools/wireless-testing/aircrack-ng/airodump-ng.md)
 
 ## Resources
 
