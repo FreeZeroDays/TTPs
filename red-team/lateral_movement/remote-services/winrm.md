@@ -1,5 +1,5 @@
 ---
-description: PowerShell remoting for lateral movement
+description: MITRE ATT&CK, Lateral Movement, Sub-technique T1021.006
 ---
 
 # Windows Remote Management

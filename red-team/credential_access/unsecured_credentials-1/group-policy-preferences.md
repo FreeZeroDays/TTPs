@@ -1,3 +1,7 @@
+---
+description: MITRE ATT&CK, Credential Access, Sub-technique T1552.006
+---
+
 # Group Policy Preferences
 
 ### Description

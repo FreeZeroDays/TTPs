@@ -1,20 +1,18 @@
 ---
-description: This section lists multiple ways to identify IP addresses owned by a company
+description: MITRE ATT&CK Reconnaissance, Sub-technique T1590.005
 ---
 
 # Gather IP Addresses
 
-[Reconnaissance, Sub-technique T1590.005](https://attack.mitre.org/techniques/T1590/005/)
-
-## Hurricane Electric Internet Services
+### Hurricane Electric Internet Services
 
 [Hurricane Electric Internet Services](https://bgp.he.net) is a fast way to identify what company owns what IP
 
-## SecurityTrails
+### SecurityTrails
 
 [SecurityTrails](https://securitytrails.com) Another good site for verifying IP addresses and netblocks belonging to an organization
 
-## NetBlockTool
+### NetBlockTool
 
 [NetblockTool](https://github.com/NetSPI/NetblockTool) can be used to gather IP ranges, points of contact, and even netblocks belonging to your target’s subsidiaries
 
@@ -31,7 +29,7 @@ python3 NetblockTool.py -v Company -s
 
 ```
 
-## References
+### References
 
 * [NetblockTool: The Easy Way to Find IP Addresses Owned by a Company](https://www.netspi.com/blog/technical/network-penetration-testing/netblocktool)
 * [How to Find IP Ranges a Company Owns and Company IP addresses](https://securitytrails.com/blog/identify-ip-ranges-company-owns)

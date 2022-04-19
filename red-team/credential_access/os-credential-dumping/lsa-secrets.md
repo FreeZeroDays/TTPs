@@ -1,5 +1,5 @@
 ---
-description: Additional information on LSA Secrets
+description: MITRE ATT&CK, Credential Access, Sub-technique T1003.004
 ---
 
 # LSA Secrets

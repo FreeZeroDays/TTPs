@@ -1,10 +1,8 @@
 ---
-description: >-
-  Commands to disable antivirus to make post exploitation eaiser. Please note
-  that these should not be considered OPSEC safe.
+description: MITRE ATT&CK, Defense Evasion, Sub-technique T1562.001
 ---
 
-# Disable Antivirus
+# Disable or Modify Tools
 
 ## Disable real-time monitoring for Windows Defender
 

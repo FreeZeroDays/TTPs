@@ -1,3 +1,6 @@
+---
+description: MITRE ATT&CK, Reconnaissance, Technique T1589
+---
+
 # Gather Victim Identity Information
 
-[Reconnaissance, Technique T1589](https://attack.mitre.org/techniques/T1589/)

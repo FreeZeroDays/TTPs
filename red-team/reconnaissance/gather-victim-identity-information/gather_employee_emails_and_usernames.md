@@ -1,26 +1,24 @@
 ---
-description: Gather email addresses that can be used during targeting.
+description: MITRE ATT&CK, Reconnaissance, Sub-technique T1589.002
 ---
 
 # Gather Employee Email Addresses
 
-[Reconnaissance, Sub-technique T1589.002](https://attack.mitre.org/techniques/T1589/002/)
-
-## Popular Go-to Locations
+### Popular Go-to Locations
 
 * [Hunter.io](https://hunter.io)
 * [Phonebook.cz](https://phonebook.cz)
 * [ZoomInfo](https://www.zoominfo.com)
 * Data breaches (self promotion, use my tool breach-rip to get these fast)
 
-## Using Tools Available on GitHub
+### Using Tools Available on GitHub
 
 * [Linkedin2Username](https://github.com/initstring/linkedin2username)
 * [BridgeKeeper](https://github.com/0xZDH/BridgeKeeper)
 * [Peasant](https://github.com/arch4ngel/peasant)
 * [LinkedInt](https://github.com/vysecurity/LinkedInt)
 
-## Creating Username Lists
+### Creating Username Lists
 
 Once we have identified a list of employee names, we can place them into a list to use throughout the engagement in multiple phases.
 
