@@ -12,8 +12,8 @@ This was inspired by both [snovvcrash](https://github.com/snovvcrash) and [sneak
 
 ## Entries
 
-* **Red Team** - Red Teaming TTPs
-* **Web Application** - List of basic web application vulnerabilities with my notes for each.
+* **Tactics** - Offensive TTPs mapped to [MITRE ATT\&CK](https://attack.mitre.org/matrices/enterprise/)
+* **Web Application** - Web Application Vulnerabilities & Notes
 * **Tools** - Tooling-specific tips and tricks.
 * **Resources** - Resources for various topics / this section includes link dumps to useful blog posts, tooling, and more!
 * **Miscellaneous** - Collection of random notes that don't have a place elsewhere in this repo - probably needs to be sorted and may change often as things find a new home!
