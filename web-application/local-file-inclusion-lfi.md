@@ -67,4 +67,4 @@ The sections following lists common but interesting files to look at when testin
 
 ### References
 
-* [File Inclusion Vulnerabilities - Offensive Security](https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/)
+{% embed url="https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities" %}

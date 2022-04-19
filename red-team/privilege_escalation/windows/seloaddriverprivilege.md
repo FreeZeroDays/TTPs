@@ -27,5 +27,6 @@ This privilege is extremely dangerous to assign to any user and I have seen mult
 
 ## References
 
-* [Privileged Accounts and Token Privileges](https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/privileged-accounts-and-token-privileges) - Details on this attack from iRed.Team
-* [Abusing SeLoadDriverPrivilege for privilege escalation](https://www.tarlogic.com/blog/abusing-seloaddriverprivilege-for-privilege-escalation/) - Detailed walkthrough on attacks from TarLogic
+{% embed url="https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/privileged-accounts-and-token-privileges" %}
+
+{% embed url="https://www.tarlogic.com/blog/abusing-seloaddriverprivilege-for-privilege-escalation" %}

@@ -23,4 +23,4 @@ airodump-ng --bssid [BSSID] -c [CHANNEL] -w [FILENAME] wlan1
 
 ## References
 
-* [Airodump-ng](https://www.aircrack-ng.org/doku.php?id=airodump-ng) - Manual for Airodump-ng
+{% embed url="https://www.aircrack-ng.org/doku.php?id=airodump-ng" %}

@@ -51,4 +51,4 @@ This section includes NSE scripts that are not included with Nmap and should be 
 
 ## References
 
-* [NSE-Usage](https://nmap.org/book/nse-usage.html)
+{% embed url="https://nmap.org/book/nse-usage.html" %}

@@ -29,4 +29,4 @@ iwlist wlan1mon [channel]
 
 ## References
 
-* [Airmon-ng](https://www.aircrack-ng.org/doku.php?id=airmon-ng) - Manual for Airmon-ng
+{% embed url="https://www.aircrack-ng.org/doku.php?id=airmon-ng" %}

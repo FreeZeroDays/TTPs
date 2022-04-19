@@ -31,5 +31,6 @@ python3 NetblockTool.py -v Company -s
 
 ### References
 
-* [NetblockTool: The Easy Way to Find IP Addresses Owned by a Company](https://www.netspi.com/blog/technical/network-penetration-testing/netblocktool)
-* [How to Find IP Ranges a Company Owns and Company IP addresses](https://securitytrails.com/blog/identify-ip-ranges-company-owns)
+{% embed url="https://www.netspi.com/blog/technical/network-penetration-testing/netblocktool" %}
+
+{% embed url="https://securitytrails.com/blog/identify-ip-ranges-company-owns" %}

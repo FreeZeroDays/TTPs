@@ -26,5 +26,6 @@ aireplay-ng -0 1 -a [ACCESS POINT MAC] -c [CLIENT MAC] wlan1mon
 
 ## References
 
-* [Aireplay-ng](https://www.aircrack-ng.org/doku.php?id=aireplay-ng) - Manual for Aireplay-ng
-* [Deauthentication](https://www.aircrack-ng.org/doku.php?id=deauthentication) - Aircrack-ng manual on deauthentication
+{% embed url="https://www.aircrack-ng.org/doku.php?id=aireplay-ng" %}
+
+{% embed url="https://www.aircrack-ng.org/doku.php?id=deauthentication" %}

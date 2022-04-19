@@ -42,4 +42,4 @@ Ensure to remember that you will be interacting with `localhost` after forwardin
 
 ### References
 
-* [Pivoting with Chisel](https://ap3x.github.io/posts/pivoting-with-chisel/)
+{% embed url="https://ap3x.github.io/posts/pivoting-with-chisel" %}

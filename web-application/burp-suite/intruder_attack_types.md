@@ -23,4 +23,4 @@ This attack iterates through each payload set in turn, so that all permutations 
 
 ## References
 
-* [Burp Suite Payload Positions](https://portswigger.net/burp/documentation/desktop/tools/intruder/positions)
+{% embed url="https://portswigger.net/burp/documentation/desktop/tools/intruder/positions" %}

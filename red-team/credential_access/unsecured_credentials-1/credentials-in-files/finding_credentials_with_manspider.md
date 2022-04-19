@@ -28,4 +28,4 @@ manspider.py [TARGETS] -d [DOMAIN] -u [USER] -H [HASH] -f passw user admin accou
 
 ## References
 
-* [Limit\_Cleartext\_Password\_Storage](https://www.sprocketsecurity.com/blog/how-to-limit-cleartext-password-storage-and-fix-the-issue-in-your-organization)
+{% embed url="https://www.sprocketsecurity.com/blog/how-to-limit-cleartext-password-storage-and-fix-the-issue-in-your-organization" %}

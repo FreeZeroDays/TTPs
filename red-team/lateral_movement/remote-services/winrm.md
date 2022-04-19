@@ -90,8 +90,12 @@ Get-PSSession | Disconnect-PSSession
 
 ## References
 
-* [WinRM for Lateral Movement](https://www.ired.team/offensive-security/lateral-movement/t1028-winrm-for-lateral-movement)
-* [PowerShell Remoting Cheatsheet](https://www.netspi.com/blog/technical/network-penetration-testing/powershell-remoting-cheatsheet/)
-* [Enable-PSRemoting](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enable-psremoting?view=powershell-7.1)
-* [Enable and Use Remote Commands in Windows PowerShell](https://docs.microsoft.com/en-us/previous-versions/technet-magazine/ff700227\(v=msdn.10\)?redirectedfrom=MSDN)
-* [Windows PowerShell - Cool Pipeline Tricks, Redux](https://docs.microsoft.com/en-us/previous-versions/technet-magazine/ff394367\(v=msdn.10\)?redirectedfrom=MSDN)
+{% embed url="https://www.ired.team/offensive-security/lateral-movement/t1028-winrm-for-lateral-movement" %}
+
+{% embed url="https://www.netspi.com/blog/technical/network-penetration-testing/powershell-remoting-cheatsheet" %}
+
+{% embed url="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enable-psremoting?view=powershell-7.1" %}
+
+{% embed url="https://docs.microsoft.com/en-us/previous-versions/technet-magazine/ff700227(v=msdn.10)?redirectedfrom=MSDN" %}
+
+{% embed url="https://docs.microsoft.com/en-us/previous-versions/technet-magazine/ff394367(v=msdn.10)?redirectedfrom=MSDN" %}

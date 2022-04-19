@@ -42,7 +42,9 @@ To mitigate this issue, avoid using a domain account for the service. Best pract
 
 ### References
 
-* [Dumping and Cracking mscash ](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials)
-* [Preventing 4 Common Methods of Credentials Exfiltration](https://www.sentinelone.com/blog/windows-security-essentials-preventing-4-common-methods-of-credentials-exfiltration/)
-* [Windows LSA Secrets](https://www.passcape.com/index.php?section=docsys\&cmd=details\&id=23)
+{% embed url="https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-and-cracking-mscash-cached-domain-credentials" %}
+
+{% embed url="https://www.sentinelone.com/blog/windows-security-essentials-preventing-4-common-methods-of-credentials-exfiltration" %}
+
+{% embed url="https://www.passcape.com/index.php?cmd=details&id=23&section=docsys" %}
 

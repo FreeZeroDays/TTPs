@@ -37,4 +37,4 @@ WantedBy=multi-user.target
 
 ### References
 
-* [Understanding Systemd Service Persistence](https://redcanary.com/blog/attck-t1501-understanding-systemd-service-persistence/)
+{% embed url="https://redcanary.com/blog/attck-t1501-understanding-systemd-service-persistence" %}
