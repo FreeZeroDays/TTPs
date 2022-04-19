@@ -23,3 +23,9 @@ DISCLAIMER. All information contained in this blog is provided for educational a
 {% endhint %}
 
 {% embed url="https://github.com/FreeZeroDays" %}
+GitHub Profile
+{% endembed %}
+
+{% embed url="https://parzival.sh" %}
+Personal Blog&#x20;
+{% endembed %}
