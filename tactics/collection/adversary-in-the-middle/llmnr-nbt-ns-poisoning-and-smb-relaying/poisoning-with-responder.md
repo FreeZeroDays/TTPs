@@ -1,10 +1,18 @@
+---
+description: Guide on using Responder.py to attack a network and obtain Net-NTLM hashes.
+---
+
 # Poisoning with Responder
 
 ### Description
 
 Responder is the go-to tool for poisoning LLMNR, NBT-NS, and mDNS requests. NBT-NS, LLMNR and mDNS can broadcast queries to the entire network, but no measures are taken to verify the responses. As an attacker, we can exploit this by listening to the queries, spoofing the response, and then obtaining to the account being used to authenticate.&#x20;
 
+{% embed url="https://github.com/lgandx/Responder" %}
+
 ### Usage
+
+I always recommend running Responder in Analyze mode to begin your assessment. This will help identify DNS replacement protocols such as LLMNR and NBT-NS. Additionally, we can still capture hashes in Analyze mode, an example of this would be when a client has a 'network spider' for patch management.&#x20;
 
 Run Responder in Analyze mode first to observe traffic on the network:
 
@@ -12,7 +20,7 @@ Run Responder in Analyze mode first to observe traffic on the network:
 responder -I eth0 -A
 ```
 
-Running Responder to poison and loot:
+After identifying the protocols, we can rerun Responder with the parameters to poison:
 
 ```bash
 responder -I eth0 -dwP
