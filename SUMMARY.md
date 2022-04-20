@@ -93,10 +93,6 @@
 
 ## Tools
 
-* [Enumeration](tools/enumeration/README.md)
-  * [Nmap](tools/enumeration/nmap.md)
-  * [Enum4Linux](tools/enumeration/enum4linux/README.md)
-    * [Grep Usernames](tools/enumeration/enum4linux/grep\_usernames.md)
 * [Exploitation](tools/exploitation/README.md)
   * [Metasploit](tools/exploitation/metasploit/README.md)
     * [Download Nessus Scan via Metasploit](tools/exploitation/metasploit/download\_nessus\_scan-via\_metasploit.md)
