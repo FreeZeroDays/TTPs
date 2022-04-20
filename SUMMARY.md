@@ -91,24 +91,21 @@
   * [Airodump-ng](wireless-testing/aircrack-ng/airodump-ng.md)
 * [Cracking the Handshake](wireless-testing/cracking-the-handshake.md)
 
-## Tools
-
-* [Exploitation](tools/exploitation/README.md)
-  * [Metasploit](tools/exploitation/metasploit/README.md)
-    * [Download Nessus Scan via Metasploit](tools/exploitation/metasploit/download\_nessus\_scan-via\_metasploit.md)
-    * [Metasploit Datatabase](tools/exploitation/metasploit/metasploit\_database.md)
-  * [Impacket](tools/exploitation/impacket/README.md)
-    * [mssqlclient.py](tools/exploitation/impacket/mssqlclient.py.md)
-  * [CrackMapExec](tools/exploitation/crackmapexec/README.md)
-    * [CrackMapExec Examples](tools/exploitation/crackmapexec/crackmapexec\_examples.md)
-
 ## Resources
 
 * [Blog Posts and Goodies](resources/blog-posts-and-goodies.md)
 
-## Miscellaneous
+## Notes
 
-* [Offensive Security Notes](miscellaneous/red\_notes.md)
-* [Segmentation Testing Notes](miscellaneous/segmentation\_testing\_notes.md)
-* [Useful Commands](miscellaneous/useful\_commands.md)
-* [Common Troubleshooting](miscellaneous/common-troubleshooting.md)
+* [Offensive Security Notes](notes/red\_notes.md)
+* [Segmentation Testing Notes](notes/segmentation\_testing\_notes.md)
+* [Useful Commands](notes/useful\_commands.md)
+* [Common Troubleshooting](notes/common-troubleshooting.md)
+* [Tool-Specific Notes](notes/tool-specific-notes/README.md)
+  * [CrackMapExec](notes/tool-specific-notes/crackmapexec/README.md)
+    * [CrackMapExec Examples](notes/tool-specific-notes/crackmapexec/crackmapexec\_examples.md)
+  * [Impacket](notes/tool-specific-notes/impacket/README.md)
+    * [mssqlclient.py](notes/tool-specific-notes/impacket/mssqlclient.py.md)
+  * [Metasploit](notes/tool-specific-notes/metasploit/README.md)
+    * [Download Nessus Scan via Metasploit](notes/tool-specific-notes/metasploit/download\_nessus\_scan-via\_metasploit.md)
+    * [Metasploit Datatabase](notes/tool-specific-notes/metasploit/metasploit\_database.md)
