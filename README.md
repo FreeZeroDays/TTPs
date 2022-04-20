@@ -14,9 +14,9 @@ This was inspired by both [snovvcrash](https://github.com/snovvcrash) and [sneak
 
 * **Tactics** - Offensive TTPs mapped to [MITRE ATT\&CK](https://attack.mitre.org/matrices/enterprise/)
 * **Web Application** - Web Application Vulnerabilities & Notes
-* **Wireless Testing** - Everything related to hacking WiFi
+* **Wireless** - Everything related to hacking WiFi
 * **Resources** - Resources for various topics / this section includes link dumps to useful blog posts, tooling, and more!
-* **Miscellaneous** - Collection of random notes that don't have a place elsewhere in this repo - probably needs to be sorted and may change often as things find a new home!
+* **Notes** - Collection of my notes that don't fit in anywhere specific to this repo (for now)
 
 {% hint style="warning" %}
 DISCLAIMER. All information contained in this blog is provided for educational and research purposes only. The author is not responsible for any illegal use of any information published on the pages of this blog.

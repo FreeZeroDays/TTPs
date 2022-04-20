@@ -1,7 +1,6 @@
 # Table of contents
 
 * [TTPs](README.md)
-* [Submission Template](template.md)
 
 ## Tactics
 
@@ -83,13 +82,13 @@
 * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
 * [Cross-Site Scripting](web-application/cross-site-scripting.md)
 
-## Wireless Testing
+## Wireless
 
-* [Aircrack-ng](wireless-testing/aircrack-ng/README.md)
-  * [Aireplay-ng](wireless-testing/aircrack-ng/aireplay-ng.md)
-  * [Airmon-ng](wireless-testing/aircrack-ng/airmon-ng.md)
-  * [Airodump-ng](wireless-testing/aircrack-ng/airodump-ng.md)
-* [Cracking the Handshake](wireless-testing/cracking-the-handshake.md)
+* [Aircrack-ng](wireless/aircrack-ng/README.md)
+  * [Aireplay-ng](wireless/aircrack-ng/aireplay-ng.md)
+  * [Airmon-ng](wireless/aircrack-ng/airmon-ng.md)
+  * [Airodump-ng](wireless/aircrack-ng/airodump-ng.md)
+* [Cracking the Handshake](wireless/cracking-the-handshake.md)
 
 ## Resources
 

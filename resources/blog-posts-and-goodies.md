@@ -48,7 +48,6 @@ description: >-
 * [Attacking\_Active\_Directory:\_0\_to\_0.9](https://zer1t0.gitlab.io/posts/attacking\_ad/)
 * [Windows\_Lateral\_Movement\_with\_SMB\_Psexec\_and\_Alternatives](https://nv2lt.github.io/windows/smb-psexec-smbexec-winexe-how-to/)
 * [Web\_Shells\_101\_Using\_PHP](https://www.acunetix.com/blog/articles/web-shells-101-using-php-introduction-web-shells-part-2/)
-*
 
 ## Checklists
 
