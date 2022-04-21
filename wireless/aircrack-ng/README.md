@@ -14,7 +14,7 @@ sudo apt-get install -y aircrack-ng
 
 ### Tools Included
 
-Several tools are included in the aircrack-ng package. The following list covers the tools installed that have instructions in this repository:
+Several tools are included in the aircrack-ng package. The following list covers the tools installed that have instructions:
 
 * aircrack-ng
 * airmon-ng

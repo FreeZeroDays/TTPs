@@ -1,5 +1,5 @@
 ---
-description: Systemd Service Persistence using Watershell as an example.
+description: MITRE ATT&CK, Persistence, Sub-technique T1543.002
 ---
 
 # Systemd Service Persistence
