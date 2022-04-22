@@ -60,7 +60,7 @@
       * [NSE Scripts](tactics/discovery/network-service-scanning/nmap/nse\_scripts.md)
 * [Lateral Movement](tactics/lateral\_movement/README.md)
   * [Exploitation of Remote Services](tactics/lateral\_movement/exploitation-of-remote-services/README.md)
-    * [Low-Hanging Fruit](tactics/lateral\_movement/exploitation-of-remote-services/easy\_hacks.md)
+    * [Low-hanging Fruit](tactics/lateral\_movement/exploitation-of-remote-services/easy\_hacks.md)
   * [Remote Services](tactics/lateral\_movement/remote-services/README.md)
     * [Windows Remote Management](tactics/lateral\_movement/remote-services/winrm.md)
 * [Collection](tactics/collection/README.md)
