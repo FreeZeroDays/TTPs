@@ -89,6 +89,7 @@
   * [Aireplay-ng](wireless/aircrack-ng/aireplay-ng.md)
   * [Airmon-ng](wireless/aircrack-ng/airmon-ng.md)
   * [Airodump-ng](wireless/aircrack-ng/airodump-ng.md)
+* [wifite2](wireless/wifite2.md)
 * [Cracking the Handshake](wireless/cracking-the-handshake.md)
 
 ## Resources
