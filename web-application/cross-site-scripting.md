@@ -1,7 +1,3 @@
----
-description: Some tips around testing for Cross-Site Scripting and crafting payloads
----
-
 # Cross-Site Scripting
 
 ### Payloads

