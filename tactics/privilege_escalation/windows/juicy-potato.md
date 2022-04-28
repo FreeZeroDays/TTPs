@@ -7,7 +7,7 @@ description: Potato is yummy
 Enumerate either the`SeImpersonate` or `SeAssignPrimaryToken` privileges
 
 ```bash
-whoami /privs
+whoami /priv
 ```
 
 After identifying the appropriate privileges, upload the [Juicy Potato binary](https://github.com/ohpe/juicy-potato) to the host. Then run the following command to enumerate valid CLSID's for use with JuicyPotato&#x20;

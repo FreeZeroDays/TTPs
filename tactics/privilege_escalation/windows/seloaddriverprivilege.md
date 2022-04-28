@@ -6,7 +6,7 @@ description: >-
 
 # Privilege Escalation with SeLoadDriverPrivilege
 
-## Exploitation
+### Exploitation
 
 Run the following command to see if the privilege is enabled:
 
@@ -25,7 +25,7 @@ Once we have successfully loaded our `Capcom.sys` driver onto the machine we can
 
 This privilege is extremely dangerous to assign to any user and I have seen multiple organizations assign it to _every_ user.
 
-## References
+### References
 
 {% embed url="https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/privileged-accounts-and-token-privileges" %}
 

@@ -46,6 +46,18 @@ nmap -p- -Pn -sV -sC -iL LiveIPs.txt -oA FullScanOutput
 
 ### Additional scans
 
+#### Custom Discovery Scan
+
+```bash
+sudo nmap -Pn -n -sS -p $customports --min-hostgroup 255 --min-rtt-timeout 0ms --max-rtt-timeout 100ms --max-retries 1 --max-scan-delay 0 --min-rate 2000 -oA nmap-discovery -vvv -open -iL $targetfile
+```
+
+#### Custom Full Scan
+
+```bash
+sudo nmap -Pn -n -p- -sV --min-hostgroup 255 --min-rtt-timeout 25ms --max-rtt-timeout 100ms --max-retries 1 --max-scan-delay 0 --min-rate 1000 -oA full-nmap -vvv --open -iL $targetfile
+```
+
 #### Run a vulners scan
 
 ```bash
@@ -57,3 +69,4 @@ nmap -p- --script=vulners -iL LiveIPs.txt -oA VulnersScan
 ```bash
 nmap -p- --script=http-default-accounts -iL LiveIPs.txt -oA DefaultCredentialScan
 ```
+

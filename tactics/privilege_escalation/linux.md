@@ -15,4 +15,6 @@ description: List of commonly used escalation tools for Linux systems
 
 #### Metsploit
 
-* `post/multi/recon/local_exploit_suggester`
+```bash
+post/multi/recon/local_exploit_suggester
+```

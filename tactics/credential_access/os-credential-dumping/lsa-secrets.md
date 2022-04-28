@@ -9,7 +9,7 @@ description: MITRE ATT&CK, Credential Access, Sub-technique T1003.004
 Dumping LSA Secrets with CrackMapExec:
 
 ```bash
-crackmapexec smb [HOST] -u [USER] -p [PASSWORD] --lsa
+crackmapexec smb $ip -u $user -p $password --lsa
 ```
 
 Dumping LSA Secrets with Mimikatz:

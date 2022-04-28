@@ -25,7 +25,7 @@ dir /s \\[FQN]\SYSVOL\[FQDN\ | more
 #### Enumerating Credentials using CrackMapExec
 
 ```bash
-crackmapexec smb [IP] -u [USERNAME] -p [PASSWORD] -M gpp_password
+crackmapexec smb $ip -u $username -p $password -M gpp_password
 ```
 
 #### Enumerating Credentials using Metasploit

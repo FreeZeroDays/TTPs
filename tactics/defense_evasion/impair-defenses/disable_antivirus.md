@@ -25,7 +25,7 @@ Taskkill /F /IM avprocess.exe
 ## Stop an Antivirus Service
 
 ```powershell
-net stop “service name”
+net stop "$service_name"
 ```
 
 ## Disable a Windows Service
