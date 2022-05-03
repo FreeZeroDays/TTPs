@@ -8,6 +8,7 @@
   * [Gather Victim Identity Information](tactics/reconnaissance/gather-victim-identity-information/README.md)
     * [Gather Employee Email Addresses](tactics/reconnaissance/gather-victim-identity-information/gather\_employee\_emails\_and\_usernames.md)
   * [Gather Victim network Information](tactics/reconnaissance/gather-victim-network-information/README.md)
+    * [Gather DNS Information](tactics/reconnaissance/gather-victim-network-information/gather-dns-information.md)
     * [Gather IP Addresses](tactics/reconnaissance/gather-victim-network-information/identify\_ip\_addresses\_owned\_by\_a\_company.md)
 * [Initial Access](tactics/initial\_access/README.md)
   * [Phishing](tactics/initial\_access/phishing/README.md)
