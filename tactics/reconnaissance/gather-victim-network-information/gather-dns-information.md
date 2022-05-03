@@ -38,7 +38,7 @@ Enumerate subdomains:
 dnsrecon -d $domain
 ```
 
-Enumerate subdomains and perform a zone transfer
+Enumerate subdomains and perform a zone transfer:
 
 ```bash
 dnsrecon -a -d $domain
@@ -58,11 +58,11 @@ amass enum -d $domain
 
 ### Gobuster
 
+Actively enumerate subdomains with Gobuster:
+
 ```bash
 gobuster dns --domain $domain --wordlist $wordlist
 ```
-
-
 
 {% embed url="https://github.com/OJ/gobuster" %}
 
