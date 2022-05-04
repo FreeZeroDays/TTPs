@@ -35,35 +35,35 @@ If this is ever an ask, I found out a pretty easy way to grep out hosts from IPs
 Place the in-scope hosts into a file. For this example, it will be titled `InScopeHosts.txt`
 
 ```bash
-> cat InScopeHosts.txt
+> cat in-scope.out
 
 127.0.0.1
 127.0.0.2
 127.0.0.3
 ```
 
-Grep out the Responder-Session log to only IP Addresses:
-
-```bash
-cat Responder-logs | grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}’ ResponderIPs.txt
-```
-
-Compare the two files with grep. These commands will pipe duplicate IPs between the files into a new one (use your preferred)
-
-```bash
-egrep "cat InScopeHosts.txt|xargs -I {} echo -n '|{}'|sed -e 's/^|//'” ResponderIPs.txt > RepeatedIPs.txt
-```
-
-```bash
-cat PreviouslyVulnerableIPs.txt`|xargs -I {} echo -n '|{}'|sed -e 's/^|//'" ResponderLogIPs.txt
-```
-
-Remove duplicates from the files using Excel (I find this easiest since I'll paste it into a report, but sort also works)
-
-If the client has provided CIDRs then break these into smaller lists via your choice of tool. Personally, I like using nmap:
+If the client has provided a list in CIDR notation then break these into smaller lists via your choice of tool. Personally, I like using nmap:
 
 ```bash
 nmap -sL -n 127.0.0.0/24 | awk '/Nmap scan report/{print $NF}’
+```
+
+Grep out the `Poisoners-Session log` to only IP Addresses:
+
+```bash
+cat Poisoners-Session.log | grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}’ > responder-ips.txt
+```
+
+Sort both files and place them into the appropriate directory.&#x20;
+
+```bash
+sort -u $file
+```
+
+Compare the two files using `comm`:
+
+```bash
+comm -12 sorted-poisoners-session sorted-responder-ips
 ```
 
 ### References
