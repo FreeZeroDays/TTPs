@@ -112,3 +112,8 @@
   * [Metasploit](notes/tool-specific-notes/metasploit/README.md)
     * [Download Nessus Scan via Metasploit](notes/tool-specific-notes/metasploit/download\_nessus\_scan-via\_metasploit.md)
     * [Metasploit Datatabase](notes/tool-specific-notes/metasploit/metasploit\_database.md)
+
+## Red Team
+
+* [Infrastructure](red-team/infrastructure/README.md)
+  * [Cloud Fronting](red-team/infrastructure/cloud-fronting.md)
