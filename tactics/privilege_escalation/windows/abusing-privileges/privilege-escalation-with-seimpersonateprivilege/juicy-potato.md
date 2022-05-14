@@ -1,8 +1,8 @@
 ---
-description: Potato is yummy
+description: Potato yummy
 ---
 
-# Juicy Potato
+# Potatoes
 
 Enumerate either the`SeImpersonate` or `SeAssignPrimaryToken` privileges
 

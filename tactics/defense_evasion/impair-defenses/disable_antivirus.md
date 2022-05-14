@@ -44,4 +44,4 @@ run killav
 
 ## Disable AntiVirus via the GUI
 
-I haven't seen this in quite a bit. However, non-administrative users are sometimes able to disable the antivirus running on the host via a GUI interface. If the target has one of these then you can either right click the icon in the task bar and disable it or manually open the GUI and disable it in settings.
+Non-administrative users are sometimes able to disable or create an exception for the antivirus running on the host via the GUI. If the target has one of these then you can either right click the icon in the task bar and disable it or manually open the GUI and disable it in settings.

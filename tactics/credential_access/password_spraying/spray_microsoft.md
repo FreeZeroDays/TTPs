@@ -4,9 +4,9 @@ description: >-
   products.
 ---
 
-# Spray Microsoft
+# Spraying Microsoft
 
-## Attacking Office365
+### Attacking Office365
 
 A tool that I've had a large amount of success with is [TREVORspray](https://github.com/blacklanternsecurity/TREVORspray):
 
