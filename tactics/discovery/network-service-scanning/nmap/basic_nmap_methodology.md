@@ -11,13 +11,13 @@ description: >-
 #### Perform a ping sweep with Nmap
 
 ```bash
-nmap -sn [TARGET]/24 -oA PingSweepHosts
+nmap -sn $subnet/24 -oA PingSweepHosts
 ```
 
 #### Custom host discovery with Nmap
 
 ```bash
-nmap -PS21-25,80,110,139,443,445,623,3306,3389,8000,8080,8081,etc [TARGET]/24 -oA DiscoveredHosts
+nmap -PS21-25,80,110,139,443,445,623,3306,3389,8000,8080,8081,etc $subnet/24 -oA DiscoveredHosts
 ```
 
 #### Exclude hosts from scans with Nmap by specifying IPs
@@ -29,7 +29,7 @@ nmap -sV -F --exclude 127.0.0.2,127.0.0.4 127.0.0.1/24
 #### Exclude hosts from scans with Nmap by specifying file
 
 ```bash
-nmap -sV -F --excludefile [FILENAME] 127.0.0.1
+nmap -sV -F --excludefile $file_name 127.0.0.1
 ```
 
 #### Create a Live Hosts List

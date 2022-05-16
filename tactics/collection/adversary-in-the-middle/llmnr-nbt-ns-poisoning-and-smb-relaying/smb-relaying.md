@@ -11,7 +11,7 @@ After observing LLMNR and/or NBT-NS traffic with Responder and forcing the clien
 Finger is included with Responder.py in the `/tools` directory. Simply run the tool against either a subnet or file and parse the results using `cut`
 
 ```bash
-python3 RunFinger.py -i [SUBNET]
+python3 RunFinger.py -i $subnet
 ```
 
 #### CrackMapExec
@@ -19,7 +19,7 @@ python3 RunFinger.py -i [SUBNET]
 A list can also easily be created with [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec):
 
 ```bash
-crackmapexec smb [SUBNET] --gen-relay-list 
+crackmapexec smb $subnet --gen-relay-list 
 ```
 
 #### Nmap
@@ -27,7 +27,7 @@ crackmapexec smb [SUBNET] --gen-relay-list
 Nmap can also create a list of hosts that have SMB Signing Disabled:
 
 ```bash
-nmap --script=smb-security-mode -p445 [HOST]
+nmap --script=smb-security-mode -p445 $ip
 ```
 
 ### SMB Relaying 101
@@ -77,7 +77,7 @@ While a majority of companies do not utilize IPv6, little know that it is actual
 The following command demonstrates basic usage of IPv6:
 
 ```bash
-sudo mitm6 -d <domain>
+sudo mitm6 -d $domain
 ```
 
 Additionally, the following command demonstrates running mitm6 with the `--ignore-nofqnd` flag which will ignore DHCPv6 queries that do not contain the Fully Qualfiied Domain Name:
@@ -93,8 +93,6 @@ sudo mitm6 -d $domain --ignore-nofqnd
 {% embed url="https://en.hackndo.com/ntlm-relay" %}
 
 {% embed url="https://docs.microsoft.com/en-us/archive/blogs/josebda/the-basics-of-smb-signing-covering-both-smb1-and-smb2" %}
-
-
 
 {% embed url="https://aas-s3curity.gitbook.io/cheatsheet/internalpentest/active-directory/exploitation/exploit-without-account/smb-relay" %}
 

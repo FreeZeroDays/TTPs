@@ -43,25 +43,25 @@ Get-Item WSMan:\localhost\Client\TrustedHosts
 Interactive session using the current user:
 
 ```powershell
-Enter-PsSession –ComputerName [HOST]
+Enter-PsSession –ComputerName $host
 ```
 
 Interactive session with explicit credentials:
 
 ```powershell
-Enter-PsSession –ComputerName [HOST] –Credentials [DOMAIN\USER]
+Enter-PsSession –ComputerName $host –Credentials $domain\$user
 ```
 
 Create a background session using the current user::
 
 ```powershell
-New-PSSession -ComputerName [HOST]
+New-PSSession -ComputerName $host
 ```
 
 Create a background session with explicit credentials:
 
 ```powershell
-New-PSSession –ComputerName server1.domain.com –Credentials [DOMAIN\USER]
+New-PSSession –ComputerName server1.domain.com –Credentials $domain\$user
 ```
 
 List background sessions:
@@ -73,7 +73,7 @@ Get-PSSession
 Interacting with a background session:
 
 ```powershell
-Enter-PsSession –id [ID]
+Enter-PsSession –id $id
 ```
 
 Exiting out of a session:

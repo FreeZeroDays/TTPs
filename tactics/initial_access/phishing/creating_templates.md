@@ -6,7 +6,7 @@ description: >-
 
 # Creating Templates
 
-## Gathering the Details
+### Gathering the Details
 
 Begin by gathering the information relevant to your campaign
 
@@ -14,7 +14,7 @@ Begin by gathering the information relevant to your campaign
 * **Subject** - Give the template a subject title. This should be something engaging that the end-user will want to click on.
 * **Sender** - Provide a name for the user or organization that the email is simulating. This could be something as simple as \[COMPANY] to a specific user working at the company you're impersonathing e.g., \[John Doe]
 
-## Building the Template
+### Building the Template
 
 This may be the hardest part of your day. Creating a convincing pretext that will convince the target to click a link or download a document.
 

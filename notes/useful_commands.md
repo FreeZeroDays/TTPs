@@ -32,10 +32,24 @@ sed 's/@.*//' emails.txt > usernames.txt
 cat usernameenum.txt | grep "user" | awk {'print $1'} | cut -d '[' -f 2 | cut -d ']' -f 1 | sort -u -f > UsernameList.txt
 ```
 
+### SSH Specific
 
-
-Hide yourself using SSHuttle:
+#### Hide yourself using SSHuttle:
 
 ```bash
-sshuttle -r [USER]@[SERVER] 0.0.0.0/0 -e "ssh -i [SSH_KEY]" --exclude <server> -v --method tproxy
+sshuttle -r $uswr@$ip 0.0.0.0/0 -e "ssh -i $ssh_key" --exclude $ip -v --method tproxy
+```
+
+#### Add SOCKS to an Existing SSH Connection
+
+```bash
+<enter> ~C
+-D 1080
+```
+
+#### Forward a Port on an Existing SSH Connection
+
+```bash
+<enter> ~C
+-L 1337:localhost:1337
 ```

@@ -27,6 +27,7 @@
     * [Domain Controller Authentication](tactics/persistence/modify-authentication-process/skeleton\_key.md)
   * [Server Software Component](tactics/persistence/server-software-component/README.md)
     * [SQL Stored Procedures](tactics/persistence/server-software-component/sql-stored-procedures.md)
+    * [Web Shell](tactics/persistence/server-software-component/web-shell.md)
   * [Create Account](tactics/persistence/create-account/README.md)
     * [Local Account](tactics/persistence/create-account/local-account.md)
     * [Domain Account](tactics/persistence/create-account/create-account-domain-account.md)
@@ -129,3 +130,6 @@
 
 * [Infrastructure](red-team/infrastructure/README.md)
   * [Cloud Fronting](red-team/infrastructure/cloud-fronting.md)
+* [C2](red-team/c2/README.md)
+  * [Empire](red-team/c2/empire.md)
+  * [Sliver](red-team/c2/sliver.md)

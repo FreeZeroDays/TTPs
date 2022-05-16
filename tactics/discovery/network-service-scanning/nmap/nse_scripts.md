@@ -21,25 +21,25 @@ locate *.nse
 #### Load default NSE scripts
 
 ```bash
-nmap -sC [TARGET]
+nmap -sC $ip
 ```
 
 #### Specify a specific NSE script
 
 ```bash
-nmap --script=ssh2-enum-algos -p22 [TARGET]
+nmap --script=ssh2-enum-algos -p22 $ip
 ```
 
 Specify a specific [category](https://nmap.org/book/nse-usage.html)``
 
 ```bash
-nmap --script discovery,vuln [TARGET]
+nmap --script discovery,vuln $ip
 ```
 
 #### Using a wildcard to use multiple relevant scripts (e.g., ssh)
 
 ```bash
-nmap --script "ssh-*" -p22 [TARGET]
+nmap --script "ssh-*" -p22 $ip
 ```
 
 ### Useful NSE Scripts
