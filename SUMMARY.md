@@ -46,6 +46,8 @@
 * [Defense Evasion](tactics/defense\_evasion/README.md)
   * [Impair Defenses](tactics/defense\_evasion/impair-defenses/README.md)
     * [Disable or Modify Tools](tactics/defense\_evasion/impair-defenses/disable\_antivirus.md)
+    * [Disable Windows Event Logging](tactics/defense\_evasion/impair-defenses/disable-windows-event-logging.md)
+    * [Impair Command History Logging](tactics/defense\_evasion/impair-defenses/impair-command-history-logging.md)
 * [Credential Access](tactics/credential\_access/README.md)
   * [Unsecured Credentials](tactics/credential\_access/unsecured\_credentials-1/README.md)
     * [Group Policy Preferences](tactics/credential\_access/unsecured\_credentials-1/group-policy-preferences.md)
