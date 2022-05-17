@@ -10,6 +10,8 @@
   * [Gather Victim network Information](tactics/reconnaissance/gather-victim-network-information/README.md)
     * [Gather DNS Information](tactics/reconnaissance/gather-victim-network-information/gather-dns-information.md)
     * [Gather IP Addresses](tactics/reconnaissance/gather-victim-network-information/identify\_ip\_addresses\_owned\_by\_a\_company.md)
+  * [Search Open Technical Databases](tactics/reconnaissance/search-open-technical-databases/README.md)
+    * [Scan Databases](tactics/reconnaissance/search-open-technical-databases/scan-databases.md)
 * [Initial Access](tactics/initial\_access/README.md)
   * [Phishing](tactics/initial\_access/phishing/README.md)
     * [Creating Templates](tactics/initial\_access/phishing/creating\_templates.md)

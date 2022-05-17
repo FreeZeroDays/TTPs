@@ -27,3 +27,5 @@ Alternatively, we can interact with the Empire server by using [Starkiller](http
 {% embed url="https://github.com/BC-SECURITY/Empire" %}
 
 {% embed url="https://bc-security.gitbook.io/empire-wiki/" %}
+
+{% embed url="https://enigma0x3.net/2015/08/26/empire-tips-and-tricks/" %}

@@ -11,6 +11,7 @@ description: Resources for cracking passwords that I've utilized on engagements.
 * [PasswordList](https://github.com/Cyb3r4rch3r/PasswordList)
 * [WeakPass](https://weakpass.com/wordlist)
 * [WeakPasswords](http://weakpasswords.net)
+* [Kaonashi](https://github.com/kaonashi-passwords/Kaonashi)
 
 ## Hashcat Rulesets
 
