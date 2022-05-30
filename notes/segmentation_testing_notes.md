@@ -45,4 +45,6 @@ nmap -6 $ipv6address -oA IPv6_Scan
 nmap -sUC -p $port $ipaddress
 ```
 
-* Segmentation tests should note **all** open ports regardless of the business use case. If a business needs a port open, jusitifcation should be provided in the report.
+{% hint style="warning" %}
+Segmentation tests should note **all** open ports regardless of the business use case. If a business needs a port open, jusitifcation should be provided in the report.
+{% endhint %}

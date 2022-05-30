@@ -13,7 +13,7 @@ description: >-
 ```bash
 TTL > 64 it is most likely a Linux box
 TTL > 128 it is most likely a Windows
-TTL < 128 then most likely some type of networking device.
+TTL < 128 most likely some type of networking device.
 ```
 
 3\. Some quick notes on organizing tooling:
@@ -31,3 +31,7 @@ TTL < 128 then most likely some type of networking device.
 * Compile the binaries yourself.. Unless it's a CTF.
 
 5\. Performing password spraying with [SprayCharles](https://github.com/Tw1sm/spraycharles) from my experience is more successful than using the [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit). Ran into a situation on an engagement where multiple valid logins were reported as invalid by SprayingToolkit.&#x20;
+
+6\. Kali Linux allows for multiple IP addresses to be set manually on an interface, allowing for you to set multiple callbacks in case one of your IP addresses gets banned. The following demonstrates a screenshot of this:
+
+![](https://i.imgur.com/FYiHJX6.png)
