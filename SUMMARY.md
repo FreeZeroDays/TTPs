@@ -6,10 +6,12 @@
 
 * [Reconnaissance](tactics/reconnaissance/README.md)
   * [Gather Victim Identity Information](tactics/reconnaissance/gather-victim-identity-information/README.md)
-    * [Gather Employee Email Addresses](tactics/reconnaissance/gather-victim-identity-information/gather\_employee\_emails\_and\_usernames.md)
+    * [Credentials](tactics/reconnaissance/gather-victim-identity-information/credentials.md)
+    * [Email Addresses](tactics/reconnaissance/gather-victim-identity-information/gather\_employee\_emails\_and\_usernames.md)
   * [Gather Victim network Information](tactics/reconnaissance/gather-victim-network-information/README.md)
     * [Gather DNS Information](tactics/reconnaissance/gather-victim-network-information/gather-dns-information.md)
-    * [Gather IP Addresses](tactics/reconnaissance/gather-victim-network-information/identify\_ip\_addresses\_owned\_by\_a\_company.md)
+    * [Gather IP Addresses](tactics/reconnaissance/gather-victim-network-information/identify\_ip\_addresses\_owned\_by\_a\_company/README.md)
+      * [Gather Subnets - Internal](tactics/reconnaissance/gather-victim-network-information/identify\_ip\_addresses\_owned\_by\_a\_company/gather-subnets-internal.md)
   * [Search Open Technical Databases](tactics/reconnaissance/search-open-technical-databases/README.md)
     * [Scan Databases](tactics/reconnaissance/search-open-technical-databases/scan-databases.md)
 * [Initial Access](tactics/initial\_access/README.md)
@@ -132,7 +134,6 @@
   * [CrackMapExec](notes/tool-specific-notes/crackmapexec/README.md)
     * [CrackMapExec Examples](notes/tool-specific-notes/crackmapexec/crackmapexec\_examples.md)
   * [Metasploit](notes/tool-specific-notes/metasploit/README.md)
-    * [Download Nessus Scan via Metasploit](notes/tool-specific-notes/metasploit/download\_nessus\_scan-via\_metasploit.md)
     * [Metasploit Datatabase](notes/tool-specific-notes/metasploit/metasploit\_database.md)
 
 ## Red Team
@@ -142,3 +143,4 @@
 * [C2](red-team/c2/README.md)
   * [Empire](red-team/c2/empire.md)
   * [Sliver](red-team/c2/sliver.md)
+  * [Mythic](red-team/c2/mythic.md)

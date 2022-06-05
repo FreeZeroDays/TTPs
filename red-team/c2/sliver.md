@@ -2,8 +2,6 @@
 
 ### Installation
 
-Setting up Sliver is simple and only takes one command:
-
 ```bash
 curl https://sliver.sh/install|sudo bash
 ```

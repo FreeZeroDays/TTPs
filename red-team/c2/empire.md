@@ -11,13 +11,13 @@ cd Empire/setup
 ### Start Empire
 
 ```bash
-./ps-empire-server
+./ps-empire-server server
 ```
 
 ### Interacting with Empire
 
 ```bash
-./ps-empire-server
+./ps-empire-server client
 ```
 
 Alternatively, we can interact with the Empire server by using [Starkiller](https://github.com/BC-SECURITY/Starkiller), the frontend for Empire.

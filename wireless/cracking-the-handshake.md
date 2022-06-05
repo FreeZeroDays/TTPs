@@ -2,7 +2,7 @@
 
 ### Description
 
-This page assumes you have already collected the authentication handshake. If not, please reference \[ARTICLE]
+This page assumes you have already collected the authentication handshake. If not, please reference [wifite2](wifite2.md).
 
 ### Hashcat
 

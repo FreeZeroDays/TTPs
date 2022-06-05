@@ -2,9 +2,7 @@
 
 ### Description
 
-### Links to Useful XSS Resources
 
-Cross-site Scripting (XSS)&#x20;
 
 ### Payloads
 

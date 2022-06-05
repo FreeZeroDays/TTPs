@@ -100,6 +100,8 @@ Networking -> VM Network -> Edit Settings -> Promiscuous Mode: Accept
 
 {% embed url="https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html" %}
 
+{% embed url="https://luemmelsec.github.io/Relaying-101/#ntlm-downgrade-attack" %}
+
 {% embed url="https://en.hackndo.com/ntlm-relay" %}
 
 {% embed url="https://docs.microsoft.com/en-us/archive/blogs/josebda/the-basics-of-smb-signing-covering-both-smb1-and-smb2" %}

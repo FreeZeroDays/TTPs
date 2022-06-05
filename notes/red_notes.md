@@ -35,3 +35,25 @@ TTL < 128 most likely some type of networking device.
 6\. Kali Linux allows for multiple IP addresses to be set manually on an interface, allowing for you to set multiple callbacks in case one of your IP addresses gets banned. The following demonstrates a screenshot of this:
 
 ![](https://i.imgur.com/FYiHJX6.png)
+
+7\. Download a Nessus scan via Metasploit:
+
+```bash
+# Load the Nessus plugin
+load Nessus
+
+# Authenticate to Nessus
+nessus_connect $username:$password@127.0.0.1:8834
+
+# List Available Nessus Scans (Pay attention to the ID)
+nesssus_scan_list
+
+# Export the Nessus Scan
+Nessus_scan_export $id nessus
+
+Download the Nessus scan to ~/.msf
+nessus_report_download $id $fileid
+
+# Report is then accessible in the ~/.msf4/local directory
+# Rename the file to $client.nessus
+```
