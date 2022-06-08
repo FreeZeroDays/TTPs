@@ -65,6 +65,8 @@
     * [Spraying Active Directory](tactics/credential\_access/password\_spraying/spraying-active-directory.md)
     * [Password List](tactics/credential\_access/password\_spraying/password-list.md)
   * [OS Credential Dumping](tactics/credential\_access/os-credential-dumping/README.md)
+    * [LSASS Memory](tactics/credential\_access/os-credential-dumping/lsass-memory.md)
+    * [Security Account Manager (SAM)](tactics/credential\_access/os-credential-dumping/security-account-manager-sam.md)
     * [LSA Secrets](tactics/credential\_access/os-credential-dumping/lsa-secrets.md)
     * [Cached Domain Credentials](tactics/credential\_access/os-credential-dumping/cached-domain-credentials.md)
   * [Steal or Forge Kerberos Tickets](tactics/credential\_access/steal-or-forge-kerberos-tickets/README.md)
