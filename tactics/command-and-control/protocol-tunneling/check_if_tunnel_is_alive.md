@@ -6,19 +6,19 @@ description: >-
 
 # Check if SSH Tunnel is Active
 
-Check tunnel with netcat:
+#### Check tunnel with netcat:
 
 ```bash
-nc -z localhost [PORT] || echo "no tunnel open"
+nc -z localhost $port || echo "no tunnel open"
 ```
 
-Check tunnel with netstat:
+#### Check tunnel with netstat:
 
 ```bash
-netstat -lpnt | grep [PORT] | grep ssh
+netstat -lpnt | grep $port | grep ssh
 ```
 
-Check tunnel with ps:
+#### Check tunnel with ps:
 
 ```bash
 ps aux | grep ssh
