@@ -25,4 +25,4 @@ description: Notes around using and performing testing with Burp Suite
 
 ### References
 
-[!\[Portswigger\]()](https://portswigger.net)
+{% embed url="https://portswigger.net/" %}
