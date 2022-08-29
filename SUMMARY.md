@@ -115,12 +115,9 @@
 
 ## Wireless
 
-* [Aircrack-ng](wireless/aircrack-ng/README.md)
-  * [Aireplay-ng](wireless/aircrack-ng/aireplay-ng.md)
-  * [Airmon-ng](wireless/aircrack-ng/airmon-ng.md)
-  * [Airodump-ng](wireless/aircrack-ng/airodump-ng.md)
-* [wifite2](wireless/wifite2.md)
-* [Cracking the Handshake](wireless/cracking-the-handshake.md)
+* [WPA / WPA2](wireless/wpa-wpa2/README.md)
+  * [Enterprise](wireless/wpa-wpa2/enterprise.md)
+  * [Personal](wireless/wpa-wpa2/personal.md)
 
 ## Resources
 
