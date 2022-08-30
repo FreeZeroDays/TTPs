@@ -14,6 +14,9 @@
       * [Gather Subnets - Internal](tactics/reconnaissance/gather-victim-network-information/identify\_ip\_addresses\_owned\_by\_a\_company/gather-subnets-internal.md)
   * [Search Open Technical Databases](tactics/reconnaissance/search-open-technical-databases/README.md)
     * [Scan Databases](tactics/reconnaissance/search-open-technical-databases/scan-databases.md)
+* [Resource Development](tactics/resource-development/README.md)
+  * [Compromise Infrastructure](tactics/resource-development/compromise-infrastructure/README.md)
+    * [Subdomain Takeover](tactics/resource-development/compromise-infrastructure/subdomain-takeover.md)
 * [Initial Access](tactics/initial\_access/README.md)
   * [Phishing](tactics/initial\_access/phishing/README.md)
     * [Creating Templates](tactics/initial\_access/phishing/creating\_templates.md)
@@ -111,7 +114,7 @@
   * [Intruder Attack Types](web-application/burp-suite/intruder\_attack\_types.md)
 * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
 * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
-* [Cross-Site Scripting](web-application/cross-site-scripting.md)
+* [Cross-Site Scripting (XSS)](web-application/cross-site-scripting.md)
 
 ## Wireless
 
