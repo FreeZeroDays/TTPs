@@ -2,7 +2,7 @@
 
 * [TTPs](README.md)
 
-## 💀 Pentesting
+## ☠ Pentesting
 
 * [OSINT](pentesting/osint/README.md)
   * [Reconnaissance](tactics/reconnaissance/README.md)
