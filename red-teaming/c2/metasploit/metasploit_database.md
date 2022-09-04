@@ -4,56 +4,30 @@ description: Some tips and tricks around using the Metasploit Framework Dataabse
 
 # Metasploit Datatabase
 
-### Importing
-
-#### Import Nmap scans into msfdb
+### Importing Scans
 
 ```bash
+# Importing an Nmap scan into msfdb
 db_import NmapScan-1000.xml
-```
 
-#### Import Nessus scans into msfdb
-
-Load the Nessus plugin
-
-```bash
+# Importing a Nessus scan into msfdb
 load nessus
-```
-
-List the completed scans available for import
-
-```bash
 nessus_scan_list -c
-```
-
-Import the specified scan
-
-```bash
 nessus_db_import $id
 ```
 
 ### Searching the Database
 
-#### List all service banners
-
 ```bash
+# List all service banners
 services -O 6
-```
 
-#### List specific port(s)
-
-```bash
+# List specific port(s)
 services -p 80,443
-```
 
-#### Search for a specific string
+# Search for a specific string
+services -S telnet
 
-```bash
-services -S Telnet
-```
-
-#### Output services that are 'up' to a CSV file
-
-```bash
+# Output services that are 'up' to a CSV file
 services -u -o AliveServices
 ```

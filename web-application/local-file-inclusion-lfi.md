@@ -1,7 +1,5 @@
 # Local File Inclusion (LFI)
 
-### Description
-
 A local file inclusion (LFI) vulnerability is the process of including files that are locally present on the target server, through exploitation of vulnerable inclusion procedures implemented in the application.
 
 Local file inclusion vulnerabilites occur when a page receives the path to the file that has to be included as input, which is not properly sanitized, allowing directory traversal characters to be injected.

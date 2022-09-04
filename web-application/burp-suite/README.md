@@ -4,11 +4,7 @@ description: Notes around using and performing testing with Burp Suite
 
 # Burp Suite
 
-### Installation
-
-[Download](https://portswigger.net/burp/communitydownload)
-
-### Useful Extensions for Penetration Testing
+### Useful Extender Installations
 
 * ActiveScan++
 * Autorepeater Burp

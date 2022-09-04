@@ -7,8 +7,6 @@ description: >-
 
 # Segmentation Testing
 
-### Basic Checks
-
 Below are some basic commands to use while performing segmentation testing.\
 It should be noted that these should be modified in order to be more thorough.&#x20;
 

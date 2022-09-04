@@ -1,26 +1,17 @@
 # Empire
 
-### Installation
-
 ```bash
+# Installing Empire
 git clone --recursive https://github.com/BC-SECURITY/Empire
 cd Empire/setup
 ./install.sh
-```
 
-### Start Empire
-
-```bash
+# Starting the Empire server
 ./ps-empire-server server
-```
 
-### Interacting with Empire
-
-```bash
+# Interacting with the Empire server
 ./ps-empire-server client
 ```
-
-Alternatively, we can interact with the Empire server by using [Starkiller](https://github.com/BC-SECURITY/Starkiller), the frontend for Empire.
 
 ### References
 

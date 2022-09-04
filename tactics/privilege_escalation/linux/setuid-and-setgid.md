@@ -4,8 +4,6 @@ description: MITRE ATT&CK, Privilege Escalation, Sub-technique T1548.001
 
 # Setuid and Setgid
 
-### Description
-
 Setuid is a Unix file flag that allows an executable to be run with the permissions of the file owner. It is often used to allow a user to perform tasks that would otherwise require privileged access.
 
 Setgid is the same concept but instead applies to groups rather than users.&#x20;

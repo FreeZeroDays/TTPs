@@ -56,6 +56,10 @@ hostapd-wpe /etc/hostapd-wpe/hostapd-wpe.conf
 hashcat -m 5500 00 -a 0 /usr/share/wordlists/rockyou.txt
 ```
 
+6\. If you are unable to crack the hash locally then it can be submitted to crack.sh and cracked for a price:
+
+{% embed url="https://crack.sh" %}
+
 ### EAPHammer
 
 {% embed url="https://github.com/s0lst1c3/eaphammer" %}

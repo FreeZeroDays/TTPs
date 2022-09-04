@@ -1,9 +1,3 @@
----
-description: >-
-  This section briefly describes how to create templates for use in phishing
-  campaigns. This advice is not specific to one phishing framework.
----
-
 # Creating Templates
 
 ### Gathering the Details

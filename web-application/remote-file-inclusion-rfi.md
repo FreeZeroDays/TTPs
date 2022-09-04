@@ -1,7 +1,5 @@
 # Remote File Inclusion (RFI)
 
-### Description
-
 Remote file inclusion (RFI) is the process of including remote files through the exploiting of vulnerable inclusion procedures implemented in the application. The main difference when compared to LFI, is that RFI allows for an external URL to be injected, meaning that an attacker can include a malicious file, such as a PHP shell on their attack host.&#x20;
 
 ### Examples

