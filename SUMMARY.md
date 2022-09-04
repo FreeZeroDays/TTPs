@@ -7,7 +7,7 @@
 * [Fortress](pentesting/fortress/README.md)
   * [Office365](pentesting/fortress/spray\_microsoft.md)
   * [Outlook Web Access (OWA)](pentesting/fortress/outlook-web-access-owa.md)
-  * [Subdomain Takeover](pentesting/fortress/subdomain-takeover.md)
+  * [Subdomain Takeover](pentesting/fortress/subdomain-takeovers.md)
 * [Infrastructure](pentesting/infrastructure/README.md)
   * [Active Directory](pentesting/infrastructure/active-directory/README.md)
     * [Coercing Authentication](pentesting/infrastructure/active-directory/coercing-authentication.md)
