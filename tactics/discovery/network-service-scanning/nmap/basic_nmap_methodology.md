@@ -69,4 +69,3 @@ nmap -p- --script=vulners -iL LiveIPs.txt -oA VulnersScan
 ```bash
 nmap -p- --script=http-default-accounts -iL LiveIPs.txt -oA DefaultCredentialScan
 ```
-

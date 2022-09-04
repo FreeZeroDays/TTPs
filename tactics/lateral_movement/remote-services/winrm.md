@@ -2,7 +2,7 @@
 description: MITRE ATT&CK, Lateral Movement, Sub-technique T1021.006
 ---
 
-# Windows Remote Management
+# Windows Remote Management (WinRM)
 
 ### Enabling PowerShell Remoting
 
