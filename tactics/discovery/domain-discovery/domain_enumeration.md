@@ -1,6 +1,6 @@
 # Domain Enumeration
 
-## Enumerate AD CS
+### Enumerate AD CS
 
 If we get a hit from these methods then we can browse to the host identifed with the  URL `http://localhost/certsrv/`
 
@@ -18,7 +18,7 @@ certutil.exe
 crackmapexec smb $ip -u $username -p $password -M adcs
 ```
 
-## Enumerate Print Spooler Service
+### Enumerate Print Spooler Service
 
 Enumerate Print Spooler service with ItWasAllADream:
 

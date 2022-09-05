@@ -1,9 +1,10 @@
 ---
 description: Threats, Tactics, and Procedures (TTPs)
+cover: .gitbook/assets/1579304829130.jpeg
 coverY: 0
 ---
 
-# TTPs
+# Threats, Tactics, and Procedures
 
 [![License](https://img.shields.io/badge/license-GPL3-lightgrey.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Twitter URL](https://img.shields.io/twitter/follow/FreeZeroDays?label=FreeZeroDays%20%20%F0%9F%90%A6\&style=flat-square)](https://twitter.com/FreeZeroDays)
 
@@ -11,13 +12,7 @@ If you're looking for a collection of offensive security notes & miscellaneous r
 
 This was inspired by both [snovvcrash](https://github.com/snovvcrash) and [sneakerhax](https://github.com/sneakerhax)'s offensive note collections. I highly recommend checking them both out if you enjoy mine!
 
-## Entries
-
-* **Tactics** - Offensive TTPs mapped to [MITRE ATT\&CK](https://attack.mitre.org/matrices/enterprise/)
-* **Web Application** - Web Application Vulnerabilities & Notes
-* **Wireless** - Everything related to hacking WiFi
-* **Resources** - Resources for various topics / this section includes link dumps to useful blog posts, tooling, and more!
-* **Notes** - Collection of my notes that don't fit in anywhere specific to this repo (for now)
+Everything documented in this GitBook has been tested in the field. If something doesn't work as intended for you then please reach out to me on Twitter and let me know!&#x20;
 
 {% hint style="warning" %}
 DISCLAIMER. All information contained in this blog is provided for educational and research purposes only. The author is not responsible for any illegal use of any information published on the pages of this blog.
@@ -28,5 +23,5 @@ GitHub Profile
 {% endembed %}
 
 {% embed url="https://parzival.sh" %}
-Personal Blog&#x20;
+Personal Blog
 {% endembed %}
