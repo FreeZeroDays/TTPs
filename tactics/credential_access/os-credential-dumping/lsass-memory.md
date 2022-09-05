@@ -4,7 +4,7 @@ description: MITRE ATT&CK, Credential Access, Sub-technique T1003.001
 
 # LSASS Memory
 
-After a user logs on, the system generates and stores a variety of credential materials in LSASS process memory. These credential materials can be harvested by an administrative user or SYSTEM and used to conduct [Lateral Movement](https://attack.mitre.org/tactics/TA0008) using [Use Alternate Authentication Material](https://attack.mitre.org/techniques/T1550).
+> Adversaries commonly abuse the [Local Security Authority Subsystem Service](https://attack.mitre.org/techniques/T1003/001/) (LSASS) to dump credentials for privilege escalation, data theft, and lateral movement. The process is a fruitful target for adversaries because of the sheer amount of sensitive information it stores in memory.
 
 ### Dumping LSASS Memory
 
@@ -17,5 +17,7 @@ sekurlsa::logonPasswords
 ```
 
 ### References
+
+{% embed url="https://redcanary.com/threat-detection-report/techniques/lsass-memory/" %}
 
 {% embed url="https://attack.mitre.org/techniques/T1003/001/" %}

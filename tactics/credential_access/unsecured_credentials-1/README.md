@@ -22,7 +22,7 @@ manspider.py $target -d $domain -u $user -H $hash -f passw user admin account ne
 
 {% embed url="https://github.com/blacklanternsecurity/MANSPIDER" %}
 
-### Hunting with SMBEagle
+### Hunting with SMBeagle
 
 ```bash
 # Hunt for shares and scan the domain SMBEagle fast mode

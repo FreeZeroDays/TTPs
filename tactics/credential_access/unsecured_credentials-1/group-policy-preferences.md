@@ -6,8 +6,6 @@ description: MITRE ATT&CK, Credential Access, Sub-technique T1552.006
 
 Unsecured credentials in Group Policy Preferences (GPP) can be an easy way to obtain credentials and escalate privileges. GPP's are stored in SYSVOL on domain controllers. However, the real kicker is that any domain user can view the SYSVOL share, obtain the password, and decrypt it within seconds.
 
-### Tactics
-
 ```powershell
 # Enumerating credentials directory on the SYSVOL share
 dir /s * .xml
