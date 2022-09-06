@@ -4,9 +4,7 @@ description: MITRE ATT&CK, Credential Access, Sub-technique T1003.004
 
 # LSA Secrets
 
-### Dumping LSA Secrets
-
-> LSA secrets are stored in the registry at `HKEY_LOCAL_MACHINE\SECURITY\Policy\Secrets`. LSA secrets can also be dumped from memory.[\[4\]](https://ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsa-secrets)
+> LSA secrets are stored in the registry at `HKEY_LOCAL_MACHINE\SECURITY\Policy\Secrets`. LSA secrets can also be dumped from memory.
 
 ```bash
 # Dumping LSA Secrets remotely with CrackMapExec
@@ -28,8 +26,8 @@ To mitigate this issue, avoid using a domain account for the service. Best pract
 
 ### References
 
+{% embed url="https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsa-secrets" %}
+
 {% embed url="https://www.sentinelone.com/blog/windows-security-essentials-preventing-4-common-methods-of-credentials-exfiltration" %}
 
 {% embed url="https://www.passcape.com/index.php?cmd=details&id=23&section=docsys" %}
-
-{% embed url="https://attack.mitre.org/techniques/T1003/004/" %}

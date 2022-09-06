@@ -23,3 +23,5 @@ After compromising a server with unconstrained delegation enabled, an attacker c
 {% embed url="https://adsecurity.org/?p=1667" %}
 
 {% embed url="https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/domain-compromise-via-unrestricted-kerberos-delegation" %}
+
+{% embed url="https://posts.specterops.io/hunting-in-active-directory-unconstrained-delegation-forests-trusts-71f2b33688e1" %}

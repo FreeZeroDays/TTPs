@@ -11,6 +11,7 @@
   * [Subdomain Takeover](pentesting/fortress/subdomain-takeovers.md)
 * [Infrastructure](pentesting/infrastructure/README.md)
   * [Active Directory](pentesting/infrastructure/active-directory/README.md)
+    * [AD CS](pentesting/infrastructure/active-directory/ad-cs.md)
     * [Coercing Authentication](pentesting/infrastructure/active-directory/coercing-authentication.md)
     * [Credential Dumping](tactics/credential\_access/os-credential-dumping/README.md)
       * [Cached Domain Credentials](tactics/credential\_access/os-credential-dumping/cached-domain-credentials.md)

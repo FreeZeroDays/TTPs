@@ -70,7 +70,7 @@ python3 ntlmrelayx.py -tf smbdisabled.out --smb2-support --socks
 
 ### Attacking IPv6
 
-While a majority of companies do not utilize IPv6, little know that it is actually enabled by default. By using a tool such as mitm6, we can act as a malicious DNS server and redirect traffic to our attack host.&#x20;
+While a majority of companies do not utilize IPv6, little know that it is actually enabled by default. By using a tool such as mitm6, we can act as a malicious DNS server and redirect traffic to our attack host. This attack can be performed by using the tool [mitm6](https://blog.fox-it.com/2018/01/11/mitm6-compromising-ipv4-networks-via-ipv6/).&#x20;
 
 The following command demonstrates basic usage of IPv6:
 
@@ -105,7 +105,5 @@ Networking -> VM Network -> Edit Settings -> Promiscuous Mode: Accept
 {% embed url="https://docs.microsoft.com/en-us/archive/blogs/josebda/the-basics-of-smb-signing-covering-both-smb1-and-smb2" %}
 
 {% embed url="https://aas-s3curity.gitbook.io/cheatsheet/internalpentest/active-directory/exploitation/exploit-without-account/smb-relay" %}
-
-{% embed url="https://blog.fox-it.com/2018/01/11/mitm6-compromising-ipv4-networks-via-ipv6" %}
 
 {% embed url="https://www.secureauth.com/blog/playing-with-relayed-credentials/" %}

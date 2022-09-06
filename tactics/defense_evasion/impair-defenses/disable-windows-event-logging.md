@@ -19,7 +19,9 @@ auditpol /set /category:"Account Logon" /success:disable /failure:disable
 auditpol /clear /y
 auditpol /remove /allusers
 
-
+# Disable Sysmon
+## https://twitter.com/_batsec_/status/1327386867365457920?s=20&t=rMzsQI6ENH2SYVVaTYTqAA
+logman stop EventLog-Microsoft-Windows-Sysmon-Operational -ets
 ```
 
 ### References

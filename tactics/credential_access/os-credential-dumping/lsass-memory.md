@@ -6,7 +6,7 @@ description: MITRE ATT&CK, Credential Access, Sub-technique T1003.001
 
 > Adversaries commonly abuse the [Local Security Authority Subsystem Service](https://attack.mitre.org/techniques/T1003/001/) (LSASS) to dump credentials for privilege escalation, data theft, and lateral movement. The process is a fruitful target for adversaries because of the sheer amount of sensitive information it stores in memory.
 
-### Dumping LSASS Memory
+### Dumping LSASS
 
 ```bash
 # Dumping LSASS remotely with CrackMapExec

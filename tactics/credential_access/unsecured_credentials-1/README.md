@@ -31,8 +31,6 @@ manspider.py $target -d $domain -u $user -H $hash -f passw user admin account ne
 
 {% embed url="https://github.com/punk-security/smbeagle" %}
 
-###
-
 ### References
 
 {% embed url="https://www.sprocketsecurity.com/blog/how-to-limit-cleartext-password-storage-and-fix-the-issue-in-your-organization" %}

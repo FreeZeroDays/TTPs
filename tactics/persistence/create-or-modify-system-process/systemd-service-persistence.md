@@ -4,6 +4,8 @@ description: MITRE ATT&CK, Persistence, Sub-technique T1543.002
 
 # Systemd Service Persistence
 
+The following example demonstrates Systemd persistence with Watershell.&#x20;
+
 [Watershell ](https://github.com/RITRedteam/watershell-cpp)is an incredible script that I came across from a fellow red teamer during CCDC Regionals. I highly recommend reading the [original GitHub](https://github.com/wumb0/watershell) to learn more about the tool.
 
 General steps for persistence with Watershell:

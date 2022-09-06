@@ -21,10 +21,6 @@ net stop "$service_name"
 
 # Disable a Windows service
 sc config "service name" start= disabled
-
-# Disable Sysmon
-## https://twitter.com/_batsec_/status/1327386867365457920?s=20&t=rMzsQI6ENH2SYVVaTYTqAA
-logman stop EventLog-Microsoft-Windows-Sysmon-Operational -ets
 ```
 
 #### Disable Antivirus via the GUI

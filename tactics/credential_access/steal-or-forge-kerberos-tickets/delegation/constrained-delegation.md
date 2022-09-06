@@ -21,5 +21,3 @@ MATCH (c:Computer), (t:Computer), p=((c)-[:AllowedToDelegate]->(t)) RETURN p
 {% embed url="https://sensepost.com/blog/2022/constrained-delegation-considerations-for-lateral-movement/" %}
 
 {% embed url="http://blog.redxorblue.com/2019/12/no-shells-required-using-impacket-to.html" %}
-
-{% embed url="https://posts.specterops.io/hunting-in-active-directory-unconstrained-delegation-forests-trusts-71f2b33688e1" %}
