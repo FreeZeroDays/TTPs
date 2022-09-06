@@ -71,3 +71,5 @@ nessus_report_download $id $fileid
 <enter> ~C
 -L 1337:localhost:1337
 ```
+
+9\. Make your life significantly easier when analyzing email headers with [Message Header Analyzer](http://mha.azurewebsites.net).

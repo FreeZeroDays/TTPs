@@ -93,6 +93,7 @@
 ## 🧨 Red Teaming
 
 * [C2](red-teaming/c2/README.md)
+  * [Cobalt Strike](red-teaming/c2/cobalt-strike.md)
   * [Empire](red-teaming/c2/empire.md)
   * [Metasploit](red-teaming/c2/metasploit/README.md)
     * [Metasploit Datatabase](red-teaming/c2/metasploit/metasploit\_database.md)

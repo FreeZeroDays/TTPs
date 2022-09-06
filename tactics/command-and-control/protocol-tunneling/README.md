@@ -15,6 +15,8 @@ ssh -D $port -q -C -N parzival@$ip
 sshuttle -vr parzival@$ip $targetSubnet/24
 ```
 
+{% embed url="https://t.co/7owIpuQiUy" %}
+
 ### Setting up a SOCKS Proxy with Chisel
 
 1\. Download the [latest Chisel binaries](https://github.com/jpillora/chisel)

