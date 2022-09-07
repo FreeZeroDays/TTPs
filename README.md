@@ -2,7 +2,6 @@
 description: Threats, Tactics, and Procedures (TTPs)
 cover: .gitbook/assets/1579304829130.jpeg
 coverY: 0
-layout: landing
 ---
 
 # Threats, Tactics, and Procedures
