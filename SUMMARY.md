@@ -83,6 +83,7 @@
   * [Burp Suite](web-application/burp-suite/README.md)
     * [Intruder Attack Types](web-application/burp-suite/intruder\_attack\_types.md)
   * [Cross-Site Scripting (XSS)](web-application/cross-site-scripting.md)
+  * [CSV Injection](pentesting/web-applications/csv-injection.md)
   * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
   * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
 * [Wireless](pentesting/wireless/README.md)

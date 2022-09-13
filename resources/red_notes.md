@@ -73,3 +73,7 @@ nessus_report_download $id $fileid
 ```
 
 9\. Make your life significantly easier when analyzing email headers with [Message Header Analyzer](http://mha.azurewebsites.net).
+
+10\. Trying to make a high quality screenshot to illustrate commands used? Check out [carbon.now.sh](https://carbon.now.sh/).&#x20;
+
+10\. Don't know what a command does? There's no shame in that. For Linux check out [ExplainShell](https://explainshell.com/) and for PowerShell use[ ExplainPowershell](https://www.explainpowershell.com/).&#x20;

@@ -24,6 +24,10 @@ auditpol /remove /allusers
 logman stop EventLog-Microsoft-Windows-Sysmon-Operational -ets
 ```
 
+### Tools
+
+{% embed url="https://github.com/hlldz/Phant0m" %}
+
 ### References
 
 {% embed url="https://attack.mitre.org/techniques/T1562/002/" %}

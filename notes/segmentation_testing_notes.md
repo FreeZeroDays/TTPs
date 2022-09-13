@@ -34,6 +34,16 @@ nmap -sU -Pn --top-ports 1000 $subnet -oA UDP_Scan
 nmap -6 $ipv6address -oA IPv6_Scan
 ```
 
+### Reporting
+
+The following table is an example of how to report the results of a segmentation test:
+
+| IP Address | Port | Protocol | Service |
+| ---------- | ---- | -------- | ------- |
+| 10.1.1.1   | 53   | tcp      | DNS     |
+| 10.2.2.2   | 80   | tcp      | HTTP    |
+| 10.3.3.3   | 445  | tcp      | SMB     |
+
 ### Notes
 
 * When performing a segmentation test against FortiGate devices, port 113/TCP may appear against every host as: `closed`. This is not a firewall misconfiguration. [This documentation](https://kb.fortinet.com/kb/documentLink.do?externalID=FD48365) details more on this issue.
