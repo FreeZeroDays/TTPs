@@ -76,7 +76,7 @@ nmap -sT -Pn -n $port
 ```
 
 {% hint style="warning" %}
-You do not need this if you're utilizing SOCKS5 as it supports both ICMP and DNS.
+You do not need this if utilizing SOCKS5 as it supports both ICMP and DNS.
 {% endhint %}
 
 ### References
