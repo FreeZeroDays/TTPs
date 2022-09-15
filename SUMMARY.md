@@ -39,6 +39,7 @@
       * [Windows Remote Management (WinRM)](tactics/lateral\_movement/remote-services/winrm.md)
     * [LDAP Relaying](pentesting/infrastructure/active-directory/ldap-relaying.md)
     * [Local Administrator Password Solution (LAPS)](pentesting/infrastructure/active-directory/local-administrator-password-solution-laps.md)
+    * [NTLMv1](pentesting/infrastructure/active-directory/ntlmv1.md)
     * [SMB Relaying](pentesting/infrastructure/active-directory/smb-relaying.md)
     * [Password Cracking](tactics/credential\_access/brute\_force/password\_cracking/README.md)
     * [Password Spraying Active Directory](tactics/credential\_access/password\_spraying/spraying-active-directory.md)
