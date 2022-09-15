@@ -77,3 +77,7 @@ nessus_report_download $id $fileid
 10\. Trying to make a high quality screenshot to illustrate commands used? Check out [carbon.now.sh](https://carbon.now.sh/).&#x20;
 
 10\. Don't know what a command does? There's no shame in that. For Linux check out [ExplainShell](https://explainshell.com/) and for PowerShell use[ ExplainPowershell](https://www.explainpowershell.com/).&#x20;
+
+11\. Check the configuration of LAPS using a machine account per [@HackingLZ](https://twitter.com/hackinglz), as it was noted that configurations are often messed up for them.&#x20;
+
+12\. Your daily reminder that RDP local admin bruteforce has no ratelimiting.
