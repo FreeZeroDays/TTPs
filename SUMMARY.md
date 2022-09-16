@@ -5,6 +5,7 @@
 ## ☠ Pentesting
 
 * [Fortress](pentesting/fortress/README.md)
+  * [Exchange](pentesting/fortress/exchange.md)
   * [Office365](pentesting/fortress/spray\_microsoft.md)
   * [Outlook Web Access (OWA)](pentesting/fortress/outlook-web-access-owa.md)
   * [SSH](pentesting/fortress/ssh.md)
@@ -40,10 +41,10 @@
     * [LDAP Relaying](pentesting/infrastructure/active-directory/ldap-relaying.md)
     * [Local Administrator Password Solution (LAPS)](pentesting/infrastructure/active-directory/local-administrator-password-solution-laps.md)
     * [NTLMv1](pentesting/infrastructure/active-directory/ntlmv1.md)
-    * [Password Policy](pentesting/infrastructure/active-directory/password-policy.md)
-    * [SMB Relaying](pentesting/infrastructure/active-directory/smb-relaying.md)
     * [Password Cracking](tactics/credential\_access/brute\_force/password\_cracking/README.md)
+    * [Password Policy](pentesting/infrastructure/active-directory/password-policy.md)
     * [Password Spraying Active Directory](tactics/credential\_access/password\_spraying/spraying-active-directory.md)
+    * [SMB Relaying](pentesting/infrastructure/active-directory/smb-relaying.md)
     * [Zerologon](pentesting/infrastructure/active-directory/zerologon.md)
   * [Database Management System (DBMS)](pentesting/infrastructure/database-management-system-dbms/README.md)
     * [Microsoft SQL Server](tactics/persistence/server-software-component/sql-stored-procedures.md)
