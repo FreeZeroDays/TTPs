@@ -4,18 +4,7 @@ description: Methodology for performing password spraying attacks against active
 
 # Password Spraying Active Directory
 
-### Obtain Password Policy
-
-```bash
-# Get Password Policy with CrackMapExec (Unauthenticated)
-cme smb $dc -u '' -p ''
-
-# Get Password Policy with CrackMapExec
-crackmapexec smb $dc -u $username -p $password --pass-pol
-
-# Get Password Policy with Net Accounts
-net accounts
-```
+This section contains some of my methodology and tips for performing password spraying attacks against Active Directory. Before spraying, I highly recommend that you first [enumerate the password policy](../../../pentesting/infrastructure/active-directory/password-policy.md) on the domain so that you don't lock out accounts.&#x20;
 
 ### Get List of Users
 
@@ -46,7 +35,7 @@ crackmapexec smb $ip -u $username_list -p Winter2022! --continue-on-success
 
 ### Password List
 
-These passwords were referenced from the published Conti manual and often work. This should be an unspoken rule, but ensure that your list is tailored for each engagement (year, month, etc).
+These passwords were referenced from the published [Conti manual](https://github.com/ForbiddenProgrammer/conti-pentester-guide-leak) and often work. This should be an unspoken rule, but ensure that your list is tailored for each engagement (year, month, etc).
 
 ```bash
 Password1

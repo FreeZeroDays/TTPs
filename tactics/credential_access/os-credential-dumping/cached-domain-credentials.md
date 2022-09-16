@@ -4,7 +4,7 @@ description: MITRE ATT&CK, Credential Access, Sub-technique T1003.005
 
 # Cached Domain Credentials
 
-With SYSTEM access, an attacker can dump cached credentials with Mimikatz or Secretsdump. Note that DCC hashes take significantly longer to crack than an NT or Net-NTLM hash. I recommend using a simple password and rule list that has been tailored to your target first.&#x20;
+With SYSTEM access, an attacker can dump cached credentials with Mimikatz or Secretsdump. Note that DCC hashes take significantly longer to crack than an NT or Net-NTLM hashes. I recommend using a simple password and rule list that has been tailored to your target first.&#x20;
 
 ### Cracking
 
@@ -21,8 +21,6 @@ hashcat -m 2100 $dcc_file $wordlist
 ```
 
 ### Mitigations
-
-When researching LSA Secrets on [MITRE](https://attack.mitre.org/techniques/T1003/004/) it appears as though the only mitigation to LSA Secrets being dumped is through detection. However, this is not the case.
 
 The following settings can be configured to remove cached domain credentials from LSA Secrets:
 
