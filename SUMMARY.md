@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Threats, Tactics, and Procedures](README.md)
+* [Tactics, Techniques, and Procedures](README.md)
 
 ## ☠ Pentesting
 

@@ -1,10 +1,10 @@
 ---
-description: Threats, Tactics, and Procedures (TTPs)
+description: Tactics, Techniques, and Procedures (TTPs)
 cover: .gitbook/assets/1579304829130.jpeg
 coverY: 0
 ---
 
-# Threats, Tactics, and Procedures
+# Tactics, Techniques, and Procedures
 
 [![License](https://img.shields.io/badge/license-GPL3-lightgrey.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Twitter URL](https://img.shields.io/twitter/follow/FreeZeroDays?label=FreeZeroDays%20%20%F0%9F%90%A6\&style=flat-square)](https://twitter.com/FreeZeroDays)
 
