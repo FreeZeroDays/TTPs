@@ -15,7 +15,20 @@ While using `document.cookie` is great to demonstrate the exploitability of a Cr
 
 {% embed url="https://infosecwriteups.com/stored-xss-to-account-takeover-going-beyond-document-cookie-970e42362f43" %}
 
-### Payloads
+### Why HttpOnly Isn't Enough
+
+There are multiple articles on the Internet stating that the `HttpOnly` flag provides a false sense of security as an attacker is unlikely to wait several hours for a user to trigger the payload and obtain a session token. Rather, an attacker can leverage a more sophiscated attack to hook the user or perform immediate malicious actions.
+
+```http
+# This is the flag we are talking about
+Set-Cookie: SESSIONID=[token]; HttpOnly
+```
+
+{% embed url="https://www.gnucitizen.org/blog/why-httponly-wont-protect-you/" %}
+
+{% embed url="https://portswigger.net/kb/issues/00500600_cookie-without-httponly-flag-set" %}
+
+### Testing / Creating Payloads
 
 {% embed url="https://jsfiddle.net" %}
 
