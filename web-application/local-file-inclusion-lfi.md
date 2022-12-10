@@ -66,6 +66,17 @@ This section lists common files to look for when testing for Local File Inclusio
 %WINDIR%system32configAppEvent.Evt
 ```
 
+### Remote Code Execution via LFI (Log Injection)
+
+Log Injection / Log Poisoning is a technique used to obtain a reverse shell from a LFI vulnerability. In order to make this attack work, an attacker will attempt to inject a malicious payload into the server log.
+
+* If we are able to access server logs such as `/var/log/apache2/access.log` we can modify our `User-Agent` to be a malicious payload which could result in us obtaining remote code execution.&#x20;
+
+```php
+# Sample PHP Payload
+<?php system($_GET['c']); ?>
+```
+
 ### Additional Notes
 
 * Sometimes during Local File Inclusion, the web server may append something like `.php` or `.config` to the file. For example, including `/etc/passwd` may be rendered as `/etc/passwd.php`. This occurs when the include function uses a parameter like `?page` and concatenates the .php extension to the file. In versions of PHP below 5.3, ending the URL with a null byte (`%00`) will cause the interpreter to stop reading, this would then allow you to include and view the intended page.
