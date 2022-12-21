@@ -45,7 +45,7 @@
     * [NTLMv1](pentesting/infrastructure/active-directory/ntlmv1.md)
     * [Password Cracking](tactics/credential\_access/brute\_force/password\_cracking/README.md)
     * [Password Policy](pentesting/infrastructure/active-directory/password-policy.md)
-    * [Password Spraying Active Directory](tactics/credential\_access/password\_spraying/spraying-active-directory.md)
+    * [Password Spraying](pentesting/infrastructure/active-directory/password-spraying.md)
     * [Shadow Credentials](pentesting/infrastructure/active-directory/shadow-credentials.md)
     * [SMB Relaying](pentesting/infrastructure/active-directory/smb-relaying.md)
     * [Zerologon](pentesting/infrastructure/active-directory/zerologon.md)
