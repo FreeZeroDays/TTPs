@@ -63,6 +63,7 @@
     * [Network Scanning](pentesting/infrastructure/networks/network-scanning.md)
     * [Network Sniffing](pentesting/infrastructure/networks/network-sniffing.md)
     * [Segmentation Testing](notes/segmentation\_testing\_notes.md)
+    * [Simple Network Management Protocol (SNMP)](pentesting/infrastructure/networks/simple-network-management-protocol-snmp.md)
     * [Subnet Enumeration](pentesting/infrastructure/networks/subnet-enumeration.md)
   * [Persistence](tactics/persistence/README.md)
     * [Create Account](tactics/persistence/create-account/README.md)
