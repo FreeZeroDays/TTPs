@@ -13,6 +13,10 @@ cd Empire/setup
 ./ps-empire-server client
 ```
 
+### Infrastructure
+
+{% embed url="https://parzival.sh/posts/Building-Red-Team-Infrastructure-with-Empire-and-Nebula/" %}
+
 ### References
 
 {% embed url="https://github.com/BC-SECURITY/Empire" %}

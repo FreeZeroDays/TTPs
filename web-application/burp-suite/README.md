@@ -16,6 +16,7 @@ description: Notes around using and performing testing with Burp Suite
 * WSL Wizard
 * Software Vulnerability Scanner
 * CSRF Scanner
+* Param Miner
 * Additional Scanner Checks
 * Turbo Intruder
 
