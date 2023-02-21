@@ -56,7 +56,7 @@
     * [Disable Windows Event Logging](tactics/defense\_evasion/impair-defenses/disable-windows-event-logging.md)
     * [Impair Command History Logging](tactics/defense\_evasion/impair-defenses/impair-command-history-logging.md)
     * [Timestomping](pentesting/infrastructure/defense\_evasion/timestomping.md)
-  * [Low-Hanging Fruits](tactics/lateral\_movement/exploitation-of-remote-services/easy\_hacks.md)
+  * [Low-Hanging Fruit](tactics/lateral\_movement/exploitation-of-remote-services/easy\_hacks.md)
   * [Networks](pentesting/infrastructure/networks/README.md)
     * [IPv6](pentesting/infrastructure/networks/ipv6.md)
     * [LLMNR/NBT-NS Poisoning](tactics/collection/adversary-in-the-middle/llmnr-nbt-ns-poisoning-and-smb-relaying/poisoning-with-responder.md)
