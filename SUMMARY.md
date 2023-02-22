@@ -16,6 +16,7 @@
     * [Coercing Authentication](pentesting/infrastructure/active-directory/coercing-authentication.md)
     * [Credential Dumping](tactics/credential\_access/os-credential-dumping/README.md)
       * [Cached Domain Credentials](tactics/credential\_access/os-credential-dumping/cached-domain-credentials.md)
+      * [Data Protection API (DPAPI)](pentesting/infrastructure/active-directory/os-credential-dumping/data-protection-api-dpapi.md)
       * [Group Policy Preferences](tactics/credential\_access/unsecured\_credentials-1/group-policy-preferences.md)
       * [LSA Secrets](tactics/credential\_access/os-credential-dumping/lsa-secrets.md)
       * [LSASS Memory](tactics/credential\_access/os-credential-dumping/lsass-memory.md)
