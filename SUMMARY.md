@@ -5,6 +5,7 @@
 ## ☠ Pentesting
 
 * [Fortress](pentesting/fortress/README.md)
+  * [Cisco](pentesting/fortress/cisco.md)
   * [Exchange](pentesting/fortress/exchange.md)
   * [Office365](pentesting/fortress/spray\_microsoft.md)
   * [Outlook Web Access (OWA)](pentesting/fortress/outlook-web-access-owa.md)
@@ -106,8 +107,10 @@
   * [LDAP Injection](pentesting/web-applications/ldap-injection.md)
   * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
   * [Prototype Pollution](pentesting/web-applications/prototype-pollution.md)
+  * [Race Condition](pentesting/web-applications/race-condition.md)
   * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
   * [WebSockets](pentesting/web-applications/websockets.md)
+  * [External Entity Injection (XXE)](pentesting/web-applications/external-entity-injection-xxe.md)
 * [Wireless](pentesting/wireless/README.md)
   * [WPA / WPA2](wireless/wpa-wpa2/README.md)
     * [Enterprise](wireless/wpa-wpa2/enterprise.md)
@@ -124,6 +127,7 @@
   * [Sliver](red-teaming/c2/sliver.md)
 * [Offensive Infrastructure](red-teaming/offensive-infrastructure/README.md)
   * [Cloud Fronting](red-teaming/offensive-infrastructure/cloud-fronting.md)
+* [Offensive Tactics](red-teaming/offensive-tactics.md)
 
 ## 📖 Resources
 

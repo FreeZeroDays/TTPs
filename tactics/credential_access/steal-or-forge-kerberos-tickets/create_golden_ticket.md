@@ -4,8 +4,6 @@ description: MITRE ATT&CK, Credential Access, Technique T1558.001
 
 # Forge Golden Ticket
 
-### Description
-
 A Golden Ticket attack is a type of attack in which an adversary gains control over an Active Directory Key Distribution Service Account (KRBTGT), and uses that account to forge valid Kerberos Tickets. A golden ticket will allow you to persist in an environment almost indefinitely.
 
 ### Prerequisites for creating a Golden Ticket:
