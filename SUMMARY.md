@@ -131,9 +131,10 @@
     * [Metasploit Datatabase](red-teaming/c2/metasploit/metasploit\_database.md)
   * [Mythic](red-teaming/c2/mythic.md)
   * [Sliver](red-teaming/c2/sliver.md)
-* [💀 Mal dev](red-teaming/mal-dev.md)
+* [Malware Dev](red-teaming/malware-dev.md)
 * [Offensive Infrastructure](red-teaming/offensive-infrastructure/README.md)
   * [Cloud Fronting](red-teaming/offensive-infrastructure/cloud-fronting.md)
+  * [Redirectors](red-teaming/offensive-infrastructure/redirectors.md)
 * [Offensive Tactics](red-teaming/offensive-tactics.md)
 
 ## 📖 Resources

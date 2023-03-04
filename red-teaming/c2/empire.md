@@ -19,6 +19,8 @@ I wrote a small blog post about the setup, basic usage, and some OpSec considera
 
 {% embed url="https://parzival.sh/posts/Building-Red-Team-Infrastructure-with-Empire-and-Nebula/" %}
 
+{% embed url="https://www.youtube.com/watch?v=KYCzakkmHqo&embeds_euri=https%3A%2F%2Fcdn.iframe.ly%2F&source_ve_path=MjM4NTE&feature=emb_title" %}
+
 ### References
 
 {% embed url="https://github.com/BC-SECURITY/Empire" %}
