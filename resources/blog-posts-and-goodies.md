@@ -51,9 +51,6 @@ description: >-
 
 ## Checklists
 
-* [Checklists to be used in Penetration Testing and Red Teaming](https://github.com/netbiosX/Checklists)
-* [WebPentestChecklist](https://github.com/D3n0Duz/WebPentestChecklist)
-* [Cloud Penetration Testing Cheatsheets](https://github.com/dafthack/CloudPentestCheatsheets)
 * [A\_Primer\_on\_DCSync\_Attack\_and\_Detection](https://www.alteredsecurity.com/post/a-primer-on-dcsync-attack-and-detection)
 
 ## Mindmaps

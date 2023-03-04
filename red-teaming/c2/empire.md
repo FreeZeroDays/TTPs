@@ -15,6 +15,8 @@ cd Empire/setup
 
 ### Infrastructure
 
+I wrote a small blog post about the setup, basic usage, and some OpSec considerations when using Empire:
+
 {% embed url="https://parzival.sh/posts/Building-Red-Team-Infrastructure-with-Empire-and-Nebula/" %}
 
 ### References
