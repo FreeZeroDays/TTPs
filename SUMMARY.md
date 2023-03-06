@@ -90,6 +90,7 @@
       * [Leveraging AI During Template Creation](pentesting/initial\_access/phishing/creating\_templates/leveraging-ai-during-template-creation.md)
     * [Payloads](tactics/initial\_access/phishing/payloads/README.md)
       * [Non-malicious Callback](tactics/initial\_access/phishing/payloads/non-malicious-callback.md)
+      * [Macros](pentesting/initial\_access/phishing/payloads/macros.md)
 * [OSINT](pentesting/osint/README.md)
   * [Identifying Users](pentesting/osint/gather-victim-identity-information.md)
   * [Network Information](pentesting/osint/gather-victim-network-information.md)
