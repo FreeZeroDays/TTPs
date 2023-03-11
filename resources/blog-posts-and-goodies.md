@@ -66,7 +66,7 @@ description: >-
 
 * [Al1ex Pentest Tools](https://github.com/Al1ex/Pentest-tools)
 
-## Wikipedias
+## Wikis
 
 * [Vincent\_Yiu\_Red\_Team\_Tips](https://www.vincentyiu.com/red-team-tips/)
 * [HackTricks](https://book.hacktricks.xyz)

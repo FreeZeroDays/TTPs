@@ -98,6 +98,7 @@
 * [Web Applications](pentesting/web-applications/README.md)
   * [Clickjacking](pentesting/web-applications/clickjacking.md)
   * [File Upload](pentesting/web-applications/file-upload.md)
+  * [GraphQL](pentesting/web-applications/graphql.md)
   * [Insecure Direct Object Reference (IDOR)](pentesting/web-applications/insecure-direct-object-reference-idor.md)
   * [Injection Vulnerabilities](pentesting/web-applications/injection-vulnerabilities/README.md)
     * [Cross-Site Scripting (XSS)](web-application/cross-site-scripting.md)
