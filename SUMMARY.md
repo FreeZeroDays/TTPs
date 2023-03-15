@@ -96,6 +96,8 @@
   * [Network Information](pentesting/osint/gather-victim-network-information.md)
   * [Search Engines](pentesting/osint/search-engines.md)
 * [Web Applications](pentesting/web-applications/README.md)
+  * [APIs](pentesting/web-applications/apis/README.md)
+    * [Swagger API](pentesting/web-applications/apis/swagger-api.md)
   * [Clickjacking](pentesting/web-applications/clickjacking.md)
   * [File Upload](pentesting/web-applications/file-upload.md)
   * [GraphQL](pentesting/web-applications/graphql.md)
