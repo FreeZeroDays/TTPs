@@ -75,6 +75,7 @@
       * [Service Privilege Escalation / Persistence](pentesting/infrastructure/persistence/services/service-privilege-escalation-persistence.md)
       * [Systemd Service Persistence](pentesting/infrastructure/persistence/services/systemd-service-persistence.md)
     * [Web Shell](tactics/persistence/server-software-component/web-shell.md)
+    * [DLL Hijacking](pentesting/infrastructure/persistence/dll-hijacking.md)
   * [Pivoting](tactics/command-and-control/protocol-tunneling/README.md)
   * [Privilege Escalation](tactics/privilege\_escalation/README.md)
     * [Linux](tactics/privilege\_escalation/linux/README.md)

