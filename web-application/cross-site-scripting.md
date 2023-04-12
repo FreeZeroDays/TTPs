@@ -27,3 +27,15 @@ Set-Cookie: SESSIONID=[token]; HttpOnly
 {% embed url="https://www.gnucitizen.org/blog/why-httponly-wont-protect-you/" %}
 
 {% embed url="https://portswigger.net/kb/issues/00500600_cookie-without-httponly-flag-set" %}
+
+### Testing / Payload Creation
+
+{% embed url="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet" %}
+
+{% embed url="https://jsfiddle.net" %}
+
+{% embed url="http://www.jsfuck.com" %}
+
+{% embed url="https://ppn.snovvcrash.rocks/pentest/web/xss" %}
+
+{% embed url="https://xssor.io" %}
