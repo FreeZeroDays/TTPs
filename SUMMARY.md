@@ -150,3 +150,4 @@
 * [Blog Posts and Goodies](resources/blog-posts-and-goodies.md)
 * [Checklists](resources/checklists.md)
 * [Offensive Security Notes](resources/red\_notes.md)
+* [Tooling Repository](resources/tooling-repository.md)
