@@ -114,6 +114,7 @@
   * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
   * [OAuth](pentesting/web-applications/oauth.md)
   * [Open Redirection](pentesting/web-applications/open-redirection.md)
+  * [Password Reset Poisoning](pentesting/web-applications/password-reset-poisoning.md)
   * [Prototype Pollution](pentesting/web-applications/prototype-pollution.md)
   * [Race Condition](pentesting/web-applications/race-condition.md)
   * [Remote Code Execution (RCE)](pentesting/web-applications/remote-code-execution-rce.md)
