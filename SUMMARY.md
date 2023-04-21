@@ -127,6 +127,7 @@
   * [WebSockets](pentesting/web-applications/websockets.md)
 * [Wireless](pentesting/wireless/README.md)
   * [WPA / WPA2](wireless/wpa-wpa2/README.md)
+    * [Alfa Troubleshooting](pentesting/wireless/wpa-wpa2/alfa-troubleshooting.md)
     * [Enterprise](wireless/wpa-wpa2/enterprise.md)
     * [Personal](wireless/wpa-wpa2/personal.md)
 
