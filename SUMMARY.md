@@ -128,6 +128,7 @@
     * [Misc Tooling](pentesting/web-applications/tooling/misc-tooling.md)
   * [WAF Bypasses](pentesting/web-applications/waf-bypasses.md)
   * [WebSockets](pentesting/web-applications/websockets.md)
+  * [Access Control](pentesting/web-applications/access-control.md)
 * [Wireless](pentesting/wireless/README.md)
   * [WPA / WPA2](wireless/wpa-wpa2/README.md)
     * [Alfa Troubleshooting](pentesting/wireless/wpa-wpa2/alfa-troubleshooting.md)
