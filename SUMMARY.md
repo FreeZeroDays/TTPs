@@ -130,6 +130,7 @@
     * [Misc Tooling](pentesting/web-applications/tooling/misc-tooling.md)
   * [WAF Bypasses](pentesting/web-applications/waf-bypasses.md)
   * [WebSockets](pentesting/web-applications/websockets.md)
+  * [Rate Limit Bypass](pentesting/web-applications/rate-limit-bypass.md)
 * [Wireless](pentesting/wireless/README.md)
   * [WPA / WPA2](wireless/wpa-wpa2/README.md)
     * [Alfa Troubleshooting](pentesting/wireless/wpa-wpa2/alfa-troubleshooting.md)
