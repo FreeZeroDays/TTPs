@@ -126,6 +126,7 @@
   * [Tooling](pentesting/web-applications/tooling/README.md)
     * [Burp Suite](web-application/burp-suite/README.md)
       * [Intruder Attack Types](web-application/burp-suite/intruder\_attack\_types.md)
+      * [Match and Replace](pentesting/web-applications/tooling/burp-suite/match-and-replace.md)
     * [Misc Tooling](pentesting/web-applications/tooling/misc-tooling.md)
   * [WAF Bypasses](pentesting/web-applications/waf-bypasses.md)
   * [WebSockets](pentesting/web-applications/websockets.md)
