@@ -6,6 +6,9 @@
 
 * [Fortress](pentesting/fortress/README.md)
   * [Cisco](pentesting/fortress/cisco.md)
+  * [CMS](pentesting/fortress/cms/README.md)
+    * [Drupal](pentesting/fortress/cms/drupal.md)
+    * [Wordpress](pentesting/fortress/cms/wordpress.md)
   * [Exchange](pentesting/fortress/exchange.md)
   * [Office365](pentesting/fortress/spray\_microsoft.md)
   * [Outlook Web Access (OWA)](pentesting/fortress/outlook-web-access-owa.md)

@@ -15,6 +15,8 @@ While using `document.cookie` is great to demonstrate the exploitability of a Cr
 
 {% embed url="https://infosecwriteups.com/stored-xss-to-account-takeover-going-beyond-document-cookie-970e42362f43" %}
 
+{% embed url="https://www.trustedsec.com/blog/tricks-for-weaponizing-xss/" %}
+
 ### Why HttpOnly Isn't Enough
 
 There are multiple articles on the Internet stating that the `HttpOnly` flag provides a false sense of security as an attacker is unlikely to wait several hours for a user to trigger the payload and obtain a session token. Rather, an attacker can leverage a more sophiscated attack to hook the user or perform immediate malicious actions.
