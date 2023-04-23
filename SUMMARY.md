@@ -5,7 +5,9 @@
 ## ☠ Pentesting
 
 * [Fortress](pentesting/fortress/README.md)
-  * [Cisco](pentesting/fortress/cisco.md)
+  * [Cisco](pentesting/fortress/cisco/README.md)
+    * [Cisco Adaptive Security Appliance](pentesting/fortress/cisco/cisco-adaptive-security-appliance.md)
+    * [Cisco Smart Install](pentesting/fortress/cisco/cisco-smart-install.md)
   * [CMS](pentesting/fortress/cms/README.md)
     * [Drupal](pentesting/fortress/cms/drupal.md)
     * [Wordpress](pentesting/fortress/cms/wordpress.md)
