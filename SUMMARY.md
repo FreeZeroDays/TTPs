@@ -119,6 +119,7 @@
     * [CSV Injection](pentesting/web-applications/csv-injection.md)
     * [External Entity Injection (XXE)](pentesting/web-applications/external-entity-injection-xxe.md)
     * [LDAP Injection](pentesting/web-applications/ldap-injection.md)
+    * [SQL Injection](pentesting/web-applications/injection-vulnerabilities/sql-injection.md)
   * [JSON Web Tokens (JWT)](pentesting/web-applications/json-web-tokens-jwt.md)
   * [Local File Inclusion (LFI)](web-application/local-file-inclusion-lfi.md)
   * [OAuth](pentesting/web-applications/oauth.md)
