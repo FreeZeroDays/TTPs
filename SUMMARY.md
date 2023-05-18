@@ -55,6 +55,7 @@
     * [Password Cracking](tactics/credential\_access/brute\_force/password\_cracking/README.md)
     * [Password Policy](pentesting/infrastructure/active-directory/password-policy.md)
     * [Password Spraying](pentesting/infrastructure/active-directory/password-spraying.md)
+    * [Reconnaissance](pentesting/infrastructure/active-directory/reconnaissance.md)
     * [Relaying](pentesting/infrastructure/active-directory/relaying/README.md)
       * [LDAP Relaying](pentesting/infrastructure/active-directory/relaying/ldap-relaying.md)
       * [SMB Relaying](pentesting/infrastructure/active-directory/relaying/smb-relaying.md)
