@@ -13,6 +13,7 @@
     * [Wordpress](pentesting/fortress/cms/wordpress.md)
   * [Exchange](pentesting/fortress/exchange.md)
   * [Office365](pentesting/fortress/spray\_microsoft.md)
+  * [Okta](pentesting/fortress/okta.md)
   * [Outlook Web Access (OWA)](pentesting/fortress/outlook-web-access-owa.md)
   * [SSH](pentesting/fortress/ssh.md)
   * [Subdomain Takeover](pentesting/fortress/subdomain-takeovers.md)
@@ -160,6 +161,7 @@
 * [Offensive Infrastructure](red-teaming/offensive-infrastructure/README.md)
   * [Cloud Fronting](red-teaming/offensive-infrastructure/cloud-fronting.md)
   * [Redirectors](red-teaming/offensive-infrastructure/redirectors.md)
+  * [OpSec](red-teaming/offensive-infrastructure/opsec.md)
 * [Offensive Tactics](red-teaming/offensive-tactics.md)
 
 ## 📖 Resources
