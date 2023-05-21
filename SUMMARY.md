@@ -110,6 +110,8 @@
   * [Access Control](pentesting/web-applications/access-control.md)
   * [APIs](pentesting/web-applications/apis/README.md)
     * [Swagger API](pentesting/web-applications/apis/swagger-api.md)
+  * [Authentication](pentesting/web-applications/authentication/README.md)
+    * [Account Takeover](pentesting/web-applications/authentication/account-takeover.md)
   * [Clickjacking](pentesting/web-applications/clickjacking.md)
   * [File Upload](pentesting/web-applications/file-upload.md)
   * [GraphQL](pentesting/web-applications/graphql.md)
