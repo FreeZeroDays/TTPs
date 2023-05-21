@@ -113,6 +113,7 @@
   * [Authentication](pentesting/web-applications/authentication/README.md)
     * [Account Takeover](pentesting/web-applications/authentication/account-takeover.md)
   * [Clickjacking](pentesting/web-applications/clickjacking.md)
+  * [CORS](pentesting/web-applications/cors.md)
   * [File Upload](pentesting/web-applications/file-upload.md)
   * [GraphQL](pentesting/web-applications/graphql.md)
   * [Insecure Direct Object Reference (IDOR)](pentesting/web-applications/insecure-direct-object-reference-idor.md)
