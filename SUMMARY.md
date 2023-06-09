@@ -139,6 +139,7 @@
   * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
   * [Tooling](pentesting/web-applications/tooling/README.md)
     * [Burp Suite](web-application/burp-suite/README.md)
+      * [Authentication / Proxy Issues](pentesting/web-applications/tooling/burp-suite/authentication-proxy-issues.md)
       * [Intruder Attack Types](web-application/burp-suite/intruder\_attack\_types.md)
       * [Match and Replace](pentesting/web-applications/tooling/burp-suite/match-and-replace.md)
       * [Quality of Life](pentesting/web-applications/tooling/burp-suite/quality-of-life.md)
