@@ -87,6 +87,7 @@ https://$url/var/log/httpd&c=whoami
 
 * Sometimes during Local File Inclusion, the web server may append something like `.php` or `.config` to the file. For example, including `/etc/passwd` may be rendered as `/etc/passwd.php`. This occurs when the include function uses a parameter like `?page` and concatenates the .php extension to the file. In versions of PHP below 5.3, ending the URL with a null byte (`%00`) will cause the interpreter to stop reading, this would then allow you to include and view the intended page.
 * If you have identified LFI impacting a Linux host, you may be able to access the `.ssh/id_rsa` file of identified users. These are easily identified from reading the contents of the `/etc/passwd` file.&#x20;
+* If you have identified an LFI vulnerability, try and read `/var/run/secrets/kubernetes.io/serviceaccount` to see if you can harvest Kubernetes information.
 
 ### References
 
