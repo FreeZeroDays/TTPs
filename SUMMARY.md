@@ -5,6 +5,7 @@
 ## ☠ Pentesting
 
 * [Fortress](pentesting/fortress/README.md)
+  * [Automation](pentesting/fortress/automation.md)
   * [Cisco](pentesting/fortress/cisco/README.md)
     * [Cisco Adaptive Security Appliance](pentesting/fortress/cisco/cisco-adaptive-security-appliance.md)
     * [Cisco Smart Install](pentesting/fortress/cisco/cisco-smart-install.md)
@@ -140,6 +141,7 @@
   * [Rate Limit Bypass](pentesting/web-applications/rate-limit-bypass.md)
   * [Remote Code Execution (RCE)](pentesting/web-applications/remote-code-execution-rce.md)
   * [Remote File Inclusion (RFI)](web-application/remote-file-inclusion-rfi.md)
+  * [Suspicious Parameters](pentesting/web-applications/suspicious-parameters.md)
   * [Tooling](pentesting/web-applications/tooling/README.md)
     * [Burp Suite](web-application/burp-suite/README.md)
       * [Authentication / Proxy Issues](pentesting/web-applications/tooling/burp-suite/authentication-proxy-issues.md)
