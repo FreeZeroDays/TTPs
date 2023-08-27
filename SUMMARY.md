@@ -156,6 +156,9 @@
     * [Alfa Troubleshooting](pentesting/wireless/wpa-wpa2/alfa-troubleshooting.md)
     * [Enterprise](wireless/wpa-wpa2/enterprise.md)
     * [Personal](wireless/wpa-wpa2/personal.md)
+* [Cloud](pentesting/cloud/README.md)
+  * [Amazon Web Services (AWS)](pentesting/cloud/amazon-web-services-aws.md)
+  * [Microsoft Azure](pentesting/cloud/microsoft-azure.md)
 
 ## 🧨 Red Teaming
 
