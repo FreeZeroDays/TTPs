@@ -180,7 +180,12 @@
   * [Cloud Fronting](red-teaming/offensive-infrastructure/cloud-fronting.md)
   * [Redirectors](red-teaming/offensive-infrastructure/redirectors.md)
   * [OpSec](red-teaming/offensive-infrastructure/opsec.md)
+  * [Phishing Infrastructure](red-teaming/offensive-infrastructure/phishing-infrastructure.md)
 * [Offensive Tactics](red-teaming/offensive-tactics.md)
+
+## 🦋 Bug Bounty
+
+* [Page 1](bug-bounty/page-1.md)
 
 ## 📖 Resources
 
