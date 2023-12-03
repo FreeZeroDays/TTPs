@@ -7,17 +7,14 @@ description: Notes around using and performing testing with Burp Suite
 ### Useful Extender Installations
 
 * ActiveScan++
-* Autorepeater Burp
+* Additional Scanner Checks
+* Retire JS
+* Collaborator Everywhere
 * Autorize Burp
-* BurpSentinel
-* Flow
-* Headless Burp
-* Logger++
-* WSL Wizard
 * Software Vulnerability Scanner
 * CSRF Scanner
 * Param Miner
-* Additional Scanner Checks
+* HTTP Smuggler
 * Turbo Intruder
 
 ### References

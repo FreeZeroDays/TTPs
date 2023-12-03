@@ -185,7 +185,7 @@
 
 ## 🦋 Bug Bounty
 
-* [Page 1](bug-bounty/page-1.md)
+* [Bug Bounty Tips & Tricks](bug-bounty/bug-bounty-tips-and-tricks.md)
 
 ## 📖 Resources
 
@@ -193,3 +193,4 @@
 * [Checklists](resources/checklists.md)
 * [Offensive Security Notes](resources/red\_notes.md)
 * [Tooling Repository](resources/tooling-repository.md)
+* [Active Directory Toolkit](resources/active-directory-toolkit.md)
