@@ -12,6 +12,8 @@ description: Notes around using and performing testing with Burp Suite
 * Collaborator Everywhere
 * Autorize Burp
 * Software Vulnerability Scanner
+* JS Link Finder
+* Upload Scanner
 * CSRF Scanner
 * Param Miner
 * HTTP Smuggler
