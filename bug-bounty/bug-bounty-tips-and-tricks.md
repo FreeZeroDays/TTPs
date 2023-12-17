@@ -52,7 +52,7 @@ dalfox file xssout.txt -b <blindXSSpayload> -o dalfox.txt
 cat hosts.txt | gospider -S - --depth 1 -v -t 50 -war -c 10 -o output
 cd output
 cat * | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | sort -u > endpoints.txt
-cat endpoints.txt | python3 ~/Other/scripts/getdirs.py -s -o dirs.txt
+cat endpoints.txt | python3 getdirs.py -s -o dirs.txt
 ```
 
 ### References
