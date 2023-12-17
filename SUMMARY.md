@@ -181,6 +181,7 @@
   * [Redirectors](red-teaming/offensive-infrastructure/redirectors.md)
   * [OpSec](red-teaming/offensive-infrastructure/opsec.md)
   * [Phishing Infrastructure](red-teaming/offensive-infrastructure/phishing-infrastructure.md)
+  * [Creating a Dropbox](red-teaming/offensive-infrastructure/creating-a-dropbox.md)
 * [Offensive Tactics](red-teaming/offensive-tactics.md)
 
 ## 🦋 Bug Bounty

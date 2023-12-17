@@ -18,8 +18,21 @@ description: >-
 4. Configure Burp to display "hidden fields in forms" during proxying.
 5. Create your own wordlists. Use SecLists as a starting point and leverage personal research + GAP to create personal and customized wordlists. This is your secret sauce during engagements.
 6. `/.well-known/apple-app-site-association` often times contains "weird" endpoints specified by a developer.
+7. Refer to the following tweet from Jason Haddix on exploring parameter fuzzing using ffuf: [https://twitter.com/Jhaddix/status/1735337603027685605](https://twitter.com/Jhaddix/status/1735337603027685605) (can also use these wordlists with param miner)
+   1. [https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/burp-parameter-names.txt](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/burp-parameter-names.txt)
+   2. [https://github.com/g0ldencybersec/sus\_params/blob/main/txt/debug.txt](https://github.com/g0ldencybersec/sus\_params/blob/main/txt/debug.txt)
+8. Great general bug bounty methodology on using OpenList, GAP, and Burp Suite: [https://twitter.com/nullenc0de/status/1701318185352417648](https://twitter.com/nullenc0de/status/1701318185352417648)
+9. Bug Bounty 'oneliner' for JSRecon:  ([https://twitter.com/nullenc0de/status/1680233695959998464](https://twitter.com/nullenc0de/status/1680233695959998464))
 
+```
+echo "https://coastlinecyber.com" | subjs | while read -r url; do jsluice urls -R "$url" <(curl -sk "$url"); done | jq -r '.url' |qsreplace -a 
+```
 
+Chain with the following to identify potential XSS vulnerabilities:
+
+```
+cat sub_root.txt | subfinder -silent | dnsx -silent | httpx -silent | subjs | while read -r url; do jsluice urls -R "$url" <(curl -sk "$url"); done | jq -r '.url' | qsreplace -a | grep = | kxss
+```
 
 ### References
 
