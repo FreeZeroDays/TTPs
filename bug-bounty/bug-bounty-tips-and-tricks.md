@@ -34,6 +34,18 @@ Chain with the following to identify potential XSS vulnerabilities:
 cat sub_root.txt | subfinder -silent | dnsx -silent | httpx -silent | subjs | while read -r url; do jsluice urls -R "$url" <(curl -sk "$url"); done | jq -r '.url' | qsreplace -a | grep = | kxss
 ```
 
+10. One liner for sorting per vulnerability with tomnomnom's `gf` tool:
+
+```
+cat url_queries.txt | gf xss | sed 's/=.*/=/' |  sed 's/URL: //' | tee xssout.txt
+```
+
+11. One liner for automating testing for blind xss using dalfox, note, should be paired with the command above:
+
+```
+dalfox file xssout.txt -b <blindXSSpayload> -o dalfox.txt
+```
+
 ### References
 
 {% embed url="https://twitter.com/ArchAngelDDay/status/1661924038875435008" %}
