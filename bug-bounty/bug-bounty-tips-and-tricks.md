@@ -46,6 +46,15 @@ cat url_queries.txt | gf xss | sed 's/=.*/=/' |  sed 's/URL: //' | tee xssout.tx
 dalfox file xssout.txt -b <blindXSSpayload> -o dalfox.txt
 ```
 
+12. One liner for reconaissance, `hosts.txt` should be full of all subdomains identified, we will then ultimately grep out all URLs and paths for further fuzzing with ffuf after:
+
+```
+cat hosts.txt | gospider -S - --depth 1 -v -t 50 -war -c 10 -o output
+cd output
+cat * | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | sort -u > endpoints.txt
+cat endpoints.txt | python3 ~/Other/scripts/getdirs.py -s -o dirs.txt
+```
+
 ### References
 
 {% embed url="https://twitter.com/ArchAngelDDay/status/1661924038875435008" %}
