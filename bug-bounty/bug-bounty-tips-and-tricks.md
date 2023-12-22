@@ -55,6 +55,8 @@ cat * | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | sort -u > endpoints.txt
 cat endpoints.txt | python3 getdirs.py -s -o dirs.txt
 ```
 
+13. Proxy your tooling through BurpSuite for better results. For example, proxying GoSpider: `gospider -S live-urls -a -w -r --sitemap -c 20 -d 8 -p http://127.0.0.1:8080`
+
 ### References
 
 {% embed url="https://twitter.com/ArchAngelDDay/status/1661924038875435008" %}
