@@ -79,6 +79,7 @@
     * [Segmentation Testing](notes/segmentation\_testing\_notes.md)
     * [Simple Network Management Protocol (SNMP)](pentesting/infrastructure/networks/simple-network-management-protocol-snmp.md)
     * [Subnet Enumeration](pentesting/infrastructure/networks/subnet-enumeration.md)
+    * [Identifying Domain Information](pentesting/infrastructure/networks/identifying-domain-information.md)
   * [Persistence](tactics/persistence/README.md)
     * [Create Account](tactics/persistence/create-account/README.md)
     * [Remote Desktop](pentesting/infrastructure/persistence/remote-desktop.md)
