@@ -56,6 +56,27 @@ cat endpoints.txt | python3 getdirs.py -s -o dirs.txt
 ```
 
 13. Proxy your tooling through BurpSuite for better results. For example, proxying GoSpider: `gospider -S live-urls -a -w -r --sitemap -c 20 -d 8 -p http://127.0.0.1:8080`
+14. One-liner to collect target domains from Project Discovery's public repo:&#x20;
+
+```bash
+curl -s https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/main/chaos-bugbounty-list.json | jq ".[][] | select(.bounty==true) | .domains[]" -r > targets.txt
+```
+
+15. General automated XSS methodology:
+
+```bash
+1. echo "starbucks.com" | gau --threads 5 >> endpoints.txt
+2. cat httpx.txt | katana -jc >> endpoints.txt
+3. cat endpoints.txt | uro >> endpoints_x.txt
+4. cat endpoints_x.txt | gf xss >> xss.txt
+5. cat xss.txt | Gxss -p khXSS -o XSS_Ref.txt
+```
+
+16. Subdomain identification one-liner:
+
+```bash
+for subdomain in $(subfinder -d http://tesla.com| dnsx |httpx); do katana -u "$subdomain" -d 5 -jc -jsl -aff -kf all -mrs 5242880 -timeout 15 -retry 3 -s breadth-first -iqp -cs "$subdomain" -f url -sf url -rl 200 -p 20 -dr -nc -H -silent -fdc 'status_code == 404' ;done
+```
 
 ### References
 

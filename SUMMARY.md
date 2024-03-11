@@ -2,7 +2,7 @@
 
 * [Tactics, Techniques, and Procedures](README.md)
 
-## ☠ Pentesting
+## ☠️ Pentesting
 
 * [Fortress](pentesting/fortress/README.md)
   * [Automation](pentesting/fortress/automation.md)
