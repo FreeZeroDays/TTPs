@@ -7,6 +7,7 @@ description: Notes around using and performing testing with Burp Suite
 ### Useful Extender Installations
 
 * ActiveScan++
+* Multi Browser Highlight
 * Additional Scanner Checks
 * Retire JS
 * Collaborator Everywhere
