@@ -107,3 +107,4 @@ Invoke-WebRequest -UseDefaultCredentials
 17. Impacket's `wmiexec.py` is useful for lateral movement but is often detected. To potentially defeat detections, change the tgt share (-share C$) or use "-silentcommand".
 18. Leave Pcredz, Impacket SMB server, Responder (Analyze mode), etc running all the time. You never know when a random Domain Admin will try to auth to you over NTLM (agentless security products).
 19. If you PWN a system during a penetration test (local admin privs) but still don't have a "domain user" - you can escalate privileges to SYSTEM and leverage the machine account.
+20. Large password lists such as Rockyou2021 are mostly junk. Bigger ≠ better. Weakpass.com has several wordlists with Kaonashi being decent and https://weakpass.com/wordlist/1927 being one of the largest suggested as they're inflated with junk.
